@@ -1,0 +1,3309 @@
+2025-04-16 06:30:58 - Login attempt started
+2025-04-16 06:30:58 - Config loaded
+2025-04-16 06:30:58 - DB loaded
+2025-04-16 06:30:58 - Auth loaded
+2025-04-16 06:30:58 - Functions loaded
+2025-04-16 06:30:58 - Constants loaded
+2025-04-16 06:30:58 - Session started
+2025-04-16 06:30:58 - Received login attempt for: admin
+2025-04-16 06:30:58 - Connected to database
+2025-04-16 06:30:58 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:30:58 - User query complete
+2025-04-16 06:30:58 - User not found
+2025-04-16 06:31:05 - Login attempt started
+2025-04-16 06:31:05 - Config loaded
+2025-04-16 06:31:05 - DB loaded
+2025-04-16 06:31:05 - Auth loaded
+2025-04-16 06:31:05 - Functions loaded
+2025-04-16 06:31:05 - Constants loaded
+2025-04-16 06:31:05 - Session started
+2025-04-16 06:31:05 - Received login attempt for: admin
+2025-04-16 06:31:05 - Connected to database
+2025-04-16 06:31:05 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:31:05 - User query complete
+2025-04-16 06:31:05 - User not found
+2025-04-16 06:31:06 - Login attempt started
+2025-04-16 06:31:06 - Config loaded
+2025-04-16 06:31:06 - DB loaded
+2025-04-16 06:31:06 - Auth loaded
+2025-04-16 06:31:06 - Functions loaded
+2025-04-16 06:31:06 - Constants loaded
+2025-04-16 06:31:06 - Session started
+2025-04-16 06:31:06 - Received login attempt for: admin
+2025-04-16 06:31:06 - Connected to database
+2025-04-16 06:31:06 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:31:06 - User query complete
+2025-04-16 06:31:06 - User not found
+2025-04-16 06:31:07 - Login attempt started
+2025-04-16 06:31:07 - Config loaded
+2025-04-16 06:31:07 - DB loaded
+2025-04-16 06:31:07 - Auth loaded
+2025-04-16 06:31:07 - Functions loaded
+2025-04-16 06:31:07 - Constants loaded
+2025-04-16 06:31:07 - Session started
+2025-04-16 06:31:07 - Received login attempt for: admin
+2025-04-16 06:31:07 - Connected to database
+2025-04-16 06:31:07 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:31:07 - User query complete
+2025-04-16 06:31:07 - User not found
+2025-04-16 06:31:07 - Login attempt started
+2025-04-16 06:31:07 - Config loaded
+2025-04-16 06:31:07 - DB loaded
+2025-04-16 06:31:07 - Auth loaded
+2025-04-16 06:31:07 - Functions loaded
+2025-04-16 06:31:07 - Constants loaded
+2025-04-16 06:31:07 - Session started
+2025-04-16 06:31:07 - Received login attempt for: admin
+2025-04-16 06:31:07 - Connected to database
+2025-04-16 06:31:07 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:31:07 - User query complete
+2025-04-16 06:31:07 - User not found
+2025-04-16 06:31:25 - Login attempt started
+2025-04-16 06:31:25 - Config loaded
+2025-04-16 06:31:25 - DB loaded
+2025-04-16 06:31:25 - Auth loaded
+2025-04-16 06:31:25 - Functions loaded
+2025-04-16 06:31:25 - Constants loaded
+2025-04-16 06:31:25 - Session started
+2025-04-16 06:31:25 - Received login attempt for: admin@ayskrim.com
+2025-04-16 06:31:25 - Connected to database
+2025-04-16 06:31:25 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:31:25 - User query complete
+2025-04-16 06:31:25 - User not found
+2025-04-16 06:31:26 - Login attempt started
+2025-04-16 06:31:26 - Config loaded
+2025-04-16 06:31:26 - DB loaded
+2025-04-16 06:31:26 - Auth loaded
+2025-04-16 06:31:26 - Functions loaded
+2025-04-16 06:31:26 - Constants loaded
+2025-04-16 06:31:26 - Session started
+2025-04-16 06:31:26 - Received login attempt for: admin@ayskrim.com
+2025-04-16 06:31:26 - Connected to database
+2025-04-16 06:31:26 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:31:26 - User query complete
+2025-04-16 06:31:26 - User not found
+2025-04-16 06:31:26 - Login attempt started
+2025-04-16 06:31:26 - Config loaded
+2025-04-16 06:31:26 - DB loaded
+2025-04-16 06:31:26 - Auth loaded
+2025-04-16 06:31:26 - Functions loaded
+2025-04-16 06:31:26 - Constants loaded
+2025-04-16 06:31:26 - Session started
+2025-04-16 06:31:26 - Received login attempt for: admin@ayskrim.com
+2025-04-16 06:31:26 - Connected to database
+2025-04-16 06:31:26 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:31:26 - User query complete
+2025-04-16 06:31:26 - User not found
+2025-04-16 06:31:27 - Login attempt started
+2025-04-16 06:31:27 - Config loaded
+2025-04-16 06:31:27 - DB loaded
+2025-04-16 06:31:27 - Auth loaded
+2025-04-16 06:31:27 - Functions loaded
+2025-04-16 06:31:27 - Constants loaded
+2025-04-16 06:31:27 - Session started
+2025-04-16 06:31:27 - Received login attempt for: admin@ayskrim.com
+2025-04-16 06:31:27 - Connected to database
+2025-04-16 06:31:27 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:31:27 - User query complete
+2025-04-16 06:31:27 - User not found
+2025-04-16 06:38:08 - Login attempt started
+2025-04-16 06:38:08 - Config loaded
+2025-04-16 06:38:08 - DB loaded
+2025-04-16 06:38:08 - Auth loaded
+2025-04-16 06:38:08 - Functions loaded
+2025-04-16 06:38:08 - Constants loaded
+2025-04-16 06:38:08 - Session started
+2025-04-16 06:38:08 - Received login attempt for: admin@ayskrim.com
+2025-04-16 06:38:08 - Connected to database
+2025-04-16 06:38:08 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:08 - User query complete
+2025-04-16 06:38:08 - User not found
+2025-04-16 06:38:13 - Login attempt started
+2025-04-16 06:38:13 - Config loaded
+2025-04-16 06:38:13 - DB loaded
+2025-04-16 06:38:13 - Auth loaded
+2025-04-16 06:38:13 - Functions loaded
+2025-04-16 06:38:13 - Constants loaded
+2025-04-16 06:38:13 - Session started
+2025-04-16 06:38:13 - Received login attempt for: admin
+2025-04-16 06:38:13 - Connected to database
+2025-04-16 06:38:13 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:13 - User query complete
+2025-04-16 06:38:13 - User not found
+2025-04-16 06:38:14 - Login attempt started
+2025-04-16 06:38:14 - Config loaded
+2025-04-16 06:38:14 - DB loaded
+2025-04-16 06:38:14 - Auth loaded
+2025-04-16 06:38:14 - Functions loaded
+2025-04-16 06:38:14 - Constants loaded
+2025-04-16 06:38:14 - Session started
+2025-04-16 06:38:14 - Received login attempt for: admin
+2025-04-16 06:38:14 - Connected to database
+2025-04-16 06:38:14 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:14 - User query complete
+2025-04-16 06:38:14 - User not found
+2025-04-16 06:38:14 - Login attempt started
+2025-04-16 06:38:14 - Config loaded
+2025-04-16 06:38:14 - DB loaded
+2025-04-16 06:38:14 - Auth loaded
+2025-04-16 06:38:14 - Functions loaded
+2025-04-16 06:38:14 - Constants loaded
+2025-04-16 06:38:14 - Session started
+2025-04-16 06:38:14 - Received login attempt for: admin
+2025-04-16 06:38:14 - Connected to database
+2025-04-16 06:38:14 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:14 - User query complete
+2025-04-16 06:38:14 - User not found
+2025-04-16 06:38:15 - Login attempt started
+2025-04-16 06:38:15 - Config loaded
+2025-04-16 06:38:15 - DB loaded
+2025-04-16 06:38:15 - Auth loaded
+2025-04-16 06:38:15 - Functions loaded
+2025-04-16 06:38:15 - Constants loaded
+2025-04-16 06:38:15 - Session started
+2025-04-16 06:38:15 - Received login attempt for: admin
+2025-04-16 06:38:15 - Connected to database
+2025-04-16 06:38:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:15 - User query complete
+2025-04-16 06:38:15 - User not found
+2025-04-16 06:38:15 - Login attempt started
+2025-04-16 06:38:15 - Config loaded
+2025-04-16 06:38:15 - DB loaded
+2025-04-16 06:38:15 - Auth loaded
+2025-04-16 06:38:15 - Functions loaded
+2025-04-16 06:38:15 - Constants loaded
+2025-04-16 06:38:15 - Session started
+2025-04-16 06:38:15 - Received login attempt for: admin
+2025-04-16 06:38:15 - Connected to database
+2025-04-16 06:38:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:15 - User query complete
+2025-04-16 06:38:15 - User not found
+2025-04-16 06:38:15 - Login attempt started
+2025-04-16 06:38:15 - Config loaded
+2025-04-16 06:38:15 - DB loaded
+2025-04-16 06:38:15 - Auth loaded
+2025-04-16 06:38:15 - Functions loaded
+2025-04-16 06:38:15 - Constants loaded
+2025-04-16 06:38:15 - Session started
+2025-04-16 06:38:15 - Received login attempt for: admin
+2025-04-16 06:38:15 - Connected to database
+2025-04-16 06:38:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:15 - User query complete
+2025-04-16 06:38:15 - User not found
+2025-04-16 06:38:15 - Login attempt started
+2025-04-16 06:38:15 - Config loaded
+2025-04-16 06:38:15 - DB loaded
+2025-04-16 06:38:15 - Auth loaded
+2025-04-16 06:38:15 - Functions loaded
+2025-04-16 06:38:15 - Constants loaded
+2025-04-16 06:38:15 - Session started
+2025-04-16 06:38:15 - Received login attempt for: admin
+2025-04-16 06:38:15 - Connected to database
+2025-04-16 06:38:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:15 - User query complete
+2025-04-16 06:38:15 - User not found
+2025-04-16 06:38:15 - Login attempt started
+2025-04-16 06:38:15 - Config loaded
+2025-04-16 06:38:15 - DB loaded
+2025-04-16 06:38:15 - Auth loaded
+2025-04-16 06:38:15 - Functions loaded
+2025-04-16 06:38:15 - Constants loaded
+2025-04-16 06:38:15 - Session started
+2025-04-16 06:38:15 - Received login attempt for: admin
+2025-04-16 06:38:15 - Connected to database
+2025-04-16 06:38:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:15 - User query complete
+2025-04-16 06:38:15 - User not found
+2025-04-16 06:38:15 - Login attempt started
+2025-04-16 06:38:15 - Config loaded
+2025-04-16 06:38:15 - DB loaded
+2025-04-16 06:38:15 - Auth loaded
+2025-04-16 06:38:15 - Functions loaded
+2025-04-16 06:38:15 - Constants loaded
+2025-04-16 06:38:15 - Session started
+2025-04-16 06:38:15 - Received login attempt for: admin
+2025-04-16 06:38:15 - Connected to database
+2025-04-16 06:38:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:15 - User query complete
+2025-04-16 06:38:15 - User not found
+2025-04-16 06:38:16 - Login attempt started
+2025-04-16 06:38:16 - Config loaded
+2025-04-16 06:38:16 - DB loaded
+2025-04-16 06:38:16 - Auth loaded
+2025-04-16 06:38:16 - Functions loaded
+2025-04-16 06:38:16 - Constants loaded
+2025-04-16 06:38:16 - Session started
+2025-04-16 06:38:16 - Received login attempt for: admin
+2025-04-16 06:38:16 - Connected to database
+2025-04-16 06:38:16 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:16 - User query complete
+2025-04-16 06:38:16 - User not found
+2025-04-16 06:38:16 - Login attempt started
+2025-04-16 06:38:16 - Config loaded
+2025-04-16 06:38:16 - DB loaded
+2025-04-16 06:38:16 - Auth loaded
+2025-04-16 06:38:16 - Functions loaded
+2025-04-16 06:38:16 - Constants loaded
+2025-04-16 06:38:16 - Session started
+2025-04-16 06:38:16 - Received login attempt for: admin
+2025-04-16 06:38:16 - Connected to database
+2025-04-16 06:38:16 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:16 - User query complete
+2025-04-16 06:38:16 - User not found
+2025-04-16 06:38:16 - Login attempt started
+2025-04-16 06:38:16 - Config loaded
+2025-04-16 06:38:16 - DB loaded
+2025-04-16 06:38:16 - Auth loaded
+2025-04-16 06:38:16 - Functions loaded
+2025-04-16 06:38:16 - Constants loaded
+2025-04-16 06:38:16 - Session started
+2025-04-16 06:38:16 - Received login attempt for: admin
+2025-04-16 06:38:16 - Connected to database
+2025-04-16 06:38:16 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:38:16 - User query complete
+2025-04-16 06:38:16 - User not found
+2025-04-16 06:39:42 - Login attempt started
+2025-04-16 06:39:42 - Config loaded
+2025-04-16 06:39:42 - DB loaded
+2025-04-16 06:39:42 - Auth loaded
+2025-04-16 06:39:42 - Functions loaded
+2025-04-16 06:39:42 - Constants loaded
+2025-04-16 06:39:42 - Session started
+2025-04-16 06:39:42 - Received login attempt for: admin
+2025-04-16 06:39:42 - Connected to database
+2025-04-16 06:39:42 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:39:42 - User query complete
+2025-04-16 06:39:42 - User not found
+2025-04-16 06:43:08 - Login attempt started
+2025-04-16 06:43:08 - Config loaded
+2025-04-16 06:43:08 - DB loaded
+2025-04-16 06:43:08 - Auth loaded
+2025-04-16 06:43:08 - Functions loaded
+2025-04-16 06:43:08 - Constants loaded
+2025-04-16 06:43:08 - Session started
+2025-04-16 06:43:08 - Received login attempt for: admin
+2025-04-16 06:43:08 - Connected to database
+2025-04-16 06:43:08 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:43:08 - User query complete
+2025-04-16 06:43:08 - Verifying password for user ID: 2
+2025-04-16 06:43:08 - Submitted password: admin123
+2025-04-16 06:43:08 - Stored hash: admin123
+2025-04-16 06:43:08 - Admin credentials matched using demo password
+2025-04-16 06:43:08 - Password verification successful
+2025-04-16 06:43:08 - Password verified, logging in user ID: 2
+2025-04-16 06:43:08 - User logged in successfully
+2025-04-16 06:43:08 - Responding to AJAX request, role: admin
+2025-04-16 06:43:50 - Login attempt started
+2025-04-16 06:43:50 - Config loaded
+2025-04-16 06:43:50 - DB loaded
+2025-04-16 06:43:50 - Auth loaded
+2025-04-16 06:43:50 - Functions loaded
+2025-04-16 06:43:50 - Constants loaded
+2025-04-16 06:43:50 - Session started
+2025-04-16 06:43:50 - Received login attempt for: kirk
+2025-04-16 06:43:50 - Connected to database
+2025-04-16 06:43:50 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:43:50 - User query complete
+2025-04-16 06:43:50 - Verifying password for user ID: 1
+2025-04-16 06:43:50 - Submitted password: hanzam
+2025-04-16 06:43:50 - Stored hash: $2y$10$nDP3soyLB0G9qNG2uEh2OOl7WEnpCAd1Gohs13PhjiP9j3uoFAT7S
+2025-04-16 06:43:50 - Password verified with password_verify()
+2025-04-16 06:43:50 - Password verification successful
+2025-04-16 06:43:50 - Password verified, logging in user ID: 1
+2025-04-16 06:43:50 - User logged in successfully
+2025-04-16 06:43:50 - Responding to AJAX request, role: customer
+2025-04-16 06:49:58 - Login attempt started
+2025-04-16 06:49:58 - Config loaded
+2025-04-16 06:49:58 - DB loaded
+2025-04-16 06:49:58 - Auth loaded
+2025-04-16 06:49:58 - Functions loaded
+2025-04-16 06:49:58 - Constants loaded
+2025-04-16 06:49:58 - Session started
+2025-04-16 06:49:58 - Received login attempt for: imhanzam@gmail.com
+2025-04-16 06:49:58 - Connected to database
+2025-04-16 06:49:58 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:49:58 - User query complete
+2025-04-16 06:49:58 - Verifying password for user ID: 3
+2025-04-16 06:49:58 - Submitted password: kirk123
+2025-04-16 06:49:58 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-16 06:49:59 - Password verified with password_verify()
+2025-04-16 06:49:59 - Password verification successful
+2025-04-16 06:49:59 - Password verified, logging in user ID: 3
+2025-04-16 06:49:59 - User logged in successfully
+2025-04-16 06:49:59 - Responding to AJAX request, role: customer
+2025-04-16 06:55:02 - Login attempt started
+2025-04-16 06:55:02 - Config loaded
+2025-04-16 06:55:02 - DB loaded
+2025-04-16 06:55:02 - Auth loaded
+2025-04-16 06:55:02 - Functions loaded
+2025-04-16 06:55:02 - Constants loaded
+2025-04-16 06:55:02 - Session started
+2025-04-16 06:55:02 - Received login attempt for: hanzam
+2025-04-16 06:55:02 - Connected to database
+2025-04-16 06:55:02 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 06:55:02 - User query complete
+2025-04-16 06:55:02 - Verifying password for user ID: 3
+2025-04-16 06:55:02 - Submitted password: kirk123
+2025-04-16 06:55:02 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-16 06:55:02 - Password verified with password_verify()
+2025-04-16 06:55:02 - Password verification successful
+2025-04-16 06:55:02 - Password verified, logging in user ID: 3
+2025-04-16 06:55:02 - User logged in successfully
+2025-04-16 06:55:02 - Responding to AJAX request, role: customer
+2025-04-16 08:05:01 - Login attempt started
+2025-04-16 08:05:01 - Config loaded
+2025-04-16 08:05:01 - DB loaded
+2025-04-16 08:05:01 - Auth loaded
+2025-04-16 08:05:01 - Functions loaded
+2025-04-16 08:05:01 - Constants loaded
+2025-04-16 08:05:01 - Session started
+2025-04-16 08:05:01 - Received login attempt for: hanzam
+2025-04-16 08:05:01 - Connected to database
+2025-04-16 08:05:01 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 08:05:01 - User query complete
+2025-04-16 08:05:01 - Verifying password for user ID: 3
+2025-04-16 08:05:01 - Submitted password: kirk123
+2025-04-16 08:05:01 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-16 08:05:01 - Password verified with password_verify()
+2025-04-16 08:05:01 - Password verification successful
+2025-04-16 08:05:01 - Password verified, logging in user ID: 3
+2025-04-16 08:05:01 - User logged in successfully
+2025-04-16 08:05:01 - Responding to AJAX request, role: customer
+2025-04-16 08:13:27 - Login attempt started
+2025-04-16 08:13:27 - Config loaded
+2025-04-16 08:13:27 - DB loaded
+2025-04-16 08:13:27 - Auth loaded
+2025-04-16 08:13:27 - Functions loaded
+2025-04-16 08:13:27 - Constants loaded
+2025-04-16 08:13:27 - Session started
+2025-04-16 08:13:27 - Received login attempt for: hanzam
+2025-04-16 08:13:27 - Connected to database
+2025-04-16 08:13:27 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 08:13:27 - User query complete
+2025-04-16 08:13:27 - Verifying password for user ID: 3
+2025-04-16 08:13:27 - Submitted password: kirk123
+2025-04-16 08:13:27 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-16 08:13:27 - Password verified with password_verify()
+2025-04-16 08:13:27 - Password verification successful
+2025-04-16 08:13:27 - Password verified, logging in user ID: 3
+2025-04-16 08:13:27 - User logged in successfully
+2025-04-16 08:13:27 - Responding to AJAX request, role: customer
+2025-04-16 08:34:37 - Login attempt started
+2025-04-16 08:34:37 - Config loaded
+2025-04-16 08:34:37 - DB loaded
+2025-04-16 08:34:37 - Auth loaded
+2025-04-16 08:34:37 - Functions loaded
+2025-04-16 08:34:37 - Constants loaded
+2025-04-16 08:34:37 - Session started
+2025-04-16 08:34:37 - Received login attempt for: hanzam
+2025-04-16 08:34:37 - Connected to database
+2025-04-16 08:34:37 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 08:34:37 - User query complete
+2025-04-16 08:34:37 - Verifying password for user ID: 3
+2025-04-16 08:34:37 - Submitted password: kirk123
+2025-04-16 08:34:37 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-16 08:34:38 - Password verified with password_verify()
+2025-04-16 08:34:38 - Password verification successful
+2025-04-16 08:34:38 - Password verified, logging in user ID: 3
+2025-04-16 08:34:38 - User logged in successfully
+2025-04-16 08:34:38 - Responding to AJAX request, role: customer
+2025-04-16 09:17:47 - Login attempt started
+2025-04-16 09:17:47 - Config loaded
+2025-04-16 09:17:47 - DB loaded
+2025-04-16 09:17:47 - Auth loaded
+2025-04-16 09:17:47 - Functions loaded
+2025-04-16 09:17:47 - Constants loaded
+2025-04-16 09:17:47 - Session started
+2025-04-16 09:17:47 - Received login attempt for: hanzam
+2025-04-16 09:17:47 - Connected to database
+2025-04-16 09:17:47 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 09:17:47 - User query complete
+2025-04-16 09:17:47 - Verifying password for user ID: 3
+2025-04-16 09:17:47 - Submitted password: kirk123
+2025-04-16 09:17:47 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-16 09:17:47 - Password verified with password_verify()
+2025-04-16 09:17:47 - Password verification successful
+2025-04-16 09:17:47 - Password verified, logging in user ID: 3
+2025-04-16 09:17:47 - User logged in successfully
+2025-04-16 09:17:47 - Responding to AJAX request, role: customer
+2025-04-16 09:31:19 - Login attempt started
+2025-04-16 09:31:19 - Config loaded
+2025-04-16 09:31:19 - DB loaded
+2025-04-16 09:31:19 - Auth loaded
+2025-04-16 09:31:19 - Functions loaded
+2025-04-16 09:31:19 - Constants loaded
+2025-04-16 09:31:19 - Session started
+2025-04-16 09:31:19 - Received login attempt for: hanzam
+2025-04-16 09:31:19 - Connected to database
+2025-04-16 09:31:19 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 09:31:19 - User query complete
+2025-04-16 09:31:19 - Verifying password for user ID: 3
+2025-04-16 09:31:19 - Submitted password: kirk123
+2025-04-16 09:31:19 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-16 09:31:19 - Password verified with password_verify()
+2025-04-16 09:31:19 - Password verification successful
+2025-04-16 09:31:19 - Password verified, logging in user ID: 3
+2025-04-16 09:31:19 - User logged in successfully
+2025-04-16 09:31:19 - Responding to AJAX request, role: customer
+2025-04-16 09:36:12 - Login attempt started
+2025-04-16 09:36:12 - Config loaded
+2025-04-16 09:36:12 - DB loaded
+2025-04-16 09:36:12 - Auth loaded
+2025-04-16 09:36:12 - Functions loaded
+2025-04-16 09:36:12 - Constants loaded
+2025-04-16 09:36:12 - Session started
+2025-04-16 09:36:12 - Received login attempt for: hanzam
+2025-04-16 09:36:12 - Connected to database
+2025-04-16 09:36:12 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 09:36:12 - User query complete
+2025-04-16 09:36:12 - Verifying password for user ID: 3
+2025-04-16 09:36:12 - Submitted password: kirk123
+2025-04-16 09:36:12 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-16 09:36:12 - Password verified with password_verify()
+2025-04-16 09:36:12 - Password verification successful
+2025-04-16 09:36:12 - Password verified, logging in user ID: 3
+2025-04-16 09:36:12 - User logged in successfully
+2025-04-16 09:36:12 - Responding to AJAX request, role: customer
+2025-04-16 10:13:07 - Login attempt started
+2025-04-16 10:13:07 - Config loaded
+2025-04-16 10:13:07 - DB loaded
+2025-04-16 10:13:07 - Auth loaded
+2025-04-16 10:13:07 - Functions loaded
+2025-04-16 10:13:07 - Constants loaded
+2025-04-16 10:13:07 - Session started
+2025-04-16 10:13:07 - Received login attempt for: hanzam
+2025-04-16 10:13:07 - Connected to database
+2025-04-16 10:13:07 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 10:13:07 - User query complete
+2025-04-16 10:13:07 - Verifying password for user ID: 3
+2025-04-16 10:13:07 - Submitted password: kirk123
+2025-04-16 10:13:07 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-16 10:13:07 - Password verified with password_verify()
+2025-04-16 10:13:07 - Password verification successful
+2025-04-16 10:13:07 - Password verified, logging in user ID: 3
+2025-04-16 10:13:07 - User logged in successfully
+2025-04-16 10:13:07 - Responding to AJAX request, role: customer
+2025-04-16 10:30:28 - Login attempt started
+2025-04-16 10:30:28 - Config loaded
+2025-04-16 10:30:28 - DB loaded
+2025-04-16 10:30:28 - Auth loaded
+2025-04-16 10:30:28 - Functions loaded
+2025-04-16 10:30:28 - Constants loaded
+2025-04-16 10:30:28 - Session started
+2025-04-16 10:30:28 - Received login attempt for: www
+2025-04-16 10:30:28 - Connected to database
+2025-04-16 10:30:28 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 10:30:28 - User query complete
+2025-04-16 10:30:28 - User not found
+2025-04-16 10:30:33 - Login attempt started
+2025-04-16 10:30:33 - Config loaded
+2025-04-16 10:30:33 - DB loaded
+2025-04-16 10:30:33 - Auth loaded
+2025-04-16 10:30:33 - Functions loaded
+2025-04-16 10:30:33 - Constants loaded
+2025-04-16 10:30:33 - Session started
+2025-04-16 10:30:33 - Received login attempt for: www
+2025-04-16 10:30:33 - Connected to database
+2025-04-16 10:30:33 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 10:30:33 - User query complete
+2025-04-16 10:30:33 - User not found
+2025-04-16 10:30:43 - Login attempt started
+2025-04-16 10:30:43 - Config loaded
+2025-04-16 10:30:43 - DB loaded
+2025-04-16 10:30:43 - Auth loaded
+2025-04-16 10:30:43 - Functions loaded
+2025-04-16 10:30:43 - Constants loaded
+2025-04-16 10:30:43 - Session started
+2025-04-16 10:30:43 - Received login attempt for: www
+2025-04-16 10:30:43 - Connected to database
+2025-04-16 10:30:43 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 10:30:43 - User query complete
+2025-04-16 10:30:43 - User not found
+2025-04-16 10:31:28 - Login attempt started
+2025-04-16 10:31:28 - Config loaded
+2025-04-16 10:31:28 - DB loaded
+2025-04-16 10:31:28 - Auth loaded
+2025-04-16 10:31:28 - Functions loaded
+2025-04-16 10:31:28 - Constants loaded
+2025-04-16 10:31:28 - Session started
+2025-04-16 10:31:28 - Received login attempt for: win
+2025-04-16 10:31:28 - Connected to database
+2025-04-16 10:31:28 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-16 10:31:28 - User query complete
+2025-04-16 10:31:28 - Verifying password for user ID: 4
+2025-04-16 10:31:28 - Submitted password: www123
+2025-04-16 10:31:28 - Stored hash: $2y$10$0O8PHygeLuyzd2R6JqAFeOfUdGZ5idL8ltIGlPO1IN08X/XsouvL2
+2025-04-16 10:31:28 - Password verified with password_verify()
+2025-04-16 10:31:28 - Password verification successful
+2025-04-16 10:31:28 - Password verified, logging in user ID: 4
+2025-04-16 10:31:28 - User logged in successfully
+2025-04-16 10:31:28 - Responding to AJAX request, role: customer
+2025-04-17 08:17:09 - Login attempt started
+2025-04-17 08:17:09 - Config loaded
+2025-04-17 08:17:09 - DB loaded
+2025-04-17 08:17:10 - Auth loaded
+2025-04-17 08:17:10 - Functions loaded
+2025-04-17 08:17:10 - Constants loaded
+2025-04-17 08:17:10 - Session started
+2025-04-17 08:17:10 - Received login attempt for: hanzam
+2025-04-17 08:17:10 - Connected to database
+2025-04-17 08:17:10 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 08:17:10 - User query complete
+2025-04-17 08:17:10 - Verifying password for user ID: 3
+2025-04-17 08:17:10 - Submitted password: kirk123
+2025-04-17 08:17:10 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 08:17:10 - Password verified with password_verify()
+2025-04-17 08:17:10 - Password verification successful
+2025-04-17 08:17:10 - Password verified, logging in user ID: 3
+2025-04-17 08:17:10 - User logged in successfully
+2025-04-17 08:17:10 - Responding to AJAX request, role: customer
+2025-04-17 08:18:49 - Login attempt started
+2025-04-17 08:18:49 - Config loaded
+2025-04-17 08:18:49 - DB loaded
+2025-04-17 08:18:49 - Auth loaded
+2025-04-17 08:18:49 - Functions loaded
+2025-04-17 08:18:49 - Constants loaded
+2025-04-17 08:18:49 - Session started
+2025-04-17 08:18:49 - Received login attempt for: admin
+2025-04-17 08:18:49 - Connected to database
+2025-04-17 08:18:49 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 08:18:49 - User query complete
+2025-04-17 08:18:49 - Verifying password for user ID: 2
+2025-04-17 08:18:49 - Submitted password: admin123
+2025-04-17 08:18:49 - Stored hash: admin123
+2025-04-17 08:18:49 - Admin credentials matched using demo password
+2025-04-17 08:18:49 - Password verification successful
+2025-04-17 08:18:49 - Password verified, logging in user ID: 2
+2025-04-17 08:18:49 - User logged in successfully
+2025-04-17 08:18:49 - Responding to AJAX request, role: admin
+2025-04-17 08:54:29 - Login attempt started
+2025-04-17 08:54:29 - Config loaded
+2025-04-17 08:54:29 - DB loaded
+2025-04-17 08:54:29 - Auth loaded
+2025-04-17 08:54:29 - Functions loaded
+2025-04-17 08:54:29 - Constants loaded
+2025-04-17 08:54:29 - Session started
+2025-04-17 08:54:29 - Received login attempt for: hanzam
+2025-04-17 08:54:29 - Connected to database
+2025-04-17 08:54:29 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 08:54:29 - User query complete
+2025-04-17 08:54:29 - Verifying password for user ID: 3
+2025-04-17 08:54:29 - Submitted password: kirk123
+2025-04-17 08:54:29 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 08:54:29 - Password verified with password_verify()
+2025-04-17 08:54:29 - Password verification successful
+2025-04-17 08:54:29 - Password verified, logging in user ID: 3
+2025-04-17 08:54:29 - User logged in successfully
+2025-04-17 08:54:29 - Responding to AJAX request, role: customer
+2025-04-17 09:01:00 - Login attempt started
+2025-04-17 09:01:00 - Config loaded
+2025-04-17 09:01:00 - DB loaded
+2025-04-17 09:01:00 - Auth loaded
+2025-04-17 09:01:00 - Functions loaded
+2025-04-17 09:01:00 - Constants loaded
+2025-04-17 09:01:00 - Session started
+2025-04-17 09:01:00 - Received login attempt for: hanzam
+2025-04-17 09:01:00 - Connected to database
+2025-04-17 09:01:00 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 09:01:00 - User query complete
+2025-04-17 09:01:00 - Verifying password for user ID: 3
+2025-04-17 09:01:00 - Submitted password: kirk123
+2025-04-17 09:01:00 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 09:01:00 - Password verified with password_verify()
+2025-04-17 09:01:00 - Password verification successful
+2025-04-17 09:01:00 - Password verified, logging in user ID: 3
+2025-04-17 09:01:00 - User logged in successfully
+2025-04-17 09:01:00 - Responding to AJAX request, role: customer
+2025-04-17 09:02:15 - Login attempt started
+2025-04-17 09:02:15 - Config loaded
+2025-04-17 09:02:15 - DB loaded
+2025-04-17 09:02:15 - Auth loaded
+2025-04-17 09:02:15 - Functions loaded
+2025-04-17 09:02:15 - Constants loaded
+2025-04-17 09:02:15 - Session started
+2025-04-17 09:02:15 - Received login attempt for: admin
+2025-04-17 09:02:15 - Connected to database
+2025-04-17 09:02:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 09:02:15 - User query complete
+2025-04-17 09:02:15 - Verifying password for user ID: 2
+2025-04-17 09:02:15 - Submitted password: admin123
+2025-04-17 09:02:15 - Stored hash: admin123
+2025-04-17 09:02:15 - Admin credentials matched using demo password
+2025-04-17 09:02:15 - Password verification successful
+2025-04-17 09:02:15 - Password verified, logging in user ID: 2
+2025-04-17 09:02:15 - User logged in successfully
+2025-04-17 09:02:15 - Responding to AJAX request, role: admin
+2025-04-17 09:04:35 - Login attempt started
+2025-04-17 09:04:35 - Config loaded
+2025-04-17 09:04:35 - DB loaded
+2025-04-17 09:04:35 - Auth loaded
+2025-04-17 09:04:35 - Functions loaded
+2025-04-17 09:04:35 - Constants loaded
+2025-04-17 09:04:35 - Session started
+2025-04-17 09:04:35 - Received login attempt for: hanzam
+2025-04-17 09:04:35 - Connected to database
+2025-04-17 09:04:35 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 09:04:35 - User query complete
+2025-04-17 09:04:35 - Verifying password for user ID: 3
+2025-04-17 09:04:35 - Submitted password: kirk123
+2025-04-17 09:04:35 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 09:04:35 - Password verified with password_verify()
+2025-04-17 09:04:35 - Password verification successful
+2025-04-17 09:04:35 - Password verified, logging in user ID: 3
+2025-04-17 09:04:35 - User logged in successfully
+2025-04-17 09:04:35 - Responding to AJAX request, role: customer
+2025-04-17 09:25:32 - Login attempt started
+2025-04-17 09:25:32 - Config loaded
+2025-04-17 09:25:32 - DB loaded
+2025-04-17 09:25:32 - Auth loaded
+2025-04-17 09:25:32 - Functions loaded
+2025-04-17 09:25:32 - Constants loaded
+2025-04-17 09:25:32 - Session started
+2025-04-17 09:25:32 - Received login attempt for: hanzam
+2025-04-17 09:25:32 - Connected to database
+2025-04-17 09:25:32 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 09:25:32 - User query complete
+2025-04-17 09:25:32 - Verifying password for user ID: 3
+2025-04-17 09:25:32 - Submitted password: kirk123
+2025-04-17 09:25:32 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 09:25:32 - Password verified with password_verify()
+2025-04-17 09:25:32 - Password verification successful
+2025-04-17 09:25:32 - Password verified, logging in user ID: 3
+2025-04-17 09:25:32 - User logged in successfully
+2025-04-17 09:25:32 - Responding to AJAX request, role: customer
+2025-04-17 09:43:22 - Login attempt started
+2025-04-17 09:43:22 - Config loaded
+2025-04-17 09:43:22 - DB loaded
+2025-04-17 09:43:22 - Auth loaded
+2025-04-17 09:43:22 - Functions loaded
+2025-04-17 09:43:22 - Constants loaded
+2025-04-17 09:43:22 - Session started
+2025-04-17 09:43:22 - Received login attempt for: admin
+2025-04-17 09:43:22 - Connected to database
+2025-04-17 09:43:22 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 09:43:22 - User query complete
+2025-04-17 09:43:22 - Verifying password for user ID: 2
+2025-04-17 09:43:22 - Submitted password: admin123
+2025-04-17 09:43:22 - Stored hash: admin123
+2025-04-17 09:43:22 - Admin credentials matched using demo password
+2025-04-17 09:43:22 - Password verification successful
+2025-04-17 09:43:22 - Password verified, logging in user ID: 2
+2025-04-17 09:43:22 - User logged in successfully
+2025-04-17 09:43:22 - Responding to AJAX request, role: admin
+2025-04-17 11:19:12 - Login attempt started
+2025-04-17 11:19:12 - Config loaded
+2025-04-17 11:19:12 - DB loaded
+2025-04-17 11:19:12 - Auth loaded
+2025-04-17 11:19:12 - Functions loaded
+2025-04-17 11:19:12 - Constants loaded
+2025-04-17 11:19:12 - Session started
+2025-04-17 11:19:12 - Received login attempt for: hanzam
+2025-04-17 11:19:12 - Connected to database
+2025-04-17 11:19:12 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 11:19:12 - User query complete
+2025-04-17 11:19:12 - Verifying password for user ID: 3
+2025-04-17 11:19:12 - Submitted password: kirk123
+2025-04-17 11:19:12 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 11:19:12 - Password verified with password_verify()
+2025-04-17 11:19:12 - Password verification successful
+2025-04-17 11:19:12 - Password verified, logging in user ID: 3
+2025-04-17 11:19:12 - User logged in successfully
+2025-04-17 11:19:12 - Responding to AJAX request, role: customer
+2025-04-17 12:41:07 - Login attempt started
+2025-04-17 12:41:07 - Config loaded
+2025-04-17 12:41:07 - DB loaded
+2025-04-17 12:41:07 - Auth loaded
+2025-04-17 12:41:07 - Functions loaded
+2025-04-17 12:41:07 - Constants loaded
+2025-04-17 12:41:07 - Session started
+2025-04-17 12:41:07 - Received login attempt for: hanzam
+2025-04-17 12:41:07 - Connected to database
+2025-04-17 12:41:07 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 12:41:07 - User query complete
+2025-04-17 12:41:07 - Verifying password for user ID: 3
+2025-04-17 12:41:07 - Submitted password: kirk123
+2025-04-17 12:41:07 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 12:41:07 - Password verified with password_verify()
+2025-04-17 12:41:07 - Password verification successful
+2025-04-17 12:41:07 - Password verified, logging in user ID: 3
+2025-04-17 12:41:07 - User logged in successfully
+2025-04-17 12:41:07 - Responding to AJAX request, role: customer
+2025-04-17 13:14:18 - Login attempt started
+2025-04-17 13:14:18 - Config loaded
+2025-04-17 13:14:18 - DB loaded
+2025-04-17 13:14:18 - Auth loaded
+2025-04-17 13:14:18 - Functions loaded
+2025-04-17 13:14:18 - Constants loaded
+2025-04-17 13:14:18 - Session started
+2025-04-17 13:14:18 - Received login attempt for: kirk
+2025-04-17 13:14:18 - Connected to database
+2025-04-17 13:14:18 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 13:14:18 - User query complete
+2025-04-17 13:14:18 - Verifying password for user ID: 1
+2025-04-17 13:14:18 - Submitted password: hanzam123
+2025-04-17 13:14:18 - Stored hash: $2y$10$nDP3soyLB0G9qNG2uEh2OOl7WEnpCAd1Gohs13PhjiP9j3uoFAT7S
+2025-04-17 13:14:18 - Password verification failed
+2025-04-17 13:14:28 - Login attempt started
+2025-04-17 13:14:28 - Config loaded
+2025-04-17 13:14:28 - DB loaded
+2025-04-17 13:14:28 - Auth loaded
+2025-04-17 13:14:28 - Functions loaded
+2025-04-17 13:14:28 - Constants loaded
+2025-04-17 13:14:28 - Session started
+2025-04-17 13:14:28 - Received login attempt for: hanzam
+2025-04-17 13:14:28 - Connected to database
+2025-04-17 13:14:28 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 13:14:28 - User query complete
+2025-04-17 13:14:28 - Verifying password for user ID: 3
+2025-04-17 13:14:28 - Submitted password: kirk123
+2025-04-17 13:14:28 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 13:14:29 - Password verified with password_verify()
+2025-04-17 13:14:29 - Password verification successful
+2025-04-17 13:14:29 - Password verified, logging in user ID: 3
+2025-04-17 13:14:29 - User logged in successfully
+2025-04-17 13:14:29 - Responding to AJAX request, role: customer
+2025-04-17 13:51:28 - Login attempt started
+2025-04-17 13:51:28 - Config loaded
+2025-04-17 13:51:28 - DB loaded
+2025-04-17 13:51:28 - Auth loaded
+2025-04-17 13:51:28 - Functions loaded
+2025-04-17 13:51:28 - Constants loaded
+2025-04-17 13:51:28 - Session started
+2025-04-17 13:51:28 - Received login attempt for: hanzam
+2025-04-17 13:51:28 - Connected to database
+2025-04-17 13:51:28 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 13:51:28 - User query complete
+2025-04-17 13:51:28 - Verifying password for user ID: 3
+2025-04-17 13:51:28 - Submitted password: kirk123
+2025-04-17 13:51:28 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 13:51:28 - Password verified with password_verify()
+2025-04-17 13:51:28 - Password verification successful
+2025-04-17 13:51:28 - Password verified, logging in user ID: 3
+2025-04-17 13:51:28 - User logged in successfully
+2025-04-17 13:51:28 - Responding to AJAX request, role: customer
+2025-04-17 13:57:44 - Login attempt started
+2025-04-17 13:57:44 - Config loaded
+2025-04-17 13:57:44 - DB loaded
+2025-04-17 13:57:44 - Auth loaded
+2025-04-17 13:57:44 - Functions loaded
+2025-04-17 13:57:44 - Constants loaded
+2025-04-17 13:57:44 - Session started
+2025-04-17 13:57:44 - Received login attempt for: hanzam
+2025-04-17 13:57:44 - Connected to database
+2025-04-17 13:57:44 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 13:57:44 - User query complete
+2025-04-17 13:57:44 - Verifying password for user ID: 3
+2025-04-17 13:57:44 - Submitted password: kirk123
+2025-04-17 13:57:44 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 13:57:44 - Password verified with password_verify()
+2025-04-17 13:57:44 - Password verification successful
+2025-04-17 13:57:44 - Password verified, logging in user ID: 3
+2025-04-17 13:57:44 - User logged in successfully
+2025-04-17 13:57:44 - Responding to AJAX request, role: customer
+2025-04-17 14:24:45 - Login attempt started
+2025-04-17 14:24:45 - Config loaded
+2025-04-17 14:24:45 - DB loaded
+2025-04-17 14:24:45 - Auth loaded
+2025-04-17 14:24:45 - Functions loaded
+2025-04-17 14:24:45 - Constants loaded
+2025-04-17 14:24:45 - Session started
+2025-04-17 14:24:45 - Received login attempt for: hanzam
+2025-04-17 14:24:45 - Connected to database
+2025-04-17 14:24:45 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 14:24:45 - User query complete
+2025-04-17 14:24:45 - Verifying password for user ID: 3
+2025-04-17 14:24:45 - Submitted password: kirk123
+2025-04-17 14:24:45 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 14:24:45 - Password verified with password_verify()
+2025-04-17 14:24:45 - Password verification successful
+2025-04-17 14:24:45 - Password verified, logging in user ID: 3
+2025-04-17 14:24:45 - User logged in successfully
+2025-04-17 14:24:45 - Responding to AJAX request, role: customer
+2025-04-17 14:29:51 - Login attempt started
+2025-04-17 14:29:51 - Config loaded
+2025-04-17 14:29:51 - DB loaded
+2025-04-17 14:29:51 - Auth loaded
+2025-04-17 14:29:51 - Functions loaded
+2025-04-17 14:29:51 - Constants loaded
+2025-04-17 14:29:51 - Session started
+2025-04-17 14:29:51 - Received login attempt for: hanzam
+2025-04-17 14:29:51 - Connected to database
+2025-04-17 14:29:51 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 14:29:51 - User query complete
+2025-04-17 14:29:51 - Verifying password for user ID: 3
+2025-04-17 14:29:51 - Submitted password: kirk123
+2025-04-17 14:29:51 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 14:29:51 - Password verified with password_verify()
+2025-04-17 14:29:51 - Password verification successful
+2025-04-17 14:29:51 - Password verified, logging in user ID: 3
+2025-04-17 14:29:51 - User logged in successfully
+2025-04-17 14:29:51 - Responding to AJAX request, role: customer
+2025-04-17 16:57:17 - Login attempt started
+2025-04-17 16:57:17 - Config loaded
+2025-04-17 16:57:17 - DB loaded
+2025-04-17 16:57:17 - Auth loaded
+2025-04-17 16:57:17 - Functions loaded
+2025-04-17 16:57:17 - Constants loaded
+2025-04-17 16:57:17 - Session started
+2025-04-17 16:57:17 - Received login attempt for: hanzam
+2025-04-17 16:57:17 - Connected to database
+2025-04-17 16:57:17 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 16:57:17 - User query complete
+2025-04-17 16:57:17 - Verifying password for user ID: 3
+2025-04-17 16:57:17 - Submitted password: kirk123
+2025-04-17 16:57:17 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 16:57:17 - Password verified with password_verify()
+2025-04-17 16:57:17 - Password verification successful
+2025-04-17 16:57:17 - Password verified, logging in user ID: 3
+2025-04-17 16:57:17 - User logged in successfully
+2025-04-17 16:57:17 - Responding to AJAX request, role: customer
+2025-04-17 18:01:46 - Login attempt started
+2025-04-17 18:01:46 - Config loaded
+2025-04-17 18:01:46 - DB loaded
+2025-04-17 18:01:46 - Auth loaded
+2025-04-17 18:01:46 - Functions loaded
+2025-04-17 18:01:46 - Constants loaded
+2025-04-17 18:01:46 - Session started
+2025-04-17 18:01:46 - Received login attempt for: hanzam
+2025-04-17 18:01:46 - Connected to database
+2025-04-17 18:01:46 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 18:01:46 - User query complete
+2025-04-17 18:01:46 - Verifying password for user ID: 3
+2025-04-17 18:01:46 - Submitted password: kirk123
+2025-04-17 18:01:46 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 18:01:46 - Password verified with password_verify()
+2025-04-17 18:01:46 - Password verification successful
+2025-04-17 18:01:46 - Password verified, logging in user ID: 3
+2025-04-17 18:01:46 - User logged in successfully
+2025-04-17 18:01:46 - Responding to AJAX request, role: customer
+2025-04-17 18:35:28 - Login attempt started
+2025-04-17 18:35:28 - Config loaded
+2025-04-17 18:35:28 - DB loaded
+2025-04-17 18:35:28 - Auth loaded
+2025-04-17 18:35:28 - Functions loaded
+2025-04-17 18:35:28 - Constants loaded
+2025-04-17 18:35:28 - Session started
+2025-04-17 18:35:28 - Received login attempt for: hanzam
+2025-04-17 18:35:28 - Connected to database
+2025-04-17 18:35:28 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 18:35:28 - User query complete
+2025-04-17 18:35:28 - Verifying password for user ID: 3
+2025-04-17 18:35:28 - Submitted password: kirk1123
+2025-04-17 18:35:28 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 18:35:28 - Password verification failed
+2025-04-17 18:35:32 - Login attempt started
+2025-04-17 18:35:32 - Config loaded
+2025-04-17 18:35:32 - DB loaded
+2025-04-17 18:35:32 - Auth loaded
+2025-04-17 18:35:32 - Functions loaded
+2025-04-17 18:35:32 - Constants loaded
+2025-04-17 18:35:32 - Session started
+2025-04-17 18:35:32 - Received login attempt for: hanzam
+2025-04-17 18:35:33 - Connected to database
+2025-04-17 18:35:33 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 18:35:33 - User query complete
+2025-04-17 18:35:33 - Verifying password for user ID: 3
+2025-04-17 18:35:33 - Submitted password: kirk123
+2025-04-17 18:35:33 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 18:35:33 - Password verified with password_verify()
+2025-04-17 18:35:33 - Password verification successful
+2025-04-17 18:35:33 - Password verified, logging in user ID: 3
+2025-04-17 18:35:33 - User logged in successfully
+2025-04-17 18:35:33 - Responding to AJAX request, role: customer
+2025-04-17 19:07:02 - Login attempt started
+2025-04-17 19:07:02 - Config loaded
+2025-04-17 19:07:02 - DB loaded
+2025-04-17 19:07:02 - Auth loaded
+2025-04-17 19:07:02 - Functions loaded
+2025-04-17 19:07:02 - Constants loaded
+2025-04-17 19:07:02 - Session started
+2025-04-17 19:07:02 - Received login attempt for: hanzam
+2025-04-17 19:07:02 - Connected to database
+2025-04-17 19:07:02 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 19:07:02 - User query complete
+2025-04-17 19:07:02 - Verifying password for user ID: 3
+2025-04-17 19:07:02 - Submitted password: kirk123
+2025-04-17 19:07:02 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 19:07:02 - Password verified with password_verify()
+2025-04-17 19:07:02 - Password verification successful
+2025-04-17 19:07:02 - Password verified, logging in user ID: 3
+2025-04-17 19:07:02 - User logged in successfully
+2025-04-17 19:07:02 - Responding to AJAX request, role: customer
+2025-04-17 20:08:15 - Login attempt started
+2025-04-17 20:08:15 - Config loaded
+2025-04-17 20:08:15 - DB loaded
+2025-04-17 20:08:15 - Auth loaded
+2025-04-17 20:08:15 - Functions loaded
+2025-04-17 20:08:15 - Constants loaded
+2025-04-17 20:08:15 - Session started
+2025-04-17 20:08:15 - Received login attempt for: hanzam
+2025-04-17 20:08:15 - Connected to database
+2025-04-17 20:08:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-17 20:08:15 - User query complete
+2025-04-17 20:08:15 - Verifying password for user ID: 3
+2025-04-17 20:08:15 - Submitted password: kirk123
+2025-04-17 20:08:15 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-17 20:08:15 - Password verified with password_verify()
+2025-04-17 20:08:15 - Password verification successful
+2025-04-17 20:08:15 - Password verified, logging in user ID: 3
+2025-04-17 20:08:15 - User logged in successfully
+2025-04-17 20:08:15 - Responding to AJAX request, role: customer
+2025-04-18 15:26:46 - Login attempt started
+2025-04-18 15:26:46 - Config loaded
+2025-04-18 15:26:46 - DB loaded
+2025-04-18 15:26:46 - Auth loaded
+2025-04-18 15:26:46 - Functions loaded
+2025-04-18 15:26:46 - Constants loaded
+2025-04-18 15:26:46 - Session started
+2025-04-18 15:26:46 - Received login attempt for: hanzam
+2025-04-18 15:26:46 - Connected to database
+2025-04-18 15:26:46 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 15:26:46 - User query complete
+2025-04-18 15:26:46 - Verifying password for user ID: 3
+2025-04-18 15:26:46 - Submitted password: kirk123
+2025-04-18 15:26:46 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 15:26:46 - Password verified with password_verify()
+2025-04-18 15:26:46 - Password verification successful
+2025-04-18 15:26:46 - Password verified, logging in user ID: 3
+2025-04-18 15:26:46 - User logged in successfully
+2025-04-18 15:26:46 - Responding to AJAX request, role: customer
+2025-04-18 16:28:59 - Login attempt started
+2025-04-18 16:28:59 - Config loaded
+2025-04-18 16:28:59 - DB loaded
+2025-04-18 16:28:59 - Auth loaded
+2025-04-18 16:28:59 - Functions loaded
+2025-04-18 16:28:59 - Constants loaded
+2025-04-18 16:28:59 - Session started
+2025-04-18 16:28:59 - Received login attempt for: hanzam
+2025-04-18 16:28:59 - Connected to database
+2025-04-18 16:28:59 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 16:28:59 - User query complete
+2025-04-18 16:28:59 - Verifying password for user ID: 3
+2025-04-18 16:28:59 - Submitted password: kirk123
+2025-04-18 16:28:59 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 16:28:59 - Password verified with password_verify()
+2025-04-18 16:28:59 - Password verification successful
+2025-04-18 16:28:59 - Password verified, logging in user ID: 3
+2025-04-18 16:28:59 - User logged in successfully
+2025-04-18 16:28:59 - Responding to AJAX request, role: customer
+2025-04-18 17:29:07 - Login attempt started
+2025-04-18 17:29:07 - Config loaded
+2025-04-18 17:29:07 - DB loaded
+2025-04-18 17:29:07 - Auth loaded
+2025-04-18 17:29:07 - Functions loaded
+2025-04-18 17:29:07 - Constants loaded
+2025-04-18 17:29:07 - Session started
+2025-04-18 17:29:07 - Received login attempt for: hanzam
+2025-04-18 17:29:07 - Connected to database
+2025-04-18 17:29:07 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 17:29:07 - User query complete
+2025-04-18 17:29:07 - Verifying password for user ID: 3
+2025-04-18 17:29:07 - Submitted password: kirk123
+2025-04-18 17:29:07 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 17:29:07 - Password verified with password_verify()
+2025-04-18 17:29:07 - Password verification successful
+2025-04-18 17:29:07 - Password verified, logging in user ID: 3
+2025-04-18 17:29:07 - User logged in successfully
+2025-04-18 17:29:07 - Responding to AJAX request, role: customer
+2025-04-18 18:18:02 - Login attempt started
+2025-04-18 18:18:02 - Config loaded
+2025-04-18 18:18:02 - DB loaded
+2025-04-18 18:18:02 - Auth loaded
+2025-04-18 18:18:02 - Functions loaded
+2025-04-18 18:18:02 - Constants loaded
+2025-04-18 18:18:02 - Session started
+2025-04-18 18:18:02 - Received login attempt for: hanzam
+2025-04-18 18:18:02 - Connected to database
+2025-04-18 18:18:02 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 18:18:02 - User query complete
+2025-04-18 18:18:02 - Verifying password for user ID: 3
+2025-04-18 18:18:02 - Submitted password: kirk123
+2025-04-18 18:18:02 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 18:18:02 - Password verified with password_verify()
+2025-04-18 18:18:02 - Password verification successful
+2025-04-18 18:18:02 - Password verified, logging in user ID: 3
+2025-04-18 18:18:02 - User logged in successfully
+2025-04-18 18:18:02 - Responding to AJAX request, role: customer
+2025-04-18 18:19:18 - Login attempt started
+2025-04-18 18:19:18 - Config loaded
+2025-04-18 18:19:18 - DB loaded
+2025-04-18 18:19:18 - Auth loaded
+2025-04-18 18:19:18 - Functions loaded
+2025-04-18 18:19:18 - Constants loaded
+2025-04-18 18:19:18 - Session started
+2025-04-18 18:19:18 - Received login attempt for: hanzam
+2025-04-18 18:19:18 - Connected to database
+2025-04-18 18:19:18 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 18:19:18 - User query complete
+2025-04-18 18:19:18 - Verifying password for user ID: 3
+2025-04-18 18:19:18 - Submitted password: kirk123
+2025-04-18 18:19:18 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 18:19:18 - Password verified with password_verify()
+2025-04-18 18:19:18 - Password verification successful
+2025-04-18 18:19:18 - Password verified, logging in user ID: 3
+2025-04-18 18:19:18 - User logged in successfully
+2025-04-18 18:19:18 - Responding to AJAX request, role: customer
+2025-04-18 18:20:31 - Login attempt started
+2025-04-18 18:20:31 - Config loaded
+2025-04-18 18:20:31 - DB loaded
+2025-04-18 18:20:31 - Auth loaded
+2025-04-18 18:20:31 - Functions loaded
+2025-04-18 18:20:31 - Constants loaded
+2025-04-18 18:20:31 - Session started
+2025-04-18 18:20:31 - Received login attempt for: hanzam
+2025-04-18 18:20:32 - Connected to database
+2025-04-18 18:20:32 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 18:20:32 - User query complete
+2025-04-18 18:20:32 - Verifying password for user ID: 3
+2025-04-18 18:20:32 - Submitted password: kirk123
+2025-04-18 18:20:32 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 18:20:32 - Password verified with password_verify()
+2025-04-18 18:20:32 - Password verification successful
+2025-04-18 18:20:32 - Password verified, logging in user ID: 3
+2025-04-18 18:20:32 - User logged in successfully
+2025-04-18 18:20:32 - Responding to AJAX request, role: customer
+2025-04-18 18:25:49 - Login attempt started
+2025-04-18 18:25:49 - Config loaded
+2025-04-18 18:25:49 - DB loaded
+2025-04-18 18:25:49 - Auth loaded
+2025-04-18 18:25:49 - Functions loaded
+2025-04-18 18:25:49 - Constants loaded
+2025-04-18 18:25:49 - Session started
+2025-04-18 18:25:49 - Received login attempt for: hanzam
+2025-04-18 18:25:49 - Connected to database
+2025-04-18 18:25:49 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 18:25:49 - User query complete
+2025-04-18 18:25:49 - Verifying password for user ID: 3
+2025-04-18 18:25:49 - Submitted password: kirk123
+2025-04-18 18:25:49 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 18:25:50 - Password verified with password_verify()
+2025-04-18 18:25:50 - Password verification successful
+2025-04-18 18:25:50 - Password verified, logging in user ID: 3
+2025-04-18 18:25:50 - User logged in successfully
+2025-04-18 18:25:50 - Responding to AJAX request, role: customer
+2025-04-18 18:27:35 - Login attempt started
+2025-04-18 18:27:35 - Config loaded
+2025-04-18 18:27:35 - DB loaded
+2025-04-18 18:27:35 - Auth loaded
+2025-04-18 18:27:35 - Functions loaded
+2025-04-18 18:27:35 - Constants loaded
+2025-04-18 18:27:35 - Session started
+2025-04-18 18:27:35 - Received login attempt for: hanzam
+2025-04-18 18:27:35 - Connected to database
+2025-04-18 18:27:35 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 18:27:35 - User query complete
+2025-04-18 18:27:35 - Verifying password for user ID: 3
+2025-04-18 18:27:35 - Submitted password: kirk123
+2025-04-18 18:27:35 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 18:27:35 - Password verified with password_verify()
+2025-04-18 18:27:35 - Password verification successful
+2025-04-18 18:27:35 - Password verified, logging in user ID: 3
+2025-04-18 18:27:35 - User logged in successfully
+2025-04-18 18:27:35 - Responding to AJAX request, role: customer
+2025-04-18 18:30:15 - Login attempt started
+2025-04-18 18:30:15 - Config loaded
+2025-04-18 18:30:15 - DB loaded
+2025-04-18 18:30:15 - Auth loaded
+2025-04-18 18:30:15 - Functions loaded
+2025-04-18 18:30:15 - Constants loaded
+2025-04-18 18:30:15 - Session started
+2025-04-18 18:30:15 - Received login attempt for: hanzam
+2025-04-18 18:30:15 - Connected to database
+2025-04-18 18:30:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 18:30:15 - User query complete
+2025-04-18 18:30:15 - Verifying password for user ID: 3
+2025-04-18 18:30:15 - Submitted password: kirk123
+2025-04-18 18:30:15 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 18:30:15 - Password verified with password_verify()
+2025-04-18 18:30:15 - Password verification successful
+2025-04-18 18:30:15 - Password verified, logging in user ID: 3
+2025-04-18 18:30:15 - User logged in successfully
+2025-04-18 18:30:15 - Responding to AJAX request, role: customer
+2025-04-18 18:59:11 - Login attempt started
+2025-04-18 18:59:11 - Config loaded
+2025-04-18 18:59:11 - DB loaded
+2025-04-18 18:59:11 - Auth loaded
+2025-04-18 18:59:11 - Functions loaded
+2025-04-18 18:59:11 - Constants loaded
+2025-04-18 18:59:11 - Session started
+2025-04-18 18:59:11 - Received login attempt for: hanzam
+2025-04-18 18:59:11 - Connected to database
+2025-04-18 18:59:11 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 18:59:11 - User query complete
+2025-04-18 18:59:11 - Verifying password for user ID: 3
+2025-04-18 18:59:11 - Submitted password: kirk123
+2025-04-18 18:59:11 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 18:59:11 - Password verified with password_verify()
+2025-04-18 18:59:11 - Password verification successful
+2025-04-18 18:59:11 - Password verified, logging in user ID: 3
+2025-04-18 18:59:11 - User logged in successfully
+2025-04-18 18:59:11 - Responding to AJAX request, role: customer
+2025-04-18 19:09:03 - Login attempt started
+2025-04-18 19:09:03 - Config loaded
+2025-04-18 19:09:03 - DB loaded
+2025-04-18 19:09:03 - Auth loaded
+2025-04-18 19:09:03 - Functions loaded
+2025-04-18 19:09:03 - Constants loaded
+2025-04-18 19:09:03 - Session started
+2025-04-18 19:09:03 - Received login attempt for: hanzam
+2025-04-18 19:09:03 - Connected to database
+2025-04-18 19:09:03 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 19:09:03 - User query complete
+2025-04-18 19:09:03 - Verifying password for user ID: 3
+2025-04-18 19:09:03 - Submitted password: kirk123
+2025-04-18 19:09:03 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 19:09:03 - Password verified with password_verify()
+2025-04-18 19:09:03 - Password verification successful
+2025-04-18 19:09:03 - Password verified, logging in user ID: 3
+2025-04-18 19:09:03 - User logged in successfully
+2025-04-18 19:09:03 - Responding to AJAX request, role: customer
+2025-04-18 19:38:48 - Login attempt started
+2025-04-18 19:38:48 - Config loaded
+2025-04-18 19:38:48 - DB loaded
+2025-04-18 19:38:48 - Auth loaded
+2025-04-18 19:38:48 - Functions loaded
+2025-04-18 19:38:48 - Constants loaded
+2025-04-18 19:38:48 - Session started
+2025-04-18 19:38:48 - Received login attempt for: hanzam
+2025-04-18 19:38:48 - Connected to database
+2025-04-18 19:38:48 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 19:38:48 - User query complete
+2025-04-18 19:38:48 - Verifying password for user ID: 3
+2025-04-18 19:38:48 - Submitted password: kirk123
+2025-04-18 19:38:48 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 19:38:48 - Password verified with password_verify()
+2025-04-18 19:38:48 - Password verification successful
+2025-04-18 19:38:48 - Password verified, logging in user ID: 3
+2025-04-18 19:38:48 - User logged in successfully
+2025-04-18 19:38:48 - Responding to AJAX request, role: customer
+2025-04-18 20:38:05 - Login attempt started
+2025-04-18 20:38:05 - Config loaded
+2025-04-18 20:38:05 - DB loaded
+2025-04-18 20:38:05 - Auth loaded
+2025-04-18 20:38:05 - Functions loaded
+2025-04-18 20:38:05 - Constants loaded
+2025-04-18 20:38:05 - Session started
+2025-04-18 20:38:05 - Received login attempt for: hanzam
+2025-04-18 20:38:05 - Connected to database
+2025-04-18 20:38:05 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 20:38:05 - User query complete
+2025-04-18 20:38:05 - Verifying password for user ID: 3
+2025-04-18 20:38:05 - Submitted password: kirk123
+2025-04-18 20:38:05 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 20:38:05 - Password verified with password_verify()
+2025-04-18 20:38:05 - Password verification successful
+2025-04-18 20:38:05 - Password verified, logging in user ID: 3
+2025-04-18 20:38:05 - User logged in successfully
+2025-04-18 20:38:05 - Responding to AJAX request, role: customer
+2025-04-18 20:39:03 - Login attempt started
+2025-04-18 20:39:03 - Config loaded
+2025-04-18 20:39:03 - DB loaded
+2025-04-18 20:39:03 - Auth loaded
+2025-04-18 20:39:03 - Functions loaded
+2025-04-18 20:39:03 - Constants loaded
+2025-04-18 20:39:03 - Session started
+2025-04-18 20:39:03 - Received login attempt for: hanzam
+2025-04-18 20:39:03 - Connected to database
+2025-04-18 20:39:03 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 20:39:03 - User query complete
+2025-04-18 20:39:03 - Verifying password for user ID: 3
+2025-04-18 20:39:03 - Submitted password: kirk123
+2025-04-18 20:39:03 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 20:39:03 - Password verified with password_verify()
+2025-04-18 20:39:03 - Password verification successful
+2025-04-18 20:39:03 - Password verified, logging in user ID: 3
+2025-04-18 20:39:03 - User logged in successfully
+2025-04-18 20:39:03 - Responding to AJAX request, role: customer
+2025-04-18 20:41:22 - Login attempt started
+2025-04-18 20:41:22 - Config loaded
+2025-04-18 20:41:22 - DB loaded
+2025-04-18 20:41:22 - Auth loaded
+2025-04-18 20:41:22 - Functions loaded
+2025-04-18 20:41:22 - Constants loaded
+2025-04-18 20:41:22 - Session started
+2025-04-18 20:41:22 - Received login attempt for: hanzam
+2025-04-18 20:41:22 - Connected to database
+2025-04-18 20:41:22 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-18 20:41:22 - User query complete
+2025-04-18 20:41:22 - Verifying password for user ID: 3
+2025-04-18 20:41:22 - Submitted password: kirk123
+2025-04-18 20:41:22 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-18 20:41:22 - Password verified with password_verify()
+2025-04-18 20:41:22 - Password verification successful
+2025-04-18 20:41:22 - Password verified, logging in user ID: 3
+2025-04-18 20:41:22 - User logged in successfully
+2025-04-18 20:41:22 - Responding to AJAX request, role: customer
+2025-04-19 07:00:02 - Login attempt started
+2025-04-19 07:00:02 - Config loaded
+2025-04-19 07:00:02 - DB loaded
+2025-04-19 07:00:02 - Auth loaded
+2025-04-19 07:00:02 - Functions loaded
+2025-04-19 07:00:02 - Constants loaded
+2025-04-19 07:00:02 - Session started
+2025-04-19 07:00:02 - Received login attempt for: hanzam
+2025-04-19 07:00:02 - Connected to database
+2025-04-19 07:00:02 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 07:00:02 - User query complete
+2025-04-19 07:00:02 - Verifying password for user ID: 3
+2025-04-19 07:00:02 - Submitted password: kirk123
+2025-04-19 07:00:02 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 07:00:02 - Password verified with password_verify()
+2025-04-19 07:00:02 - Password verification successful
+2025-04-19 07:00:02 - Password verified, logging in user ID: 3
+2025-04-19 07:00:02 - User logged in successfully
+2025-04-19 07:00:02 - Responding to AJAX request, role: customer
+2025-04-19 07:20:30 - Login attempt started
+2025-04-19 07:20:30 - Config loaded
+2025-04-19 07:20:30 - DB loaded
+2025-04-19 07:20:30 - Auth loaded
+2025-04-19 07:20:30 - Functions loaded
+2025-04-19 07:20:30 - Constants loaded
+2025-04-19 07:20:30 - Session started
+2025-04-19 07:20:30 - Received login attempt for: hanzam
+2025-04-19 07:20:30 - Connected to database
+2025-04-19 07:20:30 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 07:20:30 - User query complete
+2025-04-19 07:20:30 - Verifying password for user ID: 3
+2025-04-19 07:20:30 - Submitted password: kirk123
+2025-04-19 07:20:30 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 07:20:30 - Password verified with password_verify()
+2025-04-19 07:20:30 - Password verification successful
+2025-04-19 07:20:30 - Password verified, logging in user ID: 3
+2025-04-19 07:20:30 - User logged in successfully
+2025-04-19 07:20:30 - Responding to AJAX request, role: customer
+2025-04-19 08:08:17 - Login attempt started
+2025-04-19 08:08:17 - Config loaded
+2025-04-19 08:08:17 - DB loaded
+2025-04-19 08:08:17 - Auth loaded
+2025-04-19 08:08:17 - Functions loaded
+2025-04-19 08:08:17 - Constants loaded
+2025-04-19 08:08:17 - Session started
+2025-04-19 08:08:17 - Received login attempt for: hanzam
+2025-04-19 08:08:17 - Connected to database
+2025-04-19 08:08:17 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 08:08:17 - User query complete
+2025-04-19 08:08:17 - Verifying password for user ID: 3
+2025-04-19 08:08:17 - Submitted password: kirk123
+2025-04-19 08:08:17 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 08:08:17 - Password verified with password_verify()
+2025-04-19 08:08:17 - Password verification successful
+2025-04-19 08:08:17 - Password verified, logging in user ID: 3
+2025-04-19 08:08:17 - User logged in successfully
+2025-04-19 08:08:17 - Responding to AJAX request, role: customer
+2025-04-19 08:28:31 - Login attempt started
+2025-04-19 08:28:31 - Config loaded
+2025-04-19 08:28:31 - DB loaded
+2025-04-19 08:28:31 - Auth loaded
+2025-04-19 08:28:31 - Functions loaded
+2025-04-19 08:28:31 - Constants loaded
+2025-04-19 08:28:31 - Session started
+2025-04-19 08:28:31 - Received login attempt for: hanzam
+2025-04-19 08:28:31 - Connected to database
+2025-04-19 08:28:31 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 08:28:31 - User query complete
+2025-04-19 08:28:31 - Verifying password for user ID: 3
+2025-04-19 08:28:31 - Submitted password: kirk123
+2025-04-19 08:28:31 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 08:28:31 - Password verified with password_verify()
+2025-04-19 08:28:31 - Password verification successful
+2025-04-19 08:28:31 - Password verified, logging in user ID: 3
+2025-04-19 08:28:31 - User logged in successfully
+2025-04-19 08:28:31 - Responding to AJAX request, role: customer
+2025-04-19 09:08:26 - Login attempt started
+2025-04-19 09:08:26 - Config loaded
+2025-04-19 09:08:26 - DB loaded
+2025-04-19 09:08:26 - Auth loaded
+2025-04-19 09:08:26 - Functions loaded
+2025-04-19 09:08:26 - Constants loaded
+2025-04-19 09:08:26 - Session started
+2025-04-19 09:08:26 - Received login attempt for: hanzam
+2025-04-19 09:08:26 - Connected to database
+2025-04-19 09:08:26 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 09:08:26 - User query complete
+2025-04-19 09:08:26 - Verifying password for user ID: 3
+2025-04-19 09:08:26 - Submitted password: kirk123
+2025-04-19 09:08:26 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 09:08:26 - Password verified with password_verify()
+2025-04-19 09:08:26 - Password verification successful
+2025-04-19 09:08:26 - Password verified, logging in user ID: 3
+2025-04-19 09:08:26 - User logged in successfully
+2025-04-19 09:08:26 - Responding to AJAX request, role: customer
+2025-04-19 09:14:01 - Login attempt started
+2025-04-19 09:14:01 - Config loaded
+2025-04-19 09:14:01 - DB loaded
+2025-04-19 09:14:01 - Auth loaded
+2025-04-19 09:14:01 - Functions loaded
+2025-04-19 09:14:01 - Constants loaded
+2025-04-19 09:14:01 - Session started
+2025-04-19 09:14:01 - Received login attempt for: hanzam
+2025-04-19 09:14:01 - Connected to database
+2025-04-19 09:14:01 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 09:14:01 - User query complete
+2025-04-19 09:14:01 - Verifying password for user ID: 3
+2025-04-19 09:14:01 - Submitted password: kirk123
+2025-04-19 09:14:01 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 09:14:01 - Password verified with password_verify()
+2025-04-19 09:14:01 - Password verification successful
+2025-04-19 09:14:01 - Password verified, logging in user ID: 3
+2025-04-19 09:14:01 - User logged in successfully
+2025-04-19 09:14:01 - Responding to AJAX request, role: customer
+2025-04-19 10:08:39 - Login attempt started
+2025-04-19 10:08:39 - Config loaded
+2025-04-19 10:08:39 - DB loaded
+2025-04-19 10:08:39 - Auth loaded
+2025-04-19 10:08:39 - Functions loaded
+2025-04-19 10:08:39 - Constants loaded
+2025-04-19 10:08:39 - Session started
+2025-04-19 10:08:39 - Received login attempt for: hanzam
+2025-04-19 10:08:39 - Connected to database
+2025-04-19 10:08:39 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 10:08:39 - User query complete
+2025-04-19 10:08:39 - Verifying password for user ID: 3
+2025-04-19 10:08:39 - Submitted password: kirk123
+2025-04-19 10:08:39 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 10:08:39 - Password verified with password_verify()
+2025-04-19 10:08:39 - Password verification successful
+2025-04-19 10:08:39 - Password verified, logging in user ID: 3
+2025-04-19 10:08:39 - User logged in successfully
+2025-04-19 10:08:39 - Responding to AJAX request, role: customer
+2025-04-19 10:34:09 - Login attempt started
+2025-04-19 10:34:09 - Config loaded
+2025-04-19 10:34:09 - DB loaded
+2025-04-19 10:34:09 - Auth loaded
+2025-04-19 10:34:09 - Functions loaded
+2025-04-19 10:34:09 - Constants loaded
+2025-04-19 10:34:09 - Session started
+2025-04-19 10:34:09 - Received login attempt for: hanzam
+2025-04-19 10:34:09 - Connected to database
+2025-04-19 10:34:09 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 10:34:09 - User query complete
+2025-04-19 10:34:09 - Verifying password for user ID: 3
+2025-04-19 10:34:09 - Submitted password: kirk123
+2025-04-19 10:34:09 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 10:34:09 - Password verified with password_verify()
+2025-04-19 10:34:09 - Password verification successful
+2025-04-19 10:34:09 - Password verified, logging in user ID: 3
+2025-04-19 10:34:09 - User logged in successfully
+2025-04-19 10:34:09 - Responding to AJAX request, role: customer
+2025-04-19 10:49:16 - Login attempt started
+2025-04-19 10:49:16 - Config loaded
+2025-04-19 10:49:16 - DB loaded
+2025-04-19 10:49:16 - Auth loaded
+2025-04-19 10:49:16 - Functions loaded
+2025-04-19 10:49:16 - Constants loaded
+2025-04-19 10:49:16 - Session started
+2025-04-19 10:49:16 - Received login attempt for: hanzam
+2025-04-19 10:49:16 - Connected to database
+2025-04-19 10:49:16 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 10:49:16 - User query complete
+2025-04-19 10:49:16 - Verifying password for user ID: 3
+2025-04-19 10:49:16 - Submitted password: kirk123
+2025-04-19 10:49:16 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 10:49:16 - Password verified with password_verify()
+2025-04-19 10:49:16 - Password verification successful
+2025-04-19 10:49:16 - Password verified, logging in user ID: 3
+2025-04-19 10:49:16 - User logged in successfully
+2025-04-19 10:49:16 - Responding to AJAX request, role: customer
+2025-04-19 11:16:04 - Login attempt started
+2025-04-19 11:16:04 - Config loaded
+2025-04-19 11:16:04 - DB loaded
+2025-04-19 11:16:04 - Auth loaded
+2025-04-19 11:16:04 - Functions loaded
+2025-04-19 11:16:04 - Constants loaded
+2025-04-19 11:16:04 - Session started
+2025-04-19 11:16:04 - Received login attempt for: hanzam
+2025-04-19 11:16:04 - Connected to database
+2025-04-19 11:16:04 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 11:16:04 - User query complete
+2025-04-19 11:16:04 - Verifying password for user ID: 3
+2025-04-19 11:16:04 - Submitted password: kirk123
+2025-04-19 11:16:04 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 11:16:04 - Password verified with password_verify()
+2025-04-19 11:16:04 - Password verification successful
+2025-04-19 11:16:04 - Password verified, logging in user ID: 3
+2025-04-19 11:16:04 - User logged in successfully
+2025-04-19 11:16:04 - Responding to AJAX request, role: customer
+2025-04-19 20:15:00 - Login attempt started
+2025-04-19 20:15:00 - Config loaded
+2025-04-19 20:15:00 - DB loaded
+2025-04-19 20:15:00 - Auth loaded
+2025-04-19 20:15:00 - Functions loaded
+2025-04-19 20:15:00 - Constants loaded
+2025-04-19 20:15:00 - Session started
+2025-04-19 20:15:00 - Received login attempt for: hanzam
+2025-04-19 20:15:00 - Connected to database
+2025-04-19 20:15:00 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 20:15:00 - User query complete
+2025-04-19 20:15:00 - Verifying password for user ID: 3
+2025-04-19 20:15:00 - Submitted password: kirk123
+2025-04-19 20:15:00 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 20:15:00 - Password verified with password_verify()
+2025-04-19 20:15:00 - Password verification successful
+2025-04-19 20:15:00 - Password verified, logging in user ID: 3
+2025-04-19 20:15:00 - User logged in successfully
+2025-04-19 20:15:00 - Responding to AJAX request, role: customer
+2025-04-19 21:15:24 - Login attempt started
+2025-04-19 21:15:24 - Config loaded
+2025-04-19 21:15:24 - DB loaded
+2025-04-19 21:15:24 - Auth loaded
+2025-04-19 21:15:24 - Functions loaded
+2025-04-19 21:15:24 - Constants loaded
+2025-04-19 21:15:24 - Session started
+2025-04-19 21:15:24 - Received login attempt for: hanzam
+2025-04-19 21:15:24 - Connected to database
+2025-04-19 21:15:25 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 21:15:25 - User query complete
+2025-04-19 21:15:25 - Verifying password for user ID: 3
+2025-04-19 21:15:25 - Submitted password: kirk123
+2025-04-19 21:15:25 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 21:15:25 - Password verified with password_verify()
+2025-04-19 21:15:25 - Password verification successful
+2025-04-19 21:15:25 - Password verified, logging in user ID: 3
+2025-04-19 21:15:25 - User logged in successfully
+2025-04-19 21:15:25 - Responding to AJAX request, role: customer
+2025-04-19 22:20:22 - Login attempt started
+2025-04-19 22:20:22 - Config loaded
+2025-04-19 22:20:22 - DB loaded
+2025-04-19 22:20:22 - Auth loaded
+2025-04-19 22:20:22 - Functions loaded
+2025-04-19 22:20:22 - Constants loaded
+2025-04-19 22:20:22 - Session started
+2025-04-19 22:20:22 - Received login attempt for: hanzam
+2025-04-19 22:20:22 - Connected to database
+2025-04-19 22:20:22 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 22:20:22 - User query complete
+2025-04-19 22:20:22 - Verifying password for user ID: 3
+2025-04-19 22:20:22 - Submitted password: kirk123
+2025-04-19 22:20:22 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 22:20:22 - Password verified with password_verify()
+2025-04-19 22:20:22 - Password verification successful
+2025-04-19 22:20:22 - Password verified, logging in user ID: 3
+2025-04-19 22:20:22 - User logged in successfully
+2025-04-19 22:20:22 - Responding to AJAX request, role: customer
+2025-04-19 23:20:46 - Login attempt started
+2025-04-19 23:20:46 - Config loaded
+2025-04-19 23:20:46 - DB loaded
+2025-04-19 23:20:46 - Auth loaded
+2025-04-19 23:20:46 - Functions loaded
+2025-04-19 23:20:46 - Constants loaded
+2025-04-19 23:20:46 - Session started
+2025-04-19 23:20:46 - Received login attempt for: hanzam
+2025-04-19 23:20:46 - Connected to database
+2025-04-19 23:20:46 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 23:20:46 - User query complete
+2025-04-19 23:20:46 - Verifying password for user ID: 3
+2025-04-19 23:20:46 - Submitted password: kirk123
+2025-04-19 23:20:46 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 23:20:46 - Password verified with password_verify()
+2025-04-19 23:20:46 - Password verification successful
+2025-04-19 23:20:46 - Password verified, logging in user ID: 3
+2025-04-19 23:20:46 - User logged in successfully
+2025-04-19 23:20:46 - Responding to AJAX request, role: customer
+2025-04-19 23:37:14 - Login attempt started
+2025-04-19 23:37:14 - Config loaded
+2025-04-19 23:37:14 - DB loaded
+2025-04-19 23:37:14 - Auth loaded
+2025-04-19 23:37:14 - Functions loaded
+2025-04-19 23:37:14 - Constants loaded
+2025-04-19 23:37:14 - Session started
+2025-04-19 23:37:14 - Received login attempt for: hanzam
+2025-04-19 23:37:14 - Connected to database
+2025-04-19 23:37:14 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-19 23:37:14 - User query complete
+2025-04-19 23:37:14 - Verifying password for user ID: 3
+2025-04-19 23:37:14 - Submitted password: kirk123
+2025-04-19 23:37:14 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-19 23:37:14 - Password verified with password_verify()
+2025-04-19 23:37:14 - Password verification successful
+2025-04-19 23:37:14 - Password verified, logging in user ID: 3
+2025-04-19 23:37:14 - User logged in successfully
+2025-04-19 23:37:14 - Responding to AJAX request, role: customer
+2025-04-20 12:07:31 - Login attempt started
+2025-04-20 12:07:31 - Config loaded
+2025-04-20 12:07:31 - DB loaded
+2025-04-20 12:07:31 - Auth loaded
+2025-04-20 12:07:31 - Functions loaded
+2025-04-20 12:07:31 - Constants loaded
+2025-04-20 12:07:31 - Session started
+2025-04-20 12:07:31 - Received login attempt for: hanzam
+2025-04-20 12:07:31 - Connected to database
+2025-04-20 12:07:31 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-20 12:07:31 - User query complete
+2025-04-20 12:07:31 - Verifying password for user ID: 3
+2025-04-20 12:07:31 - Submitted password: kirk123
+2025-04-20 12:07:31 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-20 12:07:31 - Password verified with password_verify()
+2025-04-20 12:07:31 - Password verification successful
+2025-04-20 12:07:31 - Password verified, logging in user ID: 3
+2025-04-20 12:07:31 - User logged in successfully
+2025-04-20 12:07:31 - Responding to AJAX request, role: customer
+2025-04-21 03:59:03 - Login attempt started
+2025-04-21 03:59:03 - Config loaded
+2025-04-21 03:59:03 - DB loaded
+2025-04-21 03:59:03 - Auth loaded
+2025-04-21 03:59:03 - Functions loaded
+2025-04-21 03:59:03 - Constants loaded
+2025-04-21 03:59:03 - Session started
+2025-04-21 03:59:03 - Received login attempt for: hanzam
+2025-04-21 03:59:03 - Connected to database
+2025-04-21 03:59:03 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-21 03:59:03 - User query complete
+2025-04-21 03:59:03 - Verifying password for user ID: 3
+2025-04-21 03:59:03 - Submitted password: kirk123
+2025-04-21 03:59:03 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-21 03:59:03 - Password verified with password_verify()
+2025-04-21 03:59:03 - Password verification successful
+2025-04-21 03:59:03 - Password verified, logging in user ID: 3
+2025-04-21 03:59:03 - User logged in successfully
+2025-04-21 03:59:03 - Responding to AJAX request, role: customer
+2025-04-25 11:41:22 - Login attempt started
+2025-04-25 11:41:22 - Config loaded
+2025-04-25 11:41:22 - DB loaded
+2025-04-25 11:41:22 - Auth loaded
+2025-04-25 11:41:22 - Functions loaded
+2025-04-25 11:41:22 - Constants loaded
+2025-04-25 11:41:22 - Session started
+2025-04-25 11:41:22 - Received login attempt for: hanzam
+2025-04-25 11:41:22 - Connected to database
+2025-04-25 11:41:22 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-25 11:41:22 - User query complete
+2025-04-25 11:41:22 - Verifying password for user ID: 3
+2025-04-25 11:41:22 - Submitted password: kirk123
+2025-04-25 11:41:22 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-25 11:41:22 - Password verified with password_verify()
+2025-04-25 11:41:22 - Password verification successful
+2025-04-25 11:41:22 - Password verified, logging in user ID: 3
+2025-04-25 11:41:22 - User logged in successfully
+2025-04-25 11:41:22 - Responding to AJAX request, role: customer
+2025-04-25 11:45:37 - Login attempt started
+2025-04-25 11:45:37 - Config loaded
+2025-04-25 11:45:37 - DB loaded
+2025-04-25 11:45:37 - Auth loaded
+2025-04-25 11:45:37 - Functions loaded
+2025-04-25 11:45:37 - Constants loaded
+2025-04-25 11:45:37 - Session started
+2025-04-25 11:45:37 - Received login attempt for: hanzam
+2025-04-25 11:45:37 - Connected to database
+2025-04-25 11:45:38 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-25 11:45:38 - User query complete
+2025-04-25 11:45:38 - Verifying password for user ID: 3
+2025-04-25 11:45:38 - Submitted password: kirk123
+2025-04-25 11:45:38 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-25 11:45:38 - Password verified with password_verify()
+2025-04-25 11:45:38 - Password verification successful
+2025-04-25 11:45:38 - Password verified, logging in user ID: 3
+2025-04-25 11:45:38 - User logged in successfully
+2025-04-25 11:45:38 - Responding to AJAX request, role: customer
+2025-04-25 11:51:31 - Login attempt started
+2025-04-25 11:51:31 - Config loaded
+2025-04-25 11:51:31 - DB loaded
+2025-04-25 11:51:31 - Auth loaded
+2025-04-25 11:51:31 - Functions loaded
+2025-04-25 11:51:31 - Constants loaded
+2025-04-25 11:51:31 - Session started
+2025-04-25 11:51:31 - Received login attempt for: hanzam
+2025-04-25 11:51:31 - Connected to database
+2025-04-25 11:51:31 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-25 11:51:31 - User query complete
+2025-04-25 11:51:31 - Verifying password for user ID: 3
+2025-04-25 11:51:31 - Submitted password: kirk123
+2025-04-25 11:51:31 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-25 11:51:31 - Password verified with password_verify()
+2025-04-25 11:51:31 - Password verification successful
+2025-04-25 11:51:31 - Password verified, logging in user ID: 3
+2025-04-25 11:51:31 - User logged in successfully
+2025-04-25 11:51:31 - Responding to AJAX request, role: customer
+2025-04-25 17:52:38 - Login attempt started
+2025-04-25 17:52:38 - Config loaded
+2025-04-25 17:52:38 - DB loaded
+2025-04-25 17:52:38 - Auth loaded
+2025-04-25 17:52:38 - Functions loaded
+2025-04-25 17:52:38 - Constants loaded
+2025-04-25 17:52:38 - Session started
+2025-04-25 17:52:38 - Received login attempt for: hanzam
+2025-04-25 17:52:38 - Connected to database
+2025-04-25 17:52:38 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-25 17:52:38 - User query complete
+2025-04-25 17:52:38 - Verifying password for user ID: 3
+2025-04-25 17:52:38 - Submitted password: kirk123
+2025-04-25 17:52:38 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-25 17:52:38 - Password verified with password_verify()
+2025-04-25 17:52:38 - Password verification successful
+2025-04-25 17:52:38 - Password verified, logging in user ID: 3
+2025-04-25 17:52:38 - User logged in successfully
+2025-04-25 17:52:38 - Responding to AJAX request, role: customer
+2025-04-26 07:16:32 - Login attempt started
+2025-04-26 07:16:32 - Config loaded
+2025-04-26 07:16:32 - DB loaded
+2025-04-26 07:16:32 - Auth loaded
+2025-04-26 07:16:32 - Functions loaded
+2025-04-26 07:16:32 - Constants loaded
+2025-04-26 07:16:32 - Session started
+2025-04-26 07:16:32 - Received login attempt for: hanzam
+2025-04-26 07:16:32 - Connected to database
+2025-04-26 07:16:32 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-26 07:16:32 - User query complete
+2025-04-26 07:16:32 - Verifying password for user ID: 3
+2025-04-26 07:16:32 - Submitted password: kirk123
+2025-04-26 07:16:32 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-26 07:16:32 - Password verified with password_verify()
+2025-04-26 07:16:32 - Password verification successful
+2025-04-26 07:16:32 - Password verified, logging in user ID: 3
+2025-04-26 07:16:32 - User logged in successfully
+2025-04-26 07:16:32 - Responding to AJAX request, role: customer
+2025-04-26 08:17:36 - Login attempt started
+2025-04-26 08:17:36 - Config loaded
+2025-04-26 08:17:36 - DB loaded
+2025-04-26 08:17:36 - Auth loaded
+2025-04-26 08:17:36 - Functions loaded
+2025-04-26 08:17:36 - Constants loaded
+2025-04-26 08:17:36 - Session started
+2025-04-26 08:17:36 - Received login attempt for: hanzam
+2025-04-26 08:17:36 - Connected to database
+2025-04-26 08:17:36 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-26 08:17:36 - User query complete
+2025-04-26 08:17:36 - Verifying password for user ID: 3
+2025-04-26 08:17:36 - Submitted password: kirk123
+2025-04-26 08:17:36 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-26 08:17:36 - Password verified with password_verify()
+2025-04-26 08:17:36 - Password verification successful
+2025-04-26 08:17:36 - Password verified, logging in user ID: 3
+2025-04-26 08:17:36 - User logged in successfully
+2025-04-26 08:17:36 - Responding to AJAX request, role: customer
+2025-04-26 20:21:44 - Login attempt started
+2025-04-26 20:21:44 - Config loaded
+2025-04-26 20:21:44 - DB loaded
+2025-04-26 20:21:44 - Auth loaded
+2025-04-26 20:21:44 - Functions loaded
+2025-04-26 20:21:44 - Constants loaded
+2025-04-26 20:21:44 - Session started
+2025-04-26 20:21:44 - Received login attempt for: hanzam
+2025-04-26 20:21:44 - Connected to database
+2025-04-26 20:21:44 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-26 20:21:44 - User query complete
+2025-04-26 20:21:44 - Verifying password for user ID: 3
+2025-04-26 20:21:44 - Submitted password: kirk123
+2025-04-26 20:21:44 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-26 20:21:44 - Password verified with password_verify()
+2025-04-26 20:21:44 - Password verification successful
+2025-04-26 20:21:44 - Password verified, logging in user ID: 3
+2025-04-26 20:21:44 - User logged in successfully
+2025-04-26 20:21:44 - Responding to AJAX request, role: customer
+2025-04-26 23:10:28 - Login attempt started
+2025-04-26 23:10:28 - Config loaded
+2025-04-26 23:10:28 - DB loaded
+2025-04-26 23:10:28 - Auth loaded
+2025-04-26 23:10:28 - Functions loaded
+2025-04-26 23:10:28 - Constants loaded
+2025-04-26 23:10:28 - Session started
+2025-04-26 23:10:28 - Received login attempt for: hanzam
+2025-04-26 23:10:28 - Connected to database
+2025-04-26 23:10:28 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-26 23:10:28 - User query complete
+2025-04-26 23:10:28 - Verifying password for user ID: 3
+2025-04-26 23:10:28 - Submitted password: kirk123
+2025-04-26 23:10:28 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-26 23:10:28 - Password verified with password_verify()
+2025-04-26 23:10:28 - Password verification successful
+2025-04-26 23:10:28 - Password verified, logging in user ID: 3
+2025-04-26 23:10:28 - User logged in successfully
+2025-04-26 23:10:28 - Responding to AJAX request, role: customer
+2025-04-26 23:14:04 - Login attempt started
+2025-04-26 23:14:04 - Config loaded
+2025-04-26 23:14:04 - DB loaded
+2025-04-26 23:14:04 - Auth loaded
+2025-04-26 23:14:04 - Functions loaded
+2025-04-26 23:14:04 - Constants loaded
+2025-04-26 23:14:04 - Session started
+2025-04-26 23:14:04 - Received login attempt for: hanzam
+2025-04-26 23:14:04 - Connected to database
+2025-04-26 23:14:04 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-04-26 23:14:04 - User query complete
+2025-04-26 23:14:04 - Verifying password for user ID: 3
+2025-04-26 23:14:04 - Submitted password: kirk123
+2025-04-26 23:14:04 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-04-26 23:14:05 - Password verified with password_verify()
+2025-04-26 23:14:05 - Password verification successful
+2025-04-26 23:14:05 - Password verified, logging in user ID: 3
+2025-04-26 23:14:05 - User logged in successfully
+2025-04-26 23:14:05 - Responding to AJAX request, role: customer
+2025-05-02 08:53:22 - Login attempt started
+2025-05-02 08:53:22 - Config loaded
+2025-05-02 08:53:22 - DB loaded
+2025-05-02 08:53:22 - Auth loaded
+2025-05-02 08:53:22 - Functions loaded
+2025-05-02 08:53:22 - Constants loaded
+2025-05-02 08:53:22 - Session started
+2025-05-02 08:53:22 - Received login attempt for: hanzam
+2025-05-02 08:53:22 - Connected to database
+2025-05-02 08:53:23 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-02 08:53:23 - User query complete
+2025-05-02 08:53:23 - Verifying password for user ID: 3
+2025-05-02 08:53:23 - Submitted password: kirk123
+2025-05-02 08:53:23 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-02 08:53:23 - Password verified with password_verify()
+2025-05-02 08:53:23 - Password verification successful
+2025-05-02 08:53:23 - Password verified, logging in user ID: 3
+2025-05-02 08:53:23 - User logged in successfully
+2025-05-02 08:53:23 - Responding to AJAX request, role: customer
+2025-05-02 11:29:47 - Login attempt started
+2025-05-02 11:29:47 - Config loaded
+2025-05-02 11:29:47 - DB loaded
+2025-05-02 11:29:47 - Auth loaded
+2025-05-02 11:29:47 - Functions loaded
+2025-05-02 11:29:47 - Constants loaded
+2025-05-02 11:29:47 - Session started
+2025-05-02 11:29:47 - Received login attempt for: hanzam
+2025-05-02 11:29:47 - Connected to database
+2025-05-02 11:29:47 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-02 11:29:47 - User query complete
+2025-05-02 11:29:47 - Verifying password for user ID: 3
+2025-05-02 11:29:47 - Submitted password: kirk123
+2025-05-02 11:29:47 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-02 11:29:47 - Password verified with password_verify()
+2025-05-02 11:29:47 - Password verification successful
+2025-05-02 11:29:47 - Password verified, logging in user ID: 3
+2025-05-02 11:29:47 - User logged in successfully
+2025-05-02 11:29:47 - Responding to AJAX request, role: customer
+2025-05-02 11:56:11 - Login attempt started
+2025-05-02 11:56:11 - Config loaded
+2025-05-02 11:56:11 - DB loaded
+2025-05-02 11:56:11 - Auth loaded
+2025-05-02 11:56:11 - Functions loaded
+2025-05-02 11:56:11 - Constants loaded
+2025-05-02 11:56:11 - Session started
+2025-05-02 11:56:11 - Received login attempt for: Hanzam
+2025-05-02 11:56:11 - Connected to database
+2025-05-02 11:56:11 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-02 11:56:11 - User query complete
+2025-05-02 11:56:11 - Verifying password for user ID: 3
+2025-05-02 11:56:11 - Submitted password: kirk123
+2025-05-02 11:56:11 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-02 11:56:11 - Password verified with password_verify()
+2025-05-02 11:56:11 - Password verification successful
+2025-05-02 11:56:11 - Password verified, logging in user ID: 3
+2025-05-02 11:56:11 - User logged in successfully
+2025-05-02 11:56:11 - Responding to AJAX request, role: customer
+2025-05-03 19:54:51 - Login attempt started
+2025-05-03 19:54:51 - Config loaded
+2025-05-03 19:54:51 - DB loaded
+2025-05-03 19:54:51 - Auth loaded
+2025-05-03 19:54:51 - Functions loaded
+2025-05-03 19:54:51 - Constants loaded
+2025-05-03 19:54:51 - Session started
+2025-05-03 19:54:51 - Received login attempt for: hanzam
+2025-05-03 19:54:51 - Connected to database
+2025-05-03 19:54:51 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-03 19:54:51 - User query complete
+2025-05-03 19:54:51 - Verifying password for user ID: 3
+2025-05-03 19:54:51 - Submitted password: kirk123
+2025-05-03 19:54:51 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-03 19:54:51 - Password verified with password_verify()
+2025-05-03 19:54:51 - Password verification successful
+2025-05-03 19:54:51 - Password verified, logging in user ID: 3
+2025-05-03 19:54:51 - User logged in successfully
+2025-05-03 19:54:51 - Responding to AJAX request, role: customer
+2025-05-03 20:56:02 - Login attempt started
+2025-05-03 20:56:02 - Config loaded
+2025-05-03 20:56:02 - DB loaded
+2025-05-03 20:56:02 - Auth loaded
+2025-05-03 20:56:02 - Functions loaded
+2025-05-03 20:56:02 - Constants loaded
+2025-05-03 20:56:02 - Session started
+2025-05-03 20:56:02 - Received login attempt for: Hanzam
+2025-05-03 20:56:02 - Connected to database
+2025-05-03 20:56:02 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-03 20:56:02 - User query complete
+2025-05-03 20:56:02 - Verifying password for user ID: 3
+2025-05-03 20:56:02 - Submitted password: kirk123
+2025-05-03 20:56:02 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-03 20:56:02 - Password verified with password_verify()
+2025-05-03 20:56:02 - Password verification successful
+2025-05-03 20:56:02 - Password verified, logging in user ID: 3
+2025-05-03 20:56:02 - User logged in successfully
+2025-05-03 20:56:02 - Responding to AJAX request, role: customer
+2025-05-04 03:25:48 - Login attempt started
+2025-05-04 03:25:48 - Config loaded
+2025-05-04 03:25:48 - DB loaded
+2025-05-04 03:25:48 - Auth loaded
+2025-05-04 03:25:48 - Functions loaded
+2025-05-04 03:25:48 - Constants loaded
+2025-05-04 03:25:48 - Session started
+2025-05-04 03:25:48 - Received login attempt for: hanzam
+2025-05-04 03:25:48 - Connected to database
+2025-05-04 03:25:48 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 03:25:48 - User query complete
+2025-05-04 03:25:48 - Verifying password for user ID: 3
+2025-05-04 03:25:48 - Submitted password: kirk123
+2025-05-04 03:25:48 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 03:25:48 - Password verified with password_verify()
+2025-05-04 03:25:48 - Password verification successful
+2025-05-04 03:25:48 - Password verified, logging in user ID: 3
+2025-05-04 03:25:48 - User logged in successfully
+2025-05-04 03:25:48 - Responding to AJAX request, role: customer
+2025-05-04 04:33:30 - Login attempt started
+2025-05-04 04:33:30 - Config loaded
+2025-05-04 04:33:30 - DB loaded
+2025-05-04 04:33:30 - Auth loaded
+2025-05-04 04:33:30 - Functions loaded
+2025-05-04 04:33:30 - Constants loaded
+2025-05-04 04:33:30 - Session started
+2025-05-04 04:33:30 - Received login attempt for: hanzam
+2025-05-04 04:33:30 - Connected to database
+2025-05-04 04:33:30 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 04:33:30 - User query complete
+2025-05-04 04:33:30 - Verifying password for user ID: 3
+2025-05-04 04:33:30 - Submitted password: s398022tt
+2025-05-04 04:33:30 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 04:33:30 - Password verification failed
+2025-05-04 04:33:35 - Login attempt started
+2025-05-04 04:33:35 - Config loaded
+2025-05-04 04:33:35 - DB loaded
+2025-05-04 04:33:35 - Auth loaded
+2025-05-04 04:33:35 - Functions loaded
+2025-05-04 04:33:35 - Constants loaded
+2025-05-04 04:33:35 - Session started
+2025-05-04 04:33:35 - Received login attempt for: hanzam
+2025-05-04 04:33:35 - Connected to database
+2025-05-04 04:33:35 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 04:33:35 - User query complete
+2025-05-04 04:33:35 - Verifying password for user ID: 3
+2025-05-04 04:33:35 - Submitted password: kirk123
+2025-05-04 04:33:35 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 04:33:35 - Password verified with password_verify()
+2025-05-04 04:33:35 - Password verification successful
+2025-05-04 04:33:35 - Password verified, logging in user ID: 3
+2025-05-04 04:33:35 - User logged in successfully
+2025-05-04 04:33:35 - Responding to AJAX request, role: customer
+2025-05-04 05:04:20 - Login attempt started
+2025-05-04 05:04:20 - Config loaded
+2025-05-04 05:04:20 - DB loaded
+2025-05-04 05:04:20 - Auth loaded
+2025-05-04 05:04:20 - Functions loaded
+2025-05-04 05:04:20 - Constants loaded
+2025-05-04 05:04:20 - Session started
+2025-05-04 05:04:20 - Received login attempt for: hanzam
+2025-05-04 05:04:20 - Connected to database
+2025-05-04 05:04:20 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 05:04:20 - User query complete
+2025-05-04 05:04:20 - Verifying password for user ID: 3
+2025-05-04 05:04:20 - Submitted password: kirk123
+2025-05-04 05:04:20 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 05:04:20 - Password verified with password_verify()
+2025-05-04 05:04:20 - Password verification successful
+2025-05-04 05:04:20 - Password verified, logging in user ID: 3
+2025-05-04 05:04:20 - User logged in successfully
+2025-05-04 05:04:20 - Responding to AJAX request, role: customer
+2025-05-04 05:09:31 - Login attempt started
+2025-05-04 05:09:31 - Config loaded
+2025-05-04 05:09:31 - DB loaded
+2025-05-04 05:09:31 - Auth loaded
+2025-05-04 05:09:31 - Functions loaded
+2025-05-04 05:09:31 - Constants loaded
+2025-05-04 05:09:31 - Session started
+2025-05-04 05:09:31 - Received login attempt for: hanzam
+2025-05-04 05:09:31 - Connected to database
+2025-05-04 05:09:31 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 05:09:31 - User query complete
+2025-05-04 05:09:31 - Verifying password for user ID: 3
+2025-05-04 05:09:31 - Submitted password: kirk123
+2025-05-04 05:09:31 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 05:09:31 - Password verified with password_verify()
+2025-05-04 05:09:31 - Password verification successful
+2025-05-04 05:09:31 - Password verified, logging in user ID: 3
+2025-05-04 05:09:31 - User logged in successfully
+2025-05-04 05:09:31 - Responding to AJAX request, role: customer
+2025-05-04 05:36:13 - Login attempt started
+2025-05-04 05:36:13 - Config loaded
+2025-05-04 05:36:13 - DB loaded
+2025-05-04 05:36:13 - Auth loaded
+2025-05-04 05:36:13 - Functions loaded
+2025-05-04 05:36:13 - Constants loaded
+2025-05-04 05:36:13 - Session started
+2025-05-04 05:36:13 - Received login attempt for: hanzam
+2025-05-04 05:36:13 - Connected to database
+2025-05-04 05:36:13 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 05:36:13 - User query complete
+2025-05-04 05:36:13 - Verifying password for user ID: 3
+2025-05-04 05:36:13 - Submitted password: kirk123
+2025-05-04 05:36:13 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 05:36:13 - Password verified with password_verify()
+2025-05-04 05:36:13 - Password verification successful
+2025-05-04 05:36:13 - Password verified, logging in user ID: 3
+2025-05-04 05:36:13 - User logged in successfully
+2025-05-04 05:36:13 - Responding to AJAX request, role: customer
+2025-05-04 05:44:29 - Login attempt started
+2025-05-04 05:44:29 - Config loaded
+2025-05-04 05:44:29 - DB loaded
+2025-05-04 05:44:29 - Auth loaded
+2025-05-04 05:44:29 - Functions loaded
+2025-05-04 05:44:29 - Constants loaded
+2025-05-04 05:44:29 - Session started
+2025-05-04 05:44:29 - Received login attempt for: hanzam
+2025-05-04 05:44:29 - Connected to database
+2025-05-04 05:44:29 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 05:44:29 - User query complete
+2025-05-04 05:44:29 - Verifying password for user ID: 3
+2025-05-04 05:44:29 - Submitted password: kirk123
+2025-05-04 05:44:29 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 05:44:29 - Password verified with password_verify()
+2025-05-04 05:44:29 - Password verification successful
+2025-05-04 05:44:29 - Password verified, logging in user ID: 3
+2025-05-04 05:44:29 - User logged in successfully
+2025-05-04 05:44:29 - Responding to AJAX request, role: customer
+2025-05-04 05:53:28 - Login attempt started
+2025-05-04 05:53:28 - Config loaded
+2025-05-04 05:53:28 - DB loaded
+2025-05-04 05:53:28 - Auth loaded
+2025-05-04 05:53:28 - Functions loaded
+2025-05-04 05:53:28 - Constants loaded
+2025-05-04 05:53:28 - Session started
+2025-05-04 05:53:28 - Received login attempt for: hanzam
+2025-05-04 05:53:28 - Connected to database
+2025-05-04 05:53:28 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 05:53:28 - User query complete
+2025-05-04 05:53:28 - Verifying password for user ID: 3
+2025-05-04 05:53:28 - Submitted password: kirk123
+2025-05-04 05:53:28 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 05:53:28 - Password verified with password_verify()
+2025-05-04 05:53:28 - Password verification successful
+2025-05-04 05:53:28 - Password verified, logging in user ID: 3
+2025-05-04 05:53:28 - User logged in successfully
+2025-05-04 05:53:28 - Responding to AJAX request, role: customer
+2025-05-04 06:09:15 - Login attempt started
+2025-05-04 06:09:15 - Config loaded
+2025-05-04 06:09:15 - DB loaded
+2025-05-04 06:09:15 - Auth loaded
+2025-05-04 06:09:15 - Functions loaded
+2025-05-04 06:09:15 - Constants loaded
+2025-05-04 06:09:15 - Session started
+2025-05-04 06:09:15 - Received login attempt for: hanzam
+2025-05-04 06:09:15 - Connected to database
+2025-05-04 06:09:15 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 06:09:15 - User query complete
+2025-05-04 06:09:15 - Verifying password for user ID: 3
+2025-05-04 06:09:15 - Submitted password: kirk123
+2025-05-04 06:09:15 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 06:09:15 - Password verified with password_verify()
+2025-05-04 06:09:15 - Password verification successful
+2025-05-04 06:09:15 - Password verified, logging in user ID: 3
+2025-05-04 06:09:15 - User logged in successfully
+2025-05-04 06:09:15 - Responding to AJAX request, role: customer
+2025-05-04 06:25:32 - Login attempt started
+2025-05-04 06:25:32 - Config loaded
+2025-05-04 06:25:32 - DB loaded
+2025-05-04 06:25:32 - Auth loaded
+2025-05-04 06:25:32 - Functions loaded
+2025-05-04 06:25:32 - Constants loaded
+2025-05-04 06:25:32 - Session started
+2025-05-04 06:25:32 - Received login attempt for: hanzam
+2025-05-04 06:25:32 - Connected to database
+2025-05-04 06:25:32 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 06:25:32 - User query complete
+2025-05-04 06:25:32 - Verifying password for user ID: 3
+2025-05-04 06:25:32 - Submitted password: kirk123
+2025-05-04 06:25:32 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 06:25:32 - Password verified with password_verify()
+2025-05-04 06:25:32 - Password verification successful
+2025-05-04 06:25:32 - Password verified, logging in user ID: 3
+2025-05-04 06:25:32 - User logged in successfully
+2025-05-04 06:25:32 - Responding to AJAX request, role: customer
+2025-05-04 06:27:24 - Login attempt started
+2025-05-04 06:27:24 - Config loaded
+2025-05-04 06:27:24 - DB loaded
+2025-05-04 06:27:24 - Auth loaded
+2025-05-04 06:27:24 - Functions loaded
+2025-05-04 06:27:24 - Constants loaded
+2025-05-04 06:27:24 - Session started
+2025-05-04 06:27:24 - Received login attempt for: hanzam
+2025-05-04 06:27:24 - Connected to database
+2025-05-04 06:27:24 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 06:27:24 - User query complete
+2025-05-04 06:27:24 - Verifying password for user ID: 3
+2025-05-04 06:27:24 - Submitted password: kirk123
+2025-05-04 06:27:24 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 06:27:24 - Password verified with password_verify()
+2025-05-04 06:27:24 - Password verification successful
+2025-05-04 06:27:24 - Password verified, logging in user ID: 3
+2025-05-04 06:27:24 - User logged in successfully
+2025-05-04 06:27:24 - Responding to AJAX request, role: customer
+2025-05-04 06:47:44 - Login attempt started
+2025-05-04 06:47:44 - Config loaded
+2025-05-04 06:47:44 - DB loaded
+2025-05-04 06:47:44 - Auth loaded
+2025-05-04 06:47:44 - Functions loaded
+2025-05-04 06:47:44 - Constants loaded
+2025-05-04 06:47:44 - Session started
+2025-05-04 06:47:44 - Received login attempt for: hanzam
+2025-05-04 06:47:44 - Connected to database
+2025-05-04 06:47:44 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 06:47:44 - User query complete
+2025-05-04 06:47:44 - Verifying password for user ID: 3
+2025-05-04 06:47:44 - Submitted password: kirk123
+2025-05-04 06:47:44 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 06:47:44 - Password verified with password_verify()
+2025-05-04 06:47:44 - Password verification successful
+2025-05-04 06:47:44 - Password verified, logging in user ID: 3
+2025-05-04 06:47:44 - User logged in successfully
+2025-05-04 06:47:44 - Responding to AJAX request, role: customer
+2025-05-04 07:02:50 - Login attempt started
+2025-05-04 07:02:50 - Config loaded
+2025-05-04 07:02:50 - DB loaded
+2025-05-04 07:02:50 - Auth loaded
+2025-05-04 07:02:50 - Functions loaded
+2025-05-04 07:02:50 - Constants loaded
+2025-05-04 07:02:50 - Session started
+2025-05-04 07:02:50 - Received login attempt for: hanzam
+2025-05-04 07:02:50 - Connected to database
+2025-05-04 07:02:50 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 07:02:50 - User query complete
+2025-05-04 07:02:50 - Verifying password for user ID: 3
+2025-05-04 07:02:50 - Submitted password: kirk123
+2025-05-04 07:02:50 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 07:02:50 - Password verified with password_verify()
+2025-05-04 07:02:50 - Password verification successful
+2025-05-04 07:02:50 - Password verified, logging in user ID: 3
+2025-05-04 07:02:50 - User logged in successfully
+2025-05-04 07:02:50 - Responding to AJAX request, role: customer
+2025-05-04 07:03:34 - Login attempt started
+2025-05-04 07:03:34 - Config loaded
+2025-05-04 07:03:34 - DB loaded
+2025-05-04 07:03:34 - Auth loaded
+2025-05-04 07:03:34 - Functions loaded
+2025-05-04 07:03:34 - Constants loaded
+2025-05-04 07:03:34 - Session started
+2025-05-04 07:03:34 - Received login attempt for: hanzam
+2025-05-04 07:03:34 - Connected to database
+2025-05-04 07:03:34 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 07:03:34 - User query complete
+2025-05-04 07:03:34 - Verifying password for user ID: 3
+2025-05-04 07:03:34 - Submitted password: kirk123
+2025-05-04 07:03:34 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 07:03:34 - Password verified with password_verify()
+2025-05-04 07:03:34 - Password verification successful
+2025-05-04 07:03:34 - Password verified, logging in user ID: 3
+2025-05-04 07:03:34 - User logged in successfully
+2025-05-04 07:03:34 - Responding to AJAX request, role: customer
+2025-05-04 07:24:05 - Login attempt started
+2025-05-04 07:24:05 - Config loaded
+2025-05-04 07:24:05 - DB loaded
+2025-05-04 07:24:05 - Auth loaded
+2025-05-04 07:24:05 - Functions loaded
+2025-05-04 07:24:05 - Constants loaded
+2025-05-04 07:24:05 - Session started
+2025-05-04 07:24:05 - Received login attempt for: hanzam
+2025-05-04 07:24:05 - Connected to database
+2025-05-04 07:24:05 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 07:24:05 - User query complete
+2025-05-04 07:24:05 - Verifying password for user ID: 3
+2025-05-04 07:24:05 - Submitted password: kirk123
+2025-05-04 07:24:05 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 07:24:05 - Password verified with password_verify()
+2025-05-04 07:24:05 - Password verification successful
+2025-05-04 07:24:05 - Password verified, logging in user ID: 3
+2025-05-04 07:24:05 - User logged in successfully
+2025-05-04 07:24:05 - Responding to AJAX request, role: customer
+2025-05-04 08:06:12 - Login attempt started
+2025-05-04 08:06:12 - Config loaded
+2025-05-04 08:06:12 - DB loaded
+2025-05-04 08:06:12 - Auth loaded
+2025-05-04 08:06:12 - Functions loaded
+2025-05-04 08:06:12 - Constants loaded
+2025-05-04 08:06:12 - Session started
+2025-05-04 08:06:12 - Received login attempt for: hanzam
+2025-05-04 08:06:12 - Connected to database
+2025-05-04 08:06:12 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 08:06:12 - User query complete
+2025-05-04 08:06:12 - Verifying password for user ID: 3
+2025-05-04 08:06:12 - Submitted password: kirk123
+2025-05-04 08:06:12 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 08:06:12 - Password verified with password_verify()
+2025-05-04 08:06:12 - Password verification successful
+2025-05-04 08:06:12 - Password verified, logging in user ID: 3
+2025-05-04 08:06:12 - User logged in successfully
+2025-05-04 08:06:12 - Responding to AJAX request, role: customer
+2025-05-04 09:10:36 - Login attempt started
+2025-05-04 09:10:36 - Config loaded
+2025-05-04 09:10:36 - DB loaded
+2025-05-04 09:10:36 - Auth loaded
+2025-05-04 09:10:36 - Functions loaded
+2025-05-04 09:10:36 - Constants loaded
+2025-05-04 09:10:36 - Session started
+2025-05-04 09:10:36 - Received login attempt for: hanzam
+2025-05-04 09:10:36 - Connected to database
+2025-05-04 09:10:36 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 09:10:36 - User query complete
+2025-05-04 09:10:36 - Verifying password for user ID: 3
+2025-05-04 09:10:36 - Submitted password: kirk123
+2025-05-04 09:10:36 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 09:10:36 - Password verified with password_verify()
+2025-05-04 09:10:36 - Password verification successful
+2025-05-04 09:10:36 - Password verified, logging in user ID: 3
+2025-05-04 09:10:36 - User logged in successfully
+2025-05-04 09:10:36 - Responding to AJAX request, role: customer
+2025-05-04 10:17:01 - Login attempt started
+2025-05-04 10:17:01 - Config loaded
+2025-05-04 10:17:01 - DB loaded
+2025-05-04 10:17:01 - Auth loaded
+2025-05-04 10:17:01 - Functions loaded
+2025-05-04 10:17:01 - Constants loaded
+2025-05-04 10:17:01 - Session started
+2025-05-04 10:17:01 - Received login attempt for: hanzam
+2025-05-04 10:17:01 - Connected to database
+2025-05-04 10:17:01 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 10:17:01 - User query complete
+2025-05-04 10:17:01 - Verifying password for user ID: 3
+2025-05-04 10:17:01 - Submitted password: kirk123
+2025-05-04 10:17:01 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 10:17:01 - Password verified with password_verify()
+2025-05-04 10:17:01 - Password verification successful
+2025-05-04 10:17:01 - Password verified, logging in user ID: 3
+2025-05-04 10:17:01 - User logged in successfully
+2025-05-04 10:17:01 - Responding to AJAX request, role: customer
+2025-05-04 11:48:07 - Login attempt started
+2025-05-04 11:48:07 - Config loaded
+2025-05-04 11:48:07 - DB loaded
+2025-05-04 11:48:07 - Auth loaded
+2025-05-04 11:48:07 - Functions loaded
+2025-05-04 11:48:07 - Constants loaded
+2025-05-04 11:48:07 - Session started
+2025-05-04 11:48:07 - Received login attempt for: hanzam
+2025-05-04 11:48:07 - Connected to database
+2025-05-04 11:48:07 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 11:48:07 - User query complete
+2025-05-04 11:48:07 - Verifying password for user ID: 3
+2025-05-04 11:48:07 - Submitted password: kirk123
+2025-05-04 11:48:07 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 11:48:07 - Password verified with password_verify()
+2025-05-04 11:48:07 - Password verification successful
+2025-05-04 11:48:07 - Password verified, logging in user ID: 3
+2025-05-04 11:48:07 - User logged in successfully
+2025-05-04 11:48:07 - Responding to AJAX request, role: customer
+2025-05-04 12:50:03 - Login attempt started
+2025-05-04 12:50:03 - Config loaded
+2025-05-04 12:50:03 - DB loaded
+2025-05-04 12:50:03 - Auth loaded
+2025-05-04 12:50:03 - Functions loaded
+2025-05-04 12:50:03 - Constants loaded
+2025-05-04 12:50:03 - Session started
+2025-05-04 12:50:03 - Received login attempt for: hanzam
+2025-05-04 12:50:03 - Connected to database
+2025-05-04 12:50:03 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 12:50:03 - User query complete
+2025-05-04 12:50:03 - Verifying password for user ID: 3
+2025-05-04 12:50:03 - Submitted password: kirk123
+2025-05-04 12:50:03 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 12:50:03 - Password verified with password_verify()
+2025-05-04 12:50:03 - Password verification successful
+2025-05-04 12:50:03 - Password verified, logging in user ID: 3
+2025-05-04 12:50:03 - User logged in successfully
+2025-05-04 12:50:03 - Responding to AJAX request, role: customer
+2025-05-04 14:48:29 - Login attempt started
+2025-05-04 14:48:29 - Config loaded
+2025-05-04 14:48:29 - DB loaded
+2025-05-04 14:48:29 - Auth loaded
+2025-05-04 14:48:29 - Functions loaded
+2025-05-04 14:48:29 - Constants loaded
+2025-05-04 14:48:29 - Session started
+2025-05-04 14:48:29 - Received login attempt for: hanzam
+2025-05-04 14:48:29 - Connected to database
+2025-05-04 14:48:29 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 14:48:29 - User query complete
+2025-05-04 14:48:29 - Verifying password for user ID: 3
+2025-05-04 14:48:29 - Submitted password: kirk123
+2025-05-04 14:48:29 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 14:48:29 - Password verified with password_verify()
+2025-05-04 14:48:29 - Password verification successful
+2025-05-04 14:48:29 - Password verified, logging in user ID: 3
+2025-05-04 14:48:29 - User logged in successfully
+2025-05-04 14:48:29 - Responding to AJAX request, role: customer
+2025-05-04 17:16:17 - Login attempt started
+2025-05-04 17:16:17 - Config loaded
+2025-05-04 17:16:17 - DB loaded
+2025-05-04 17:16:17 - Auth loaded
+2025-05-04 17:16:17 - Functions loaded
+2025-05-04 17:16:17 - Constants loaded
+2025-05-04 17:16:17 - Session started
+2025-05-04 17:16:17 - Received login attempt for: hanzam
+2025-05-04 17:16:17 - Connected to database
+2025-05-04 17:16:17 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 17:16:17 - User query complete
+2025-05-04 17:16:17 - Verifying password for user ID: 3
+2025-05-04 17:16:17 - Submitted password: kirk123
+2025-05-04 17:16:17 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 17:16:17 - Password verified with password_verify()
+2025-05-04 17:16:17 - Password verification successful
+2025-05-04 17:16:17 - Password verified, logging in user ID: 3
+2025-05-04 17:16:17 - User logged in successfully
+2025-05-04 17:16:17 - Responding to AJAX request, role: customer
+2025-05-04 18:52:41 - Login attempt started
+2025-05-04 18:52:41 - Config loaded
+2025-05-04 18:52:41 - DB loaded
+2025-05-04 18:52:41 - Auth loaded
+2025-05-04 18:52:41 - Functions loaded
+2025-05-04 18:52:41 - Constants loaded
+2025-05-04 18:52:41 - Session started
+2025-05-04 18:52:41 - Received login attempt for: hanzam
+2025-05-04 18:52:41 - Connected to database
+2025-05-04 18:52:41 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 18:52:41 - User query complete
+2025-05-04 18:52:41 - Verifying password for user ID: 3
+2025-05-04 18:52:41 - Submitted password: kirk123
+2025-05-04 18:52:41 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 18:52:41 - Password verified with password_verify()
+2025-05-04 18:52:41 - Password verification successful
+2025-05-04 18:52:41 - Password verified, logging in user ID: 3
+2025-05-04 18:52:41 - User logged in successfully
+2025-05-04 18:52:41 - Responding to AJAX request, role: customer
+2025-05-04 20:29:49 - Login attempt started
+2025-05-04 20:29:49 - Config loaded
+2025-05-04 20:29:49 - DB loaded
+2025-05-04 20:29:49 - Auth loaded
+2025-05-04 20:29:49 - Functions loaded
+2025-05-04 20:29:49 - Constants loaded
+2025-05-04 20:29:49 - Session started
+2025-05-04 20:29:49 - Received login attempt for: hanzam
+2025-05-04 20:29:49 - Connected to database
+2025-05-04 20:29:49 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 20:29:49 - User query complete
+2025-05-04 20:29:49 - Verifying password for user ID: 3
+2025-05-04 20:29:49 - Submitted password: kirk123
+2025-05-04 20:29:49 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 20:29:49 - Password verified with password_verify()
+2025-05-04 20:29:49 - Password verification successful
+2025-05-04 20:29:49 - Password verified, logging in user ID: 3
+2025-05-04 20:29:49 - User logged in successfully
+2025-05-04 20:29:49 - Responding to AJAX request, role: customer
+2025-05-04 21:30:28 - Login attempt started
+2025-05-04 21:30:28 - Config loaded
+2025-05-04 21:30:28 - DB loaded
+2025-05-04 21:30:28 - Auth loaded
+2025-05-04 21:30:28 - Functions loaded
+2025-05-04 21:30:28 - Constants loaded
+2025-05-04 21:30:28 - Session started
+2025-05-04 21:30:28 - Received login attempt for: hanzam
+2025-05-04 21:30:28 - Connected to database
+2025-05-04 21:30:28 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 21:30:28 - User query complete
+2025-05-04 21:30:28 - Verifying password for user ID: 3
+2025-05-04 21:30:28 - Submitted password: kirk123
+2025-05-04 21:30:28 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 21:30:28 - Password verified with password_verify()
+2025-05-04 21:30:28 - Password verification successful
+2025-05-04 21:30:28 - Password verified, logging in user ID: 3
+2025-05-04 21:30:28 - User logged in successfully
+2025-05-04 21:30:28 - Responding to AJAX request, role: customer
+2025-05-04 22:41:25 - Login attempt started
+2025-05-04 22:41:25 - Config loaded
+2025-05-04 22:41:25 - DB loaded
+2025-05-04 22:41:25 - Auth loaded
+2025-05-04 22:41:25 - Functions loaded
+2025-05-04 22:41:25 - Constants loaded
+2025-05-04 22:41:25 - Session started
+2025-05-04 22:41:25 - Received login attempt for: hanzam
+2025-05-04 22:41:25 - Connected to database
+2025-05-04 22:41:25 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-04 22:41:25 - User query complete
+2025-05-04 22:41:25 - Verifying password for user ID: 3
+2025-05-04 22:41:25 - Submitted password: kirk123
+2025-05-04 22:41:25 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-04 22:41:25 - Password verified with password_verify()
+2025-05-04 22:41:25 - Password verification successful
+2025-05-04 22:41:25 - Password verified, logging in user ID: 3
+2025-05-04 22:41:25 - User logged in successfully
+2025-05-04 22:41:25 - Responding to AJAX request, role: customer
+2025-05-05 02:33:07 - Login attempt started
+2025-05-05 02:33:07 - Config loaded
+2025-05-05 02:33:07 - DB loaded
+2025-05-05 02:33:07 - Auth loaded
+2025-05-05 02:33:07 - Functions loaded
+2025-05-05 02:33:07 - Constants loaded
+2025-05-05 02:33:07 - Session started
+2025-05-05 02:33:07 - Received login attempt for: hanzam
+2025-05-05 02:33:07 - Connected to database
+2025-05-05 02:33:07 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 02:33:07 - User query complete
+2025-05-05 02:33:07 - Verifying password for user ID: 3
+2025-05-05 02:33:07 - Submitted password: kirk123
+2025-05-05 02:33:07 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 02:33:07 - Password verified with password_verify()
+2025-05-05 02:33:07 - Password verification successful
+2025-05-05 02:33:07 - Password verified, logging in user ID: 3
+2025-05-05 02:33:07 - User logged in successfully
+2025-05-05 02:33:07 - Responding to AJAX request, role: customer
+2025-05-05 03:33:44 - Login attempt started
+2025-05-05 03:33:44 - Config loaded
+2025-05-05 03:33:44 - DB loaded
+2025-05-05 03:33:44 - Auth loaded
+2025-05-05 03:33:44 - Functions loaded
+2025-05-05 03:33:44 - Constants loaded
+2025-05-05 03:33:44 - Session started
+2025-05-05 03:33:44 - Received login attempt for: hanzam
+2025-05-05 03:33:44 - Connected to database
+2025-05-05 03:33:44 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 03:33:44 - User query complete
+2025-05-05 03:33:44 - Verifying password for user ID: 3
+2025-05-05 03:33:44 - Submitted password: kirk123
+2025-05-05 03:33:44 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 03:33:44 - Password verified with password_verify()
+2025-05-05 03:33:44 - Password verification successful
+2025-05-05 03:33:44 - Password verified, logging in user ID: 3
+2025-05-05 03:33:44 - User logged in successfully
+2025-05-05 03:33:44 - Responding to AJAX request, role: customer
+2025-05-05 04:34:05 - Login attempt started
+2025-05-05 04:34:05 - Config loaded
+2025-05-05 04:34:05 - DB loaded
+2025-05-05 04:34:05 - Auth loaded
+2025-05-05 04:34:05 - Functions loaded
+2025-05-05 04:34:05 - Constants loaded
+2025-05-05 04:34:05 - Session started
+2025-05-05 04:34:05 - Received login attempt for: hanzam
+2025-05-05 04:34:05 - Connected to database
+2025-05-05 04:34:05 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 04:34:05 - User query complete
+2025-05-05 04:34:05 - Verifying password for user ID: 3
+2025-05-05 04:34:05 - Submitted password: kirk123
+2025-05-05 04:34:05 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 04:34:05 - Password verified with password_verify()
+2025-05-05 04:34:05 - Password verification successful
+2025-05-05 04:34:05 - Password verified, logging in user ID: 3
+2025-05-05 04:34:05 - User logged in successfully
+2025-05-05 04:34:05 - Responding to AJAX request, role: customer
+2025-05-05 05:17:42 - Login attempt started
+2025-05-05 05:17:42 - Config loaded
+2025-05-05 05:17:42 - DB loaded
+2025-05-05 05:17:42 - Auth loaded
+2025-05-05 05:17:42 - Functions loaded
+2025-05-05 05:17:42 - Constants loaded
+2025-05-05 05:17:42 - Session started
+2025-05-05 05:17:42 - Received login attempt for: hanzam
+2025-05-05 05:17:42 - Connected to database
+2025-05-05 05:17:42 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 05:17:42 - User query complete
+2025-05-05 05:17:42 - Verifying password for user ID: 3
+2025-05-05 05:17:42 - Submitted password: kirk123
+2025-05-05 05:17:42 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 05:17:42 - Password verified with password_verify()
+2025-05-05 05:17:42 - Password verification successful
+2025-05-05 05:17:42 - Password verified, logging in user ID: 3
+2025-05-05 05:17:42 - User logged in successfully
+2025-05-05 05:17:42 - Responding to AJAX request, role: customer
+2025-05-05 09:33:57 - Login attempt started
+2025-05-05 09:33:57 - Config loaded
+2025-05-05 09:33:57 - DB loaded
+2025-05-05 09:33:57 - Auth loaded
+2025-05-05 09:33:57 - Functions loaded
+2025-05-05 09:33:57 - Constants loaded
+2025-05-05 09:33:57 - Session started
+2025-05-05 09:33:57 - Received login attempt for: hanzam
+2025-05-05 09:33:57 - Connected to database
+2025-05-05 09:33:57 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 09:33:57 - User query complete
+2025-05-05 09:33:57 - Verifying password for user ID: 3
+2025-05-05 09:33:57 - Submitted password: kirk123
+2025-05-05 09:33:57 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 09:33:57 - Password verified with password_verify()
+2025-05-05 09:33:57 - Password verification successful
+2025-05-05 09:33:57 - Password verified, logging in user ID: 3
+2025-05-05 09:33:57 - User logged in successfully
+2025-05-05 09:33:57 - Responding to AJAX request, role: customer
+2025-05-05 17:07:17 - Login attempt started
+2025-05-05 17:07:17 - Config loaded
+2025-05-05 17:07:17 - DB loaded
+2025-05-05 17:07:17 - Auth loaded
+2025-05-05 17:07:17 - Functions loaded
+2025-05-05 17:07:17 - Constants loaded
+2025-05-05 17:07:17 - Session started
+2025-05-05 17:07:17 - Received login attempt for: hanzam
+2025-05-05 17:07:17 - Connected to database
+2025-05-05 17:07:17 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 17:07:17 - User query complete
+2025-05-05 17:07:17 - Verifying password for user ID: 3
+2025-05-05 17:07:17 - Submitted password: kirk123
+2025-05-05 17:07:17 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 17:07:17 - Password verified with password_verify()
+2025-05-05 17:07:17 - Password verification successful
+2025-05-05 17:07:17 - Password verified, logging in user ID: 3
+2025-05-05 17:07:17 - User logged in successfully
+2025-05-05 17:07:17 - Responding to AJAX request, role: customer
+2025-05-05 19:12:41 - Login attempt started
+2025-05-05 19:12:41 - Config loaded
+2025-05-05 19:12:41 - DB loaded
+2025-05-05 19:12:41 - Auth loaded
+2025-05-05 19:12:42 - Functions loaded
+2025-05-05 19:12:42 - Constants loaded
+2025-05-05 19:12:42 - Session started
+2025-05-05 19:12:42 - Received login attempt for: hanzam
+2025-05-05 19:12:42 - Connected to database
+2025-05-05 19:12:42 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 19:12:42 - User query complete
+2025-05-05 19:12:42 - Verifying password for user ID: 3
+2025-05-05 19:12:42 - Submitted password: kirk123
+2025-05-05 19:12:42 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 19:12:42 - Password verified with password_verify()
+2025-05-05 19:12:42 - Password verification successful
+2025-05-05 19:12:42 - Password verified, logging in user ID: 3
+2025-05-05 19:12:42 - User logged in successfully
+2025-05-05 19:12:42 - Responding to AJAX request, role: customer
+2025-05-05 21:38:07 - Login attempt started
+2025-05-05 21:38:07 - Config loaded
+2025-05-05 21:38:07 - DB loaded
+2025-05-05 21:38:07 - Auth loaded
+2025-05-05 21:38:07 - Functions loaded
+2025-05-05 21:38:07 - Constants loaded
+2025-05-05 21:38:07 - Session started
+2025-05-05 21:38:07 - Received login attempt for: hanzam
+2025-05-05 21:38:07 - Connected to database
+2025-05-05 21:38:07 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 21:38:07 - User query complete
+2025-05-05 21:38:07 - Verifying password for user ID: 3
+2025-05-05 21:38:07 - Submitted password: kirk123
+2025-05-05 21:38:07 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 21:38:07 - Password verified with password_verify()
+2025-05-05 21:38:07 - Password verification successful
+2025-05-05 21:38:07 - Password verified, logging in user ID: 3
+2025-05-05 21:38:07 - User logged in successfully
+2025-05-05 21:38:07 - Responding to AJAX request, role: customer
+2025-05-05 23:29:18 - Login attempt started
+2025-05-05 23:29:18 - Config loaded
+2025-05-05 23:29:18 - DB loaded
+2025-05-05 23:29:18 - Auth loaded
+2025-05-05 23:29:18 - Functions loaded
+2025-05-05 23:29:18 - Constants loaded
+2025-05-05 23:29:18 - Session started
+2025-05-05 23:29:18 - Received login attempt for: hanzam
+2025-05-05 23:29:18 - Connected to database
+2025-05-05 23:29:18 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 23:29:18 - User query complete
+2025-05-05 23:29:18 - Verifying password for user ID: 3
+2025-05-05 23:29:18 - Submitted password: kirk123
+2025-05-05 23:29:18 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 23:29:19 - Password verified with password_verify()
+2025-05-05 23:29:19 - Password verification successful
+2025-05-05 23:29:19 - Password verified, logging in user ID: 3
+2025-05-05 23:29:19 - User logged in successfully
+2025-05-05 23:29:19 - Responding to AJAX request, role: customer
+2025-05-05 23:49:09 - Login attempt started
+2025-05-05 23:49:09 - Config loaded
+2025-05-05 23:49:09 - DB loaded
+2025-05-05 23:49:09 - Auth loaded
+2025-05-05 23:49:09 - Functions loaded
+2025-05-05 23:49:09 - Constants loaded
+2025-05-05 23:49:09 - Session started
+2025-05-05 23:49:09 - Received login attempt for: admin@ayskrim.com
+2025-05-05 23:49:09 - Connected to database
+2025-05-05 23:49:09 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 23:49:09 - User query complete
+2025-05-05 23:49:09 - Verifying password for user ID: 2
+2025-05-05 23:49:09 - Submitted password: admin123
+2025-05-05 23:49:09 - Stored hash: admin123
+2025-05-05 23:49:09 - Password matched using direct comparison (for testing only)
+2025-05-05 23:49:09 - Password verification successful
+2025-05-05 23:49:09 - Password verified, logging in user ID: 2
+2025-05-05 23:49:09 - User logged in successfully
+2025-05-05 23:49:09 - Standard form submission, redirecting user role: admin
+2025-05-05 23:49:09 - Redirecting admin to: /ayskrimWebsite/adminPage/dashboard/dashboard.php
+2025-05-05 23:50:52 - Login attempt started
+2025-05-05 23:50:52 - Config loaded
+2025-05-05 23:50:52 - DB loaded
+2025-05-05 23:50:52 - Auth loaded
+2025-05-05 23:50:52 - Functions loaded
+2025-05-05 23:50:52 - Constants loaded
+2025-05-05 23:50:52 - Session started
+2025-05-05 23:50:52 - Received login attempt for: imhanzam@gmail.com
+2025-05-05 23:50:52 - Connected to database
+2025-05-05 23:50:52 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 23:50:52 - User query complete
+2025-05-05 23:50:52 - Verifying password for user ID: 3
+2025-05-05 23:50:52 - Submitted password: kirk123
+2025-05-05 23:50:52 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 23:50:52 - Login attempt started
+2025-05-05 23:50:52 - Config loaded
+2025-05-05 23:50:52 - DB loaded
+2025-05-05 23:50:52 - Auth loaded
+2025-05-05 23:50:52 - Functions loaded
+2025-05-05 23:50:52 - Constants loaded
+2025-05-05 23:50:52 - Password verified with password_verify()
+2025-05-05 23:50:52 - Password verification successful
+2025-05-05 23:50:52 - Password verified, logging in user ID: 3
+2025-05-05 23:50:52 - User logged in successfully
+2025-05-05 23:50:52 - Standard form submission, redirecting user role: customer
+2025-05-05 23:50:52 - Redirecting customer to: http://localhost/ayskrimWebsite/landingPage/home/home.php
+2025-05-05 23:50:52 - Session started
+2025-05-05 23:50:52 - Received login attempt for: imhanzam@gmail.com
+2025-05-05 23:50:52 - Connected to database
+2025-05-05 23:50:52 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-05 23:50:52 - User query complete
+2025-05-05 23:50:52 - Verifying password for user ID: 3
+2025-05-05 23:50:52 - Submitted password: kirk123
+2025-05-05 23:50:52 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-05 23:50:52 - Password verified with password_verify()
+2025-05-05 23:50:52 - Password verification successful
+2025-05-05 23:50:52 - Password verified, logging in user ID: 3
+2025-05-05 23:50:52 - User logged in successfully
+2025-05-05 23:50:52 - Standard form submission, redirecting user role: customer
+2025-05-05 23:50:52 - Redirecting customer to: http://localhost/ayskrimWebsite/landingPage/home/home.php
+2025-05-06 04:39:20 - Login attempt started
+2025-05-06 04:39:20 - Config loaded
+2025-05-06 04:39:20 - DB loaded
+2025-05-06 04:39:20 - Auth loaded
+2025-05-06 04:39:20 - Functions loaded
+2025-05-06 04:39:20 - Constants loaded
+2025-05-06 04:39:20 - Session started
+2025-05-06 04:39:20 - Setting default redirect to menu
+2025-05-06 04:39:20 - Received login attempt for: js@gmail.com
+2025-05-06 04:39:20 - Connected to database
+2025-05-06 04:39:20 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-06 04:39:20 - User query complete
+2025-05-06 04:39:20 - Verifying password for user ID: 9
+2025-05-06 04:39:20 - Submitted password: dakmat123
+2025-05-06 04:39:20 - Stored hash: $2y$10$ggpL7B7wrrYu4pUX68v4G.S3qfN.vqY.JwAFG9A98EylaETsL0nWO
+2025-05-06 04:39:20 - Password verified with password_verify()
+2025-05-06 04:39:20 - Password verification successful
+2025-05-06 04:39:20 - Password verified, logging in user ID: 9
+2025-05-06 04:39:20 - User logged in successfully
+2025-05-06 04:39:20 - Standard form submission, redirecting user role: customer
+2025-05-06 04:39:20 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-06 04:53:49 - Login attempt started
+2025-05-06 04:53:49 - Config loaded
+2025-05-06 04:53:49 - DB loaded
+2025-05-06 04:53:49 - Auth loaded
+2025-05-06 04:53:49 - Functions loaded
+2025-05-06 04:53:49 - Constants loaded
+2025-05-06 04:53:49 - Session started
+2025-05-06 04:53:49 - Setting default redirect to menu
+2025-05-06 04:53:49 - Received login attempt for: imhanzam@gmail.com
+2025-05-06 04:53:49 - Connected to database
+2025-05-06 04:53:49 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-06 04:53:49 - User query complete
+2025-05-06 04:53:49 - Verifying password for user ID: 3
+2025-05-06 04:53:49 - Submitted password: kirk123
+2025-05-06 04:53:49 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-06 04:53:49 - Password verified with password_verify()
+2025-05-06 04:53:49 - Password verification successful
+2025-05-06 04:53:49 - Password verified, logging in user ID: 3
+2025-05-06 04:53:49 - User logged in successfully
+2025-05-06 04:53:49 - Standard form submission, redirecting user role: customer
+2025-05-06 04:53:49 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-06 07:45:36 - Login attempt started
+2025-05-06 07:45:36 - Config loaded
+2025-05-06 07:45:36 - DB loaded
+2025-05-06 07:45:36 - Auth loaded
+2025-05-06 07:45:36 - Functions loaded
+2025-05-06 07:45:36 - Constants loaded
+2025-05-06 07:45:36 - Session started
+2025-05-06 07:45:36 - Setting default redirect to menu
+2025-05-06 07:45:36 - Received login attempt for: imhanzam@gmail.com
+2025-05-06 07:45:36 - Connected to database
+2025-05-06 07:45:36 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-06 07:45:36 - User query complete
+2025-05-06 07:45:36 - Verifying password for user ID: 3
+2025-05-06 07:45:36 - Submitted password: kirk123
+2025-05-06 07:45:36 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-06 07:45:36 - Password verified with password_verify()
+2025-05-06 07:45:36 - Password verification successful
+2025-05-06 07:45:36 - Password verified, logging in user ID: 3
+2025-05-06 07:45:36 - User logged in successfully
+2025-05-06 07:45:36 - Standard form submission, redirecting user role: customer
+2025-05-06 07:45:36 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-06 18:30:25 - Login attempt started
+2025-05-06 18:30:25 - Config loaded
+2025-05-06 18:30:25 - DB loaded
+2025-05-06 18:30:25 - Auth loaded
+2025-05-06 18:30:25 - Functions loaded
+2025-05-06 18:30:25 - Constants loaded
+2025-05-06 18:30:25 - Session started
+2025-05-06 18:30:25 - Setting default redirect to menu
+2025-05-06 18:30:25 - Received login attempt for: imhanzam@gmail.com
+2025-05-06 18:30:25 - Connected to database
+2025-05-06 18:30:25 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-06 18:30:25 - User query complete
+2025-05-06 18:30:25 - Verifying password for user ID: 3
+2025-05-06 18:30:25 - Submitted password: kirk123
+2025-05-06 18:30:25 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-06 18:30:25 - Password verified with password_verify()
+2025-05-06 18:30:25 - Password verification successful
+2025-05-06 18:30:25 - Password verified, logging in user ID: 3
+2025-05-06 18:30:25 - User logged in successfully
+2025-05-06 18:30:25 - Standard form submission, redirecting user role: customer
+2025-05-06 18:30:25 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-07 03:01:43 - Login attempt started
+2025-05-07 03:01:43 - Config loaded
+2025-05-07 03:01:43 - DB loaded
+2025-05-07 03:01:43 - Auth loaded
+2025-05-07 03:01:43 - Functions loaded
+2025-05-07 03:01:43 - Constants loaded
+2025-05-07 03:01:43 - Session started
+2025-05-07 03:01:43 - Setting default redirect to menu
+2025-05-07 03:01:43 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 03:01:43 - Connected to database
+2025-05-07 03:01:43 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 03:01:43 - User query complete
+2025-05-07 03:01:43 - Verifying password for user ID: 3
+2025-05-07 03:01:43 - Submitted password: kirk123
+2025-05-07 03:01:43 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-07 03:01:43 - Password verified with password_verify()
+2025-05-07 03:01:43 - Password verification successful
+2025-05-07 03:01:43 - Password verified, logging in user ID: 3
+2025-05-07 03:01:43 - User logged in successfully
+2025-05-07 03:01:43 - Standard form submission, redirecting user role: customer
+2025-05-07 03:01:43 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-07 03:10:43 - Login attempt started
+2025-05-07 03:10:43 - Config loaded
+2025-05-07 03:10:43 - DB loaded
+2025-05-07 03:10:43 - Auth loaded
+2025-05-07 03:10:43 - Functions loaded
+2025-05-07 03:10:43 - Constants loaded
+2025-05-07 03:10:43 - Session started
+2025-05-07 03:10:43 - Setting default redirect to menu
+2025-05-07 03:10:43 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 03:10:43 - Connected to database
+2025-05-07 03:10:43 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 03:10:43 - User query complete
+2025-05-07 03:10:43 - Verifying password for user ID: 3
+2025-05-07 03:10:43 - Submitted password: kirk123
+2025-05-07 03:10:43 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-07 03:10:43 - Password verified with password_verify()
+2025-05-07 03:10:43 - Password verification successful
+2025-05-07 03:10:43 - Password verified, logging in user ID: 3
+2025-05-07 03:10:43 - User logged in successfully
+2025-05-07 03:10:43 - Standard form submission, redirecting user role: customer
+2025-05-07 03:10:43 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-07 03:34:54 - Login attempt started
+2025-05-07 03:34:54 - Config loaded
+2025-05-07 03:34:54 - DB loaded
+2025-05-07 03:34:54 - Auth loaded
+2025-05-07 03:34:54 - Functions loaded
+2025-05-07 03:34:54 - Constants loaded
+2025-05-07 03:34:54 - Session started
+2025-05-07 03:34:54 - Setting default redirect to menu
+2025-05-07 03:34:54 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 03:34:54 - Connected to database
+2025-05-07 03:34:54 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 03:34:54 - User query complete
+2025-05-07 03:34:54 - Verifying password for user ID: 3
+2025-05-07 03:34:54 - Submitted password: kirk123
+2025-05-07 03:34:54 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-07 03:34:54 - Password verified with password_verify()
+2025-05-07 03:34:54 - Password verification successful
+2025-05-07 03:34:54 - Password verified, logging in user ID: 3
+2025-05-07 03:34:54 - User logged in successfully
+2025-05-07 03:34:54 - Standard form submission, redirecting user role: customer
+2025-05-07 03:34:54 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-07 03:37:55 - Login attempt started
+2025-05-07 03:37:55 - Config loaded
+2025-05-07 03:37:55 - DB loaded
+2025-05-07 03:37:55 - Auth loaded
+2025-05-07 03:37:55 - Functions loaded
+2025-05-07 03:37:55 - Constants loaded
+2025-05-07 03:37:55 - Session started
+2025-05-07 03:37:55 - Setting default redirect to menu
+2025-05-07 03:37:55 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 03:37:55 - Connected to database
+2025-05-07 03:37:55 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 03:37:55 - User query complete
+2025-05-07 03:37:55 - Verifying password for user ID: 3
+2025-05-07 03:37:55 - Submitted password: kirk123
+2025-05-07 03:37:55 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-07 03:37:55 - Password verified with password_verify()
+2025-05-07 03:37:55 - Password verification successful
+2025-05-07 03:37:55 - Password verified, logging in user ID: 3
+2025-05-07 03:37:55 - User logged in successfully
+2025-05-07 03:37:55 - Standard form submission, redirecting user role: customer
+2025-05-07 03:37:55 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-07 03:57:58 - Login attempt started
+2025-05-07 03:57:58 - Config loaded
+2025-05-07 03:57:58 - DB loaded
+2025-05-07 03:57:58 - Auth loaded
+2025-05-07 03:57:58 - Functions loaded
+2025-05-07 03:57:58 - Constants loaded
+2025-05-07 03:57:58 - Session started
+2025-05-07 03:57:58 - Setting default redirect to menu
+2025-05-07 03:57:58 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 03:57:58 - Connected to database
+2025-05-07 03:57:58 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 03:57:58 - User query complete
+2025-05-07 03:57:58 - Verifying password for user ID: 3
+2025-05-07 03:57:58 - Submitted password: kirk123
+2025-05-07 03:57:58 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-07 03:57:58 - Password verified with password_verify()
+2025-05-07 03:57:58 - Password verification successful
+2025-05-07 03:57:58 - Password verified, logging in user ID: 3
+2025-05-07 03:57:58 - User logged in successfully
+2025-05-07 03:57:58 - Standard form submission, redirecting user role: customer
+2025-05-07 03:57:58 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-07 15:35:09 - Login attempt started
+2025-05-07 15:35:09 - Config loaded
+2025-05-07 15:35:09 - DB loaded
+2025-05-07 15:35:09 - Auth loaded
+2025-05-07 15:35:09 - Functions loaded
+2025-05-07 15:35:09 - Constants loaded
+2025-05-07 15:35:09 - Session started
+2025-05-07 15:35:09 - Setting default redirect to menu
+2025-05-07 15:35:09 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 15:35:09 - Connected to database
+2025-05-07 15:35:09 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 15:35:09 - User query complete
+2025-05-07 15:35:09 - Verifying password for user ID: 3
+2025-05-07 15:35:09 - Submitted password: kirk123
+2025-05-07 15:35:09 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-07 15:35:09 - Password verified with password_verify()
+2025-05-07 15:35:09 - Password verification successful
+2025-05-07 15:35:09 - Password verified, logging in user ID: 3
+2025-05-07 15:35:09 - User logged in successfully
+2025-05-07 15:35:09 - Standard form submission, redirecting user role: customer
+2025-05-07 15:35:09 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-07 18:46:34 - Login attempt started
+2025-05-07 18:46:34 - Config loaded
+2025-05-07 18:46:34 - DB loaded
+2025-05-07 18:46:34 - Auth loaded
+2025-05-07 18:46:34 - Functions loaded
+2025-05-07 18:46:34 - Constants loaded
+2025-05-07 18:46:34 - Session started
+2025-05-07 18:46:34 - Setting redirect to cart based on referer: http://localhost/ayskrimWebsite/landingPage/guest-cart.php
+2025-05-07 18:46:34 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 18:46:34 - Connected to database
+2025-05-07 18:46:34 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 18:46:34 - User query complete
+2025-05-07 18:46:34 - Verifying password for user ID: 3
+2025-05-07 18:46:34 - Submitted password: kirk123
+2025-05-07 18:46:34 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-07 18:46:34 - Password verified with password_verify()
+2025-05-07 18:46:34 - Password verification successful
+2025-05-07 18:46:34 - Password verified, logging in user ID: 3
+2025-05-07 18:46:34 - User logged in successfully
+2025-05-07 18:46:34 - Standard form submission, redirecting user role: customer
+2025-05-07 18:46:34 - Redirecting to customer cart page: /ayskrimWebsite/customerPage/cart/cart.php
+2025-05-07 18:55:09 - Login attempt started
+2025-05-07 18:55:09 - Config loaded
+2025-05-07 18:55:09 - DB loaded
+2025-05-07 18:55:09 - Auth loaded
+2025-05-07 18:55:09 - Functions loaded
+2025-05-07 18:55:09 - Constants loaded
+2025-05-07 18:55:09 - Session started
+2025-05-07 18:55:09 - Setting default redirect to menu
+2025-05-07 18:55:09 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 18:55:09 - Connected to database
+2025-05-07 18:55:09 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 18:55:09 - User query complete
+2025-05-07 18:55:09 - Verifying password for user ID: 3
+2025-05-07 18:55:09 - Submitted password: kirk123
+2025-05-07 18:55:09 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-07 18:55:09 - Password verified with password_verify()
+2025-05-07 18:55:09 - Password verification successful
+2025-05-07 18:55:09 - Password verified, logging in user ID: 3
+2025-05-07 18:55:09 - User logged in successfully
+2025-05-07 18:55:09 - Standard form submission, redirecting user role: customer
+2025-05-07 18:55:09 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-07 20:23:38 - Login attempt started
+2025-05-07 20:23:38 - Config loaded
+2025-05-07 20:23:38 - DB loaded
+2025-05-07 20:23:38 - Auth loaded
+2025-05-07 20:23:38 - Functions loaded
+2025-05-07 20:23:38 - Constants loaded
+2025-05-07 20:23:38 - Session started
+2025-05-07 20:23:38 - Setting default redirect to menu
+2025-05-07 20:23:38 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 20:23:38 - Connected to database
+2025-05-07 20:23:38 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 20:23:38 - User query complete
+2025-05-07 20:23:38 - Verifying password for user ID: 3
+2025-05-07 20:23:38 - Submitted password: kirk123
+2025-05-07 20:23:38 - Stored hash: $2y$10$.EewAvQeXm5A/odmbj1.oO2R8jYmonexIozQ.uNNVLFAaliym8GNe
+2025-05-07 20:23:38 - Password verified with password_verify()
+2025-05-07 20:23:38 - Password verification successful
+2025-05-07 20:23:38 - Password verified, logging in user ID: 3
+2025-05-07 20:23:38 - User logged in successfully
+2025-05-07 20:23:38 - Standard form submission, redirecting user role: customer
+2025-05-07 20:23:38 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-07 20:53:50 - Login attempt started
+2025-05-07 20:53:50 - Config loaded
+2025-05-07 20:53:50 - DB loaded
+2025-05-07 20:53:50 - Auth loaded
+2025-05-07 20:53:50 - Functions loaded
+2025-05-07 20:53:50 - Constants loaded
+2025-05-07 20:53:50 - Session started
+2025-05-07 20:53:50 - Setting default redirect to menu
+2025-05-07 20:53:50 - Received login attempt for: kk@gmail.com
+2025-05-07 20:53:50 - Connected to database
+2025-05-07 20:53:50 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 20:53:50 - User query complete
+2025-05-07 20:53:50 - Verifying password for user ID: 10
+2025-05-07 20:53:50 - Submitted password: kirrrky123
+2025-05-07 20:53:50 - Stored hash: $2y$10$0GITVVOrIA63OR.khV2JNu34qVnSg8tBS9PfS5aM8Hios/ZwBFz6i
+2025-05-07 20:53:50 - Password verification failed
+2025-05-07 20:54:05 - Login attempt started
+2025-05-07 20:54:05 - Config loaded
+2025-05-07 20:54:05 - DB loaded
+2025-05-07 20:54:05 - Auth loaded
+2025-05-07 20:54:05 - Functions loaded
+2025-05-07 20:54:05 - Constants loaded
+2025-05-07 20:54:05 - Session started
+2025-05-07 20:54:05 - Setting default redirect to menu
+2025-05-07 20:54:05 - Received login attempt for: kk@gmail.com
+2025-05-07 20:54:05 - Connected to database
+2025-05-07 20:54:05 - Column error, using fallback query: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_active' in 'where clause'
+2025-05-07 20:54:05 - User query complete
+2025-05-07 20:54:05 - Verifying password for user ID: 10
+2025-05-07 20:54:05 - Submitted password: kirrrky123
+2025-05-07 20:54:05 - Stored hash: $2y$10$0GITVVOrIA63OR.khV2JNu34qVnSg8tBS9PfS5aM8Hios/ZwBFz6i
+2025-05-07 20:54:05 - Password verification failed
+2025-05-07 21:27:15 - Login attempt started
+2025-05-07 21:27:15 - Config loaded
+2025-05-07 21:27:15 - DB loaded
+2025-05-07 21:27:15 - Auth loaded
+2025-05-07 21:27:15 - Functions loaded
+2025-05-07 21:27:15 - Constants loaded
+2025-05-07 21:27:15 - Session started
+2025-05-07 21:27:15 - Setting default redirect to menu
+2025-05-07 21:27:15 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 21:27:15 - Connected to database
+2025-05-07 21:27:15 - User query complete
+2025-05-07 21:27:15 - User not found
+2025-05-07 21:27:15 - Login attempt started
+2025-05-07 21:27:15 - Config loaded
+2025-05-07 21:27:15 - DB loaded
+2025-05-07 21:27:15 - Auth loaded
+2025-05-07 21:27:15 - Functions loaded
+2025-05-07 21:27:15 - Constants loaded
+2025-05-07 21:27:15 - Session started
+2025-05-07 21:27:15 - Setting default redirect to menu
+2025-05-07 21:27:15 - Received login attempt for: imhanzam@gmail.com
+2025-05-07 21:27:15 - Connected to database
+2025-05-07 21:27:15 - User query complete
+2025-05-07 21:27:15 - User not found
+2025-05-08 04:42:31 - Login attempt started
+2025-05-08 04:42:31 - Config loaded
+2025-05-08 04:42:31 - DB loaded
+2025-05-08 04:42:31 - Auth loaded
+2025-05-08 04:42:31 - Functions loaded
+2025-05-08 04:42:31 - Constants loaded
+2025-05-08 04:42:31 - Session started
+2025-05-08 04:42:31 - Setting default redirect to menu
+2025-05-08 04:42:31 - Received login attempt for: kg@gmail.com
+2025-05-08 04:42:31 - Connected to database
+2025-05-08 04:42:31 - User query complete
+2025-05-08 04:42:31 - Verifying password for user ID: 1
+2025-05-08 04:42:31 - Submitted password: kirkhanzam123
+2025-05-08 04:42:31 - Stored hash: $2y$10$GKZbsD7Oxy3MSODA1T0b2OcyKNsMMLPJ5ZBPsmmtJl0bCqPLEQYum
+2025-05-08 04:42:31 - Password verification failed
+2025-05-08 05:00:16 - Login attempt started
+2025-05-08 05:00:16 - Config loaded
+2025-05-08 05:00:16 - DB loaded
+2025-05-08 05:00:16 - Auth loaded
+2025-05-08 05:00:16 - Functions loaded
+2025-05-08 05:00:16 - Constants loaded
+2025-05-08 05:00:16 - Session started
+2025-05-08 05:00:16 - Setting default redirect to menu
+2025-05-08 05:00:16 - Received login attempt for: jinsbil@gmail.com
+2025-05-08 05:00:16 - Connected to database
+2025-05-08 05:00:16 - User query complete
+2025-05-08 05:00:16 - User not found
+2025-05-08 05:00:45 - Login attempt started
+2025-05-08 05:00:45 - Config loaded
+2025-05-08 05:00:45 - DB loaded
+2025-05-08 05:00:45 - Auth loaded
+2025-05-08 05:00:45 - Functions loaded
+2025-05-08 05:00:45 - Constants loaded
+2025-05-08 05:00:45 - Session started
+2025-05-08 05:00:45 - Setting default redirect to menu
+2025-05-08 05:00:45 - Received login attempt for: jinsbil@gmail.com
+2025-05-08 05:00:45 - Connected to database
+2025-05-08 05:00:45 - User query complete
+2025-05-08 05:00:45 - User not found
+2025-05-08 05:12:13 - Login attempt started
+2025-05-08 05:12:13 - Config loaded
+2025-05-08 05:12:13 - DB loaded
+2025-05-08 05:12:13 - Auth loaded
+2025-05-08 05:12:13 - Functions loaded
+2025-05-08 05:12:13 - Constants loaded
+2025-05-08 05:12:13 - Session started
+2025-05-08 05:12:13 - Setting default redirect to menu
+2025-05-08 05:12:13 - Received login attempt for: dd@gmail.com
+2025-05-08 05:12:13 - Connected to database
+2025-05-08 05:12:13 - User query complete
+2025-05-08 05:12:13 - Verifying password for user ID: 10
+2025-05-08 05:12:13 - Submitted password: hanzam123
+2025-05-08 05:12:13 - Stored hash: $2y$10$6XnW9wdm1Kogr5nXuK4zmeNy8PXew82kMBzcyw.WsnsTH67G6CHju
+2025-05-08 05:12:13 - Password verified with password_verify()
+2025-05-08 05:12:13 - Password verification successful
+2025-05-08 05:12:13 - Password verified, logging in user ID: 10
+2025-05-08 05:12:13 - User logged in successfully
+2025-05-08 05:12:13 - Standard form submission, redirecting user role: customer
+2025-05-08 05:12:13 - Redirecting to customer menu page: /ayskrimWebsite/customerPage/menu/menu.php
+2025-05-08 16:50:58 - Login attempt started
+2025-05-08 16:50:58 - Config loaded
+2025-05-08 16:50:58 - DB loaded
+2025-05-08 16:50:58 - Auth loaded
+2025-05-08 16:50:58 - Functions loaded
+2025-05-08 16:50:58 - Constants loaded
+2025-05-08 16:50:58 - Session started
+2025-05-08 16:50:58 - Invalid request method: GET
+2025-05-08 18:07:34 - Login attempt started. Method: GET
+2025-05-08 18:07:34 - Connected to database
+2025-05-08 18:07:34 - Password verification successful for user ID: 9
+2025-05-08 18:07:34 - User logged in successfully
+2025-05-08 18:07:34 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 18:36:45 - Login attempt started. Method: GET
+2025-05-08 18:36:45 - Connected to database
+2025-05-08 18:36:45 - Password verification successful for user ID: 9
+2025-05-08 18:36:45 - User logged in successfully
+2025-05-08 18:36:45 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 20:32:21 - Login attempt started. Method: GET
+2025-05-08 20:32:21 - Connected to database
+2025-05-08 20:32:21 - Password verification successful for user ID: 9
+2025-05-08 20:32:21 - User logged in successfully
+2025-05-08 20:32:21 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 21:06:43 - Login attempt started. Method: GET
+2025-05-08 21:06:43 - Connected to database
+2025-05-08 21:06:43 - Password verification successful for user ID: 9
+2025-05-08 21:06:43 - User logged in successfully
+2025-05-08 21:06:43 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 21:28:03 - Login attempt started. Method: GET
+2025-05-08 21:28:03 - Connected to database
+2025-05-08 21:28:03 - Password verification successful for user ID: 9
+2025-05-08 21:28:03 - User logged in successfully
+2025-05-08 21:28:03 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 21:30:45 - Login attempt started. Method: GET
+2025-05-08 21:30:45 - Connected to database
+2025-05-08 21:30:45 - Password verification successful for user ID: 9
+2025-05-08 21:30:45 - User logged in successfully
+2025-05-08 21:30:45 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 21:41:43 - Login attempt started. Method: GET
+2025-05-08 21:41:43 - Connected to database
+2025-05-08 21:41:43 - Password verification successful for user ID: 9
+2025-05-08 21:41:43 - User logged in successfully
+2025-05-08 21:41:43 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 21:50:08 - Login attempt started. Method: GET
+2025-05-08 21:50:08 - Connected to database
+2025-05-08 21:50:08 - Password verification successful for user ID: 9
+2025-05-08 21:50:08 - User logged in successfully
+2025-05-08 21:50:08 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 21:52:22 - Login attempt started. Method: GET
+2025-05-08 21:52:22 - Connected to database
+2025-05-08 21:52:22 - Password verification successful for user ID: 9
+2025-05-08 21:52:22 - User logged in successfully
+2025-05-08 21:52:22 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:01:50 - Login attempt started. Method: GET
+2025-05-08 22:01:50 - Connected to database
+2025-05-08 22:01:50 - Password verification successful for user ID: 9
+2025-05-08 22:01:50 - User logged in successfully
+2025-05-08 22:01:50 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:02:07 - Login attempt started. Method: GET
+2025-05-08 22:02:07 - Connected to database
+2025-05-08 22:02:07 - Password verification successful for user ID: 9
+2025-05-08 22:02:07 - User logged in successfully
+2025-05-08 22:02:07 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:04:51 - Login attempt started. Method: GET
+2025-05-08 22:04:51 - Connected to database
+2025-05-08 22:04:51 - Password verification successful for user ID: 9
+2025-05-08 22:04:51 - User logged in successfully
+2025-05-08 22:04:51 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:05:11 - Login attempt started. Method: GET
+2025-05-08 22:05:11 - Connected to database
+2025-05-08 22:05:11 - Password verification successful for user ID: 9
+2025-05-08 22:05:11 - User logged in successfully
+2025-05-08 22:05:11 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:05:48 - Login attempt started. Method: GET
+2025-05-08 22:05:48 - Connected to database
+2025-05-08 22:05:48 - Password verification successful for user ID: 9
+2025-05-08 22:05:48 - User logged in successfully
+2025-05-08 22:05:48 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:24:11 - Login attempt started. Method: GET
+2025-05-08 22:24:11 - Connected to database
+2025-05-08 22:24:11 - Password verification successful for user ID: 9
+2025-05-08 22:24:11 - User logged in successfully
+2025-05-08 22:24:11 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:29:07 - Login attempt started. Method: GET
+2025-05-08 22:29:07 - Connected to database
+2025-05-08 22:29:07 - Password verification successful for user ID: 9
+2025-05-08 22:29:07 - User logged in successfully
+2025-05-08 22:29:07 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:46:46 - Login attempt started. Method: GET
+2025-05-08 22:46:46 - Connected to database
+2025-05-08 22:46:46 - Password verification successful for user ID: 9
+2025-05-08 22:46:46 - User logged in successfully
+2025-05-08 22:46:46 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:55:01 - Login attempt started. Method: GET
+2025-05-08 22:55:01 - Connected to database
+2025-05-08 22:55:01 - Password verification successful for user ID: 9
+2025-05-08 22:55:01 - User logged in successfully
+2025-05-08 22:55:01 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 23:02:48 - Login attempt started. Method: GET
+2025-05-08 23:02:48 - Connected to database
+2025-05-08 23:02:48 - Password verification successful for user ID: 9
+2025-05-08 23:02:48 - User logged in successfully
+2025-05-08 23:02:48 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 23:04:55 - Login attempt started. Method: GET
+2025-05-08 23:04:55 - Connected to database
+2025-05-08 23:04:55 - Password verification successful for user ID: 9
+2025-05-08 23:04:55 - User logged in successfully
+2025-05-08 23:04:55 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 23:14:55 - Login attempt started. Method: GET
+2025-05-08 23:14:55 - Connected to database
+2025-05-08 23:14:55 - Password verification successful for user ID: 9
+2025-05-08 23:14:55 - User logged in successfully
+2025-05-08 23:14:55 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 00:20:23 - Login attempt started. Method: GET
+2025-05-09 00:20:23 - Connected to database
+2025-05-09 00:20:23 - Password verification successful for user ID: 9
+2025-05-09 00:20:23 - User logged in successfully
+2025-05-09 00:20:23 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 01:20:27 - Login attempt started. Method: GET
+2025-05-09 01:20:27 - Connected to database
+2025-05-09 01:20:27 - Password verification successful for user ID: 9
+2025-05-09 01:20:27 - User logged in successfully
+2025-05-09 01:20:27 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 02:04:33 - Login attempt started. Method: GET
+2025-05-09 02:04:33 - Connected to database
+2025-05-09 02:04:33 - Password verification successful for user ID: 9
+2025-05-09 02:04:33 - User logged in successfully
+2025-05-09 02:04:33 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 06:13:01 - Login attempt started. Method: GET
+2025-05-09 06:13:01 - Connected to database
+2025-05-09 06:13:01 - Password verification successful for user ID: 9
+2025-05-09 06:13:01 - User logged in successfully
+2025-05-09 06:13:01 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 07:15:53 - Login attempt started. Method: GET
+2025-05-09 07:15:53 - Connected to database
+2025-05-09 07:15:53 - Password verification successful for user ID: 9
+2025-05-09 07:15:53 - User logged in successfully
+2025-05-09 07:15:53 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 08:01:16 - Login attempt started. Method: GET
+2025-05-09 08:01:16 - Connected to database
+2025-05-09 08:01:16 - Password verification successful for user ID: 9
+2025-05-09 08:01:16 - User logged in successfully
+2025-05-09 08:01:16 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 09:11:19 - Login attempt started. Method: GET
+2025-05-09 09:11:19 - Connected to database
+2025-05-09 09:11:19 - Password verification successful for user ID: 9
+2025-05-09 09:11:19 - User logged in successfully
+2025-05-09 09:11:19 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 17:23:15 - Login attempt started. Method: GET
+2025-05-09 17:23:15 - Connected to database
+2025-05-09 17:23:15 - Password verification successful for user ID: 9
+2025-05-09 17:23:15 - User logged in successfully
+2025-05-09 17:23:15 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 17:55:12 - Login attempt started. Method: GET
+2025-05-09 17:56:12 - Login attempt started. Method: GET
+2025-05-09 17:56:25 - Login attempt started. Method: GET
+2025-05-09 17:56:51 - Login attempt started. Method: GET
+2025-05-09 17:56:51 - Connected to database
+2025-05-09 17:56:51 - Password verification successful for user ID: 9
+2025-05-09 17:56:51 - User logged in successfully
+2025-05-09 17:56:51 - Redirecting to: /customerPage/menu/menu.php
+2025-05-09 18:41:29 - Login attempt started. Method: GET
+2025-05-09 18:41:29 - Connected to database
+2025-05-09 18:41:29 - Password verification successful for user ID: 9
+2025-05-09 18:41:29 - User logged in successfully
+2025-05-09 18:41:29 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 07:27:03 - Login attempt started. Method: GET
+2025-05-10 07:27:03 - Connected to database
+2025-05-10 07:27:04 - Password verification successful for user ID: 9
+2025-05-10 07:27:04 - User logged in successfully
+2025-05-10 07:27:04 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 08:27:03 - Login attempt started. Method: GET
+2025-05-10 08:27:03 - Connected to database
+2025-05-10 08:27:03 - Password verification successful for user ID: 9
+2025-05-10 08:27:03 - User logged in successfully
+2025-05-10 08:27:03 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 08:35:33 - Login attempt started. Method: GET
+2025-05-10 08:35:33 - Connected to database
+2025-05-10 08:35:33 - Password verification successful for user ID: 9
+2025-05-10 08:35:33 - User logged in successfully
+2025-05-10 08:35:33 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 08:42:28 - Login attempt started. Method: GET
+2025-05-10 08:42:28 - Connected to database
+2025-05-10 08:42:28 - Password verification successful for user ID: 9
+2025-05-10 08:42:28 - User logged in successfully
+2025-05-10 08:42:28 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 09:10:42 - Login attempt started. Method: GET
+2025-05-10 09:10:42 - Connected to database
+2025-05-10 09:10:42 - Password verification successful for user ID: 9
+2025-05-10 09:10:42 - User logged in successfully
+2025-05-10 09:10:42 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 09:25:07 - Login attempt started. Method: GET
+2025-05-10 09:25:07 - Connected to database
+2025-05-10 09:25:07 - Password verification successful for user ID: 9
+2025-05-10 09:25:07 - User logged in successfully
+2025-05-10 09:25:07 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 09:29:59 - Login attempt started. Method: GET
+2025-05-10 09:29:59 - Connected to database
+2025-05-10 09:29:59 - Password verification successful for user ID: 9
+2025-05-10 09:29:59 - User logged in successfully
+2025-05-10 09:29:59 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 09:35:13 - Login attempt started. Method: GET
+2025-05-10 09:35:13 - Connected to database
+2025-05-10 09:35:13 - Password verification successful for user ID: 9
+2025-05-10 09:35:13 - User logged in successfully
+2025-05-10 09:35:13 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 09:40:45 - Login attempt started. Method: GET
+2025-05-10 09:40:45 - Connected to database
+2025-05-10 09:40:45 - Password verification successful for user ID: 9
+2025-05-10 09:40:45 - User logged in successfully
+2025-05-10 09:40:45 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 09:46:56 - Login attempt started. Method: GET
+2025-05-10 09:46:56 - Connected to database
+2025-05-10 09:46:56 - Password verification successful for user ID: 9
+2025-05-10 09:46:56 - User logged in successfully
+2025-05-10 09:46:56 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 09:48:02 - Login attempt started. Method: GET
+2025-05-10 09:48:02 - Connected to database
+2025-05-10 09:48:02 - Password verification successful for user ID: 9
+2025-05-10 09:48:02 - User logged in successfully
+2025-05-10 09:48:02 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 10:24:01 - Login attempt started. Method: GET
+2025-05-10 10:24:01 - Connected to database
+2025-05-10 10:24:01 - Password verification successful for user ID: 9
+2025-05-10 10:24:01 - User logged in successfully
+2025-05-10 10:24:01 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 10:30:57 - Login attempt started. Method: GET
+2025-05-10 10:30:57 - Connected to database
+2025-05-10 10:30:57 - Password verification successful for user ID: 9
+2025-05-10 10:30:57 - User logged in successfully
+2025-05-10 10:30:57 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 10:39:10 - Login attempt started. Method: GET
+2025-05-10 10:39:10 - Connected to database
+2025-05-10 10:39:10 - Password verification successful for user ID: 9
+2025-05-10 10:39:10 - User logged in successfully
+2025-05-10 10:39:10 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 10:40:39 - Login attempt started. Method: GET
+2025-05-10 10:40:39 - Connected to database
+2025-05-10 10:40:39 - Password verification successful for user ID: 9
+2025-05-10 10:40:39 - User logged in successfully
+2025-05-10 10:40:39 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 10:45:18 - Login attempt started. Method: GET
+2025-05-10 10:45:18 - Connected to database
+2025-05-10 10:45:18 - Password verification successful for user ID: 9
+2025-05-10 10:45:18 - User logged in successfully
+2025-05-10 10:45:18 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 10:47:26 - Login attempt started. Method: GET
+2025-05-10 10:47:26 - Connected to database
+2025-05-10 10:47:26 - Password verification successful for user ID: 9
+2025-05-10 10:47:26 - User logged in successfully
+2025-05-10 10:47:26 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 10:49:24 - Login attempt started. Method: GET
+2025-05-10 10:49:24 - Connected to database
+2025-05-10 10:49:24 - Password verification successful for user ID: 9
+2025-05-10 10:49:24 - User logged in successfully
+2025-05-10 10:49:24 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 10:56:16 - Login attempt started. Method: GET
+2025-05-10 10:56:16 - Connected to database
+2025-05-10 10:56:16 - Password verification successful for user ID: 9
+2025-05-10 10:56:16 - User logged in successfully
+2025-05-10 10:56:16 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 10:57:22 - Login attempt started. Method: GET
+2025-05-10 10:57:22 - Connected to database
+2025-05-10 10:57:22 - Password verification successful for user ID: 9
+2025-05-10 10:57:22 - User logged in successfully
+2025-05-10 10:57:22 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:04:45 - Login attempt started. Method: GET
+2025-05-10 11:04:45 - Connected to database
+2025-05-10 11:04:45 - Password verification successful for user ID: 9
+2025-05-10 11:04:45 - User logged in successfully
+2025-05-10 11:04:45 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:05:44 - Login attempt started. Method: GET
+2025-05-10 11:05:44 - Connected to database
+2025-05-10 11:05:44 - Password verification successful for user ID: 9
+2025-05-10 11:05:44 - User logged in successfully
+2025-05-10 11:05:44 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:06:44 - Login attempt started. Method: GET
+2025-05-10 11:06:44 - Connected to database
+2025-05-10 11:06:44 - Password verification successful for user ID: 9
+2025-05-10 11:06:44 - User logged in successfully
+2025-05-10 11:06:44 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:16:03 - Login attempt started. Method: GET
+2025-05-10 11:16:03 - Connected to database
+2025-05-10 11:16:03 - Password verification successful for user ID: 9
+2025-05-10 11:16:03 - User logged in successfully
+2025-05-10 11:16:03 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:23:11 - Login attempt started. Method: GET
+2025-05-10 11:23:11 - Connected to database
+2025-05-10 11:23:11 - Password verification successful for user ID: 9
+2025-05-10 11:23:11 - User logged in successfully
+2025-05-10 11:23:11 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:26:24 - Login attempt started. Method: GET
+2025-05-10 11:26:24 - Connected to database
+2025-05-10 11:26:24 - Password verification successful for user ID: 9
+2025-05-10 11:26:24 - User logged in successfully
+2025-05-10 11:26:24 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:27:55 - Login attempt started. Method: GET
+2025-05-10 11:27:55 - Connected to database
+2025-05-10 11:27:55 - Password verification successful for user ID: 9
+2025-05-10 11:27:55 - User logged in successfully
+2025-05-10 11:27:55 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:29:47 - Login attempt started. Method: GET
+2025-05-10 11:29:47 - Connected to database
+2025-05-10 11:29:47 - Password verification successful for user ID: 9
+2025-05-10 11:29:47 - User logged in successfully
+2025-05-10 11:29:47 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:32:32 - Login attempt started. Method: GET
+2025-05-10 11:32:32 - Connected to database
+2025-05-10 11:32:32 - Password verification successful for user ID: 9
+2025-05-10 11:32:32 - User logged in successfully
+2025-05-10 11:32:32 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:44:24 - Login attempt started. Method: GET
+2025-05-10 11:44:24 - Connected to database
+2025-05-10 11:44:24 - Password verification successful for user ID: 9
+2025-05-10 11:44:24 - User logged in successfully
+2025-05-10 11:44:24 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:54:11 - Login attempt started. Method: GET
+2025-05-10 11:54:11 - Connected to database
+2025-05-10 11:54:11 - Password verification successful for user ID: 9
+2025-05-10 11:54:11 - User logged in successfully
+2025-05-10 11:54:11 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 11:59:33 - Login attempt started. Method: GET
+2025-05-10 11:59:33 - Connected to database
+2025-05-10 11:59:33 - Password verification successful for user ID: 9
+2025-05-10 11:59:33 - User logged in successfully
+2025-05-10 11:59:33 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 12:04:37 - Login attempt started. Method: GET
+2025-05-10 12:04:37 - Connected to database
+2025-05-10 12:04:37 - Password verification successful for user ID: 9
+2025-05-10 12:04:37 - User logged in successfully
+2025-05-10 12:04:37 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 12:10:05 - Login attempt started. Method: GET
+2025-05-10 12:10:05 - Connected to database
+2025-05-10 12:10:05 - Password verification successful for user ID: 9
+2025-05-10 12:10:05 - User logged in successfully
+2025-05-10 12:10:05 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 12:11:54 - Login attempt started. Method: GET
+2025-05-10 12:11:54 - Connected to database
+2025-05-10 12:11:54 - Password verification successful for user ID: 9
+2025-05-10 12:11:54 - User logged in successfully
+2025-05-10 12:11:54 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 12:13:27 - Login attempt started. Method: GET
+2025-05-10 12:13:27 - Connected to database
+2025-05-10 12:13:27 - Password verification successful for user ID: 9
+2025-05-10 12:13:27 - User logged in successfully
+2025-05-10 12:13:27 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 12:16:06 - Login attempt started. Method: GET
+2025-05-10 12:16:06 - Connected to database
+2025-05-10 12:16:06 - Password verification successful for user ID: 9
+2025-05-10 12:16:06 - User logged in successfully
+2025-05-10 12:16:06 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 12:20:17 - Login attempt started. Method: GET
+2025-05-10 12:20:17 - Connected to database
+2025-05-10 12:20:17 - Password verification successful for user ID: 9
+2025-05-10 12:20:17 - User logged in successfully
+2025-05-10 12:20:17 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 12:22:51 - Login attempt started. Method: GET
+2025-05-10 12:22:51 - Connected to database
+2025-05-10 12:22:51 - Password verification successful for user ID: 9
+2025-05-10 12:22:51 - User logged in successfully
+2025-05-10 12:22:51 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 13:25:01 - Login attempt started. Method: GET
+2025-05-10 13:25:01 - Connected to database
+2025-05-10 13:25:01 - Password verification successful for user ID: 9
+2025-05-10 13:25:01 - User logged in successfully
+2025-05-10 13:25:01 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 13:26:19 - Login attempt started. Method: GET
+2025-05-10 13:26:19 - Connected to database
+2025-05-10 13:26:19 - Password verification successful for user ID: 9
+2025-05-10 13:26:19 - User logged in successfully
+2025-05-10 13:26:19 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 13:39:11 - Login attempt started. Method: GET
+2025-05-10 13:39:11 - Connected to database
+2025-05-10 13:39:11 - Password verification successful for user ID: 9
+2025-05-10 13:39:11 - User logged in successfully
+2025-05-10 13:39:11 - Redirecting to: /customerPage/menu/menu.php

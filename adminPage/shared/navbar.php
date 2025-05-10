@@ -1,0 +1,2 @@
+<?php
+// Shared admin navbar

@@ -1,0 +1,251 @@
+# Workspace Rules and Development Standards for Windsurf IDE AI  
+**Project: Immersive Ice Cream Website**  
+**Stack:** PHP, HTML, CSS, JavaScript, MySQL  
+**AI Development Guide Type:** Full-stack PHP Project with Immersive UX
+
+---
+
+## 1. GENERAL DEVELOPMENT RULES
+
+### 1.1 Coding Standards  
+- Follow PSR-12 for PHP code.
+- Use semantic HTML5 tags appropriately.
+- Adhere to CSS BEM naming conventions.
+- JavaScript follows ES6+ standards and modular architecture.
+- Maintain consistent indentation (4 spaces).
+- Avoid inline styles and scripts unless dynamically required.
+- Keep all dynamic data and hardcoded values in centralized constants or database references.
+
+### 1.2 File Naming Conventions  
+- Use lowercase letters with hyphens for filenames (e.g., `track-order.php`).
+- Use camelCase for function and variable names.
+- Use snake_case for database tables and columns.
+- PHP classes should use PascalCase and be stored in modular folders.
+
+---
+
+## 2. PROJECT ARCHITECTURE AND FILE STRUCTURE
+
+### /ayskrimWebsite  
+Root directory for the full project.
+
+---
+
+## 3. FOLDER RULES AND FUNCTIONAL DESCRIPTIONS
+
+### 3.1 `/homepage`  
+**Goal:** Provide immersive landing experience with interaction and theme entry.  
+**Features:**
+- 3D dreamscape with parallax
+- Intro animation entry 
+- Navigation to Customer/Admin portals
+
+**Contents:**
+- `index.php` – Landing page with full-page immersive visuals.
+- `header.php` / `footer.php` / `navbar.php` – Shared layout components.
+- `style.css` – Homepage-specific styles including parallax and pastel color palette.
+- `script.js` – Handles interactions, zero-gravity animations, parallax, and intro flow.
+- `animations.css` – Keyframe and scroll animations for floating elements.
+- `/images`, `/icons`, `/fonts` – Assets for homepage visuals.
+
+---
+
+### 3.2 `/customerPage`  
+**Goal:** Allow customers to browse, order, track, and review ice cream products.  
+**Features:**
+- Menu browsing
+- Add-to-cart, checkout
+- Live order tracking with API
+- Wishlist management
+- Review submission
+- Profile settings
+- Intelligent search with autocomplete
+- Integrated chatbot for support
+
+**Contents:**
+- PHP Pages: `menu.php`, `cart.php`, `checkout.php`, `track-order.php`, `orders.php`, `profile.php`, `wishlist.php`, `search.php`, `reviews.php`
+- Shared Components: `header.php`, `footer.php`
+- Scripts: `script.js`, `orderTracking.js`, `cart.js`, `chatbot.js`
+- Styles: `style.css`
+- Assets: `/images`, `/icons`, `/fonts`
+
+---
+
+### 3.3 `/adminPage`  
+**Goal:** Enable business management operations for admin users.  
+**Features:**
+- View, manage, and update orders
+- Manage menu and inventory
+- View bookings, expenses, and analytics reports
+- Settings for theme, toggles, etc.
+- View logs of activities and transactions
+
+**Contents:**
+- PHP Pages: `dashboard.php`, `orders.php`, `menu.php`, `inventory.php`, `bookings.php`, `reports.php`, `expenses.php`, `settings.php`, `logs.php`
+- Layout Components: `header.php`, `footer.php`, `navbar.php`
+- Styles and Scripts: `admin.css`, `admin.js`
+- Assets: `/images`, `/icons`, `/fonts`
+
+---
+
+### 3.4 `/api`  
+**Goal:** Provide endpoints for dynamic actions using AJAX or fetch API.
+
+**Subfolders & Features:**
+- `/orders`: `updateOrderStatus.php`, `getLiveLocation.php`, `createOrder.php`, `cancelOrder.php`
+- `/chatbot`: `chatbot.php` – Handles FAQ or NLP responses.
+- `/wishlist`: `wishlistApi.php` – Add/remove/view wishlist.
+- `/reviews`: `submitReview.php`, `getReviews.php`
+- `/search`: `searchApi.php` – Autocomplete, fuzzy matching.
+- `/auth`: `loginApi.php`, `registerApi.php`, `logoutApi.php`
+
+---
+
+### 3.5 `/includes`  
+**Goal:** Share logic, config, and utilities across system.
+
+**Files:**
+- `config.php` – DB credentials, app constants.
+- `db.php` – PDO connection script.
+- `functions.php` – Utility functions used across all modules.
+- `auth.php` – Session handling and role validation.
+- `middleware.php` – Protect pages based on session, role, or permissions.
+- `constants.php` – Central location for route names, paths, API URLs, etc.
+- `helpers.php` – String, array, date helpers, etc.
+
+---
+
+### 3.6 `/templates`  
+**Goal:** Reusable UI components.
+
+**Files:**
+- `modals.php` – Shared modal dialogs (login, confirmation, etc.)
+- `alerts.php` – Alert messages for success/error/info.
+- `navbar.php` – Standard navbar used across most pages.
+
+---
+
+### 3.7 `/database`  
+**Goal:** Set up, seed, and manage schema changes.
+
+**Files:**
+- `database.sql` – Master schema definition.
+- `seedData.sql` – Seed menu, users, sample orders.
+- `/migrations`:
+  - `create_orders_table.sql`
+  - `create_users_table.sql`
+  - `add_order_status_column.sql`
+  - `create_reviews_table.sql`
+  - `create_wishlist_table.sql`
+
+---
+
+### 3.8 `/meta`  
+**Goal:** SEO and browser assets.
+
+**Files:**
+- `robots.txt` – Crawl instructions
+- `sitemap.xml` – SEO indexing
+- `favicon.ico` – Browser tab icon
+
+---
+
+### 3.9 `/assets`  
+**Goal:** Common assets across entire project.
+
+**Subfolders:**
+- `/fonts` – Custom web-safe fonts
+- `/images` – Shared imagery
+- `/icons` – SVG icons used sitewide
+
+---
+
+### 3.10 `/css`  
+**Goal:** Shared, responsive, and page-specific styles.
+
+**Files:**
+- `style.css` – Core styles
+- `admin.css` – Admin portal specific styles
+- `responsive.css` – Breakpoints and mobile-first adjustments
+- `darkMode.css` – Theme toggling
+- `forms.css` – Form design consistency
+- `animations.css` – Global animation classes
+
+---
+
+### 3.11 `/js`  
+**Goal:** Page and component logic, validations, interactivity.
+
+**Files:**
+- `script.js` – Base interactivity for non-specific logic
+- `orderTracking.js` – Fetch-based live order updates
+- `cart.js` – Cart management (localStorage, UI, DB)
+- `admin.js` – Admin dashboard metrics, toggles
+- `chatbot.js` – Customer AI chat assistant interface
+- `darkMode.js` – Light/dark theme switcher
+- `formValidation.js` – JS-only form validation rules
+
+---
+
+## 4. FUNCTIONALITY REQUIREMENTS (MINIMUM FEATURE SET)
+
+### Customer-Side
+- View menu and add to cart
+- Checkout with payment and validation
+- Track orders in real-time
+- Maintain wishlist
+- Write and view reviews per product
+- Search bar with instant results
+- AI chatbot for FAQs and interaction
+- Profile editing, password management
+
+### Admin-Side
+- View/manage new orders and update status
+- Edit menu items and manage inventory levels
+- View bookings and event schedules
+- Submit and manage expenses
+- View analytics: top flavors, top bookings, revenue
+- System settings and preference toggles
+- Activity log of admin sessions/actions
+
+---
+
+## 5. FORM HANDLING & VALIDATION
+
+- All forms (register, login, checkout, review submission) must have:
+  - Server-side and client-side validation
+  - CSRF protection
+  - Required field marking and confirmation
+  - AJAX submission where applicable (especially review, wishlist)
+
+---
+
+## 6. DATABASE RULES
+
+- Use InnoDB for foreign key constraints
+- Normalize schema to 3NF where applicable
+- Store timestamps (created_at, updated_at)
+- Relational integrity for orders → users, wishlist → users/products, reviews → users/products
+
+---
+
+## 7. SECURITY
+
+- Sanitize all user inputs
+- Use prepared statements for all DB queries
+- Implement session-based auth middleware
+- Block unauthorized access to admin routes
+- Hide API keys and sensitive config in non-public files
+
+---
+
+## 8. AI GUIDELINES FOR WINDSURF
+
+- Automatically place files in their correct directories based on feature type
+- Inject appropriate imports and links between scripts, styles, and PHP pages
+- Validate code structure (opening/closing tags, script placement)
+- Ensure all dynamic components work with real data or placeholder mocks
+- Prioritize functional correctness before style enhancement
+- Maintain naming consistency across components, routes, and API endpoints
+- Reuse templates and shared styles/scripts to avoid redundancy
+

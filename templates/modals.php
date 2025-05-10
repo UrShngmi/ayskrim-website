@@ -1,0 +1,2 @@
+<?php
+// Shared modal dialogs

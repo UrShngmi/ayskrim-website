@@ -1,0 +1,2 @@
+<?php
+// Customer profile page

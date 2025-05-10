@@ -1,0 +1,1 @@
+-- Migration: create wishlist table

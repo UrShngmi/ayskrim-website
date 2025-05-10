@@ -1,0 +1,90 @@
+2025-05-06 04:31:03 - Registration attempt started
+2025-05-06 04:31:03 - Setting default redirect to menu
+2025-05-06 04:31:03 - Generated username: js_404824
+2025-05-06 04:31:03 - Connected to database
+2025-05-06 04:31:03 - Password hashed for security
+2025-05-06 04:31:03 - Full user record created successfully
+2025-05-06 04:31:03 - User logged in with ID: 9
+2025-05-06 04:31:03 - Redirecting to customer menu page after registration
+2025-05-06 07:58:39 - Registration attempt started
+2025-05-06 07:58:39 - Setting default redirect to menu
+2025-05-06 07:58:39 - Generated username: kk_9ddfff
+2025-05-06 07:58:39 - Connected to database
+2025-05-06 07:58:39 - Password hashed for security
+2025-05-06 07:58:39 - Full user record created successfully
+2025-05-06 07:58:39 - User logged in with ID: 10
+2025-05-06 07:58:39 - Redirecting to customer menu page after registration
+2025-05-07 20:53:01 - Registration attempt started
+2025-05-07 20:53:01 - Setting default redirect to menu
+2025-05-07 20:53:01 - Generated username: kk_7261d5
+2025-05-07 20:53:01 - Connected to database
+2025-05-07 20:53:01 - Email already exists: kk@gmail.com
+2025-05-07 20:54:24 - Registration attempt started
+2025-05-07 20:54:24 - Setting default redirect to menu
+2025-05-07 20:54:24 - Generated username: hz_c2e238
+2025-05-07 20:54:24 - Connected to database
+2025-05-07 20:54:24 - Password hashed for security
+2025-05-07 20:54:24 - Full user record created successfully
+2025-05-07 20:54:24 - User logged in with ID: 11
+2025-05-07 20:54:24 - Redirecting to customer menu page after registration
+2025-05-07 21:27:39 - Registration attempt started
+2025-05-07 21:27:39 - Setting default redirect to menu
+2025-05-07 21:27:39 - Generated username: kg_fc65f1
+2025-05-07 21:27:39 - Connected to database
+2025-05-07 21:27:39 - Password hashed for security
+2025-05-07 21:27:39 - Full user record created successfully
+2025-05-07 21:27:39 - User logged in with ID: 1
+2025-05-07 21:27:39 - Redirecting to customer menu page after registration
+2025-05-08 04:06:52 - Registration attempt started
+2025-05-08 04:06:52 - Setting redirect to cart based on referer: http://localhost/ayskrimWebsite/landingPage/guest-cart.php
+2025-05-08 04:06:52 - Generated username: kk_29a453
+2025-05-08 04:06:52 - Connected to database
+2025-05-08 04:06:52 - Password hashed for security
+2025-05-08 04:06:52 - Full user record created successfully
+2025-05-08 04:06:52 - User logged in with ID: 8
+2025-05-08 04:06:52 - Redirecting to customer cart page after registration
+2025-05-08 04:07:06 - Registration attempt started
+2025-05-08 04:07:06 - Setting redirect to cart based on referer: http://localhost/ayskrimWebsite/landingPage/guest-cart.php
+2025-05-08 04:07:06 - Generated username: kk_bd8ecd
+2025-05-08 04:07:06 - Connected to database
+2025-05-08 04:07:06 - Email already exists: kk@gmail.com
+2025-05-08 04:42:53 - Registration attempt started
+2025-05-08 04:42:53 - Setting default redirect to menu
+2025-05-08 04:42:53 - Generated username: jj_3053a4
+2025-05-08 04:42:53 - Connected to database
+2025-05-08 04:42:53 - Password hashed for security
+2025-05-08 04:42:53 - Full user record created successfully
+2025-05-08 04:42:53 - User logged in with ID: 9
+2025-05-08 04:42:53 - Redirecting to customer menu page after registration
+2025-05-08 05:01:16 - Registration attempt started
+2025-05-08 05:01:16 - Setting default redirect to menu
+2025-05-08 05:01:16 - Generated username: dd_981fcd
+2025-05-08 05:01:16 - Connected to database
+2025-05-08 05:01:16 - Password hashed for security
+2025-05-08 05:01:16 - Full user record created successfully
+2025-05-08 05:01:16 - User logged in with ID: 10
+2025-05-08 05:01:16 - Redirecting to customer menu page after registration
+2025-05-08 16:48:51 - Registration attempt started
+2025-05-08 16:53:41 - Registration attempt started
+2025-05-08 17:08:24 - Registration attempt started. Method: GET
+2025-05-08 17:08:24 - Invalid request method: GET
+2025-05-08 17:08:30 - Registration attempt started. Method: GET
+2025-05-08 17:08:30 - Invalid request method: GET
+2025-05-08 17:19:00 - Registration attempt started. Method: GET
+2025-05-08 17:19:00 - Invalid request method: GET
+2025-05-08 17:24:07 - Registration attempt started. Method: GET
+2025-05-08 17:24:07 - Invalid request method: GET
+2025-05-08 17:26:00 - Registration attempt started. Method: GET
+2025-05-08 17:26:00 - Invalid request method: GET
+2025-05-08 17:28:43 - Registration attempt started. Method: GET
+2025-05-08 17:28:43 - Invalid request method: GET
+2025-05-08 17:31:19 - Registration attempt started. Method: GET
+2025-05-08 17:31:19 - Connected to database
+2025-05-08 17:31:19 - User created with ID: 11
+2025-05-08 17:31:19 - User logged in
+2025-05-08 17:31:19 - Redirecting to: /customerPage/menu/menu.php
+2025-05-08 22:06:47 - Registration attempt started. Method: GET
+2025-05-08 22:06:47 - Connected to database
+2025-05-08 22:06:47 - User created with ID: 12
+2025-05-08 22:06:47 - User logged in
+2025-05-08 22:06:47 - Redirecting to: /customerPage/menu/menu.php
