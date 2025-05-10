@@ -62,6 +62,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchSuggestions = document.getElementById('searchSuggestions');
     const coordsDisplay = document.getElementById('coordsDisplay');
 
+    let searchTimeout = null;
+    let loadingTimeout = null;
+    let fetchDone = false;
+    let showResults = null;
+    let lastSearchController = null;
+    let suggestionsExpanded = false;
+    let lastRankedResults = [];
+    let lastQuery = '';
+
     // Initialize map when modal opens
     pickLocationBtn.addEventListener('click', () => {
         locationPickerModal.classList.add('active');
@@ -69,6 +78,10 @@ document.addEventListener('DOMContentLoaded', () => {
         retryGeolocationBtn.style.display = 'none';
         document.getElementById('locationStatus').textContent = '';
         document.getElementById('map').innerHTML = '';
+        // Clear search bar and suggestions
+        addressSearchBox.value = '';
+        searchSuggestions.style.display = 'none';
+        searchSuggestions.innerHTML = '';
         if (selectedLocation && selectedLocation.address) {
             selectedAddress.textContent = selectedLocation.address;
             confirmLocationBtn.disabled = false;
@@ -235,6 +248,9 @@ document.addEventListener('DOMContentLoaded', () => {
             addressDisplay.classList.add('selected');
             locationPickerModal.classList.remove('active');
             locationStatus.innerHTML = '';
+            // Change button text
+            pickLocationBtn.textContent = 'Change Location';
+            pickLocationBtn.innerHTML = '<i class="fas fa-map-marker-alt"></i> Change Location';
         }
     });
 
@@ -520,201 +536,208 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
-    // Normalize string for matching (remove diacritics, lowercase, remove dashes/special chars)
+    // Helper functions for improved search functionality
     function normalizeString(str) {
-        return str
-            .toLowerCase()
-            .normalize('NFD').replace(/\p{Diacritic}/gu, '')
-            .replace(/[-_.,/\\]/g, '')
-            .replace(/\s+/g, '');
+        return str.toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '') // Remove diacritics
+            .replace(/[^a-z0-9\s]/g, '') // Remove special characters
+            .replace(/\s+/g, ' ') // Normalize spaces
+            .trim();
     }
 
-    let lastSearchController = null;
-
-    // Fuzzy scoring function (simple: substring, word overlap, Levenshtein distance for short queries)
-    function levenshtein(a, b) {
-        const an = a ? a.length : 0;
-        const bn = b ? b.length : 0;
-        if (an === 0) return bn;
-        if (bn === 0) return an;
-        const matrix = [];
-        for (let i = 0; i <= bn; ++i) matrix[i] = [i];
-        for (let j = 0; j <= an; ++j) matrix[0][j] = j;
-        for (let i = 1; i <= bn; ++i) {
-            for (let j = 1; j <= an; ++j) {
-                if (b.charAt(i - 1) === a.charAt(j - 1)) {
-                    matrix[i][j] = matrix[i - 1][j - 1];
-                } else {
-                    matrix[i][j] = Math.min(
-                        matrix[i - 1][j - 1] + 1,
-                        Math.min(matrix[i][j - 1] + 1, matrix[i - 1][j] + 1)
-                    );
-                }
-            }
-        }
-        return matrix[bn][an];
-    }
-
-    // Enhanced fuzzy scoring function
-    function fuzzyScore(query, name) {
+    function fuzzyScore(query, target) {
         const normQuery = normalizeString(query);
-        const normName = normalizeString(name);
+        const normTarget = normalizeString(target);
         
         // Exact match
-        if (normName === normQuery) return 100;
-        // Starts with query
-        if (normName.startsWith(normQuery)) return 95;
-        // Substring match anywhere (strong reward)
-        if (normName.includes(normQuery)) {
-            // The closer to the start, the higher the score
-            const pos = normName.indexOf(normQuery);
-            return 90 - pos;
-        }
-        // Word overlap with priority
+        if (normTarget === normQuery) return 1.0;
+        
+        // Substring match
+        if (normTarget.includes(normQuery)) return 0.9;
+        
+        // Word boundary match
         const queryWords = normQuery.split(/\s+/);
-        const nameWords = normName.split(/\s+/);
-        let score = 0;
-        queryWords.forEach(qw => {
-            // Exact word match
-            if (nameWords.includes(qw)) {
-                score += 30;
-            }
-            // Word starts with query word
-            else if (nameWords.some(nw => nw.startsWith(qw))) {
-                score += 20;
-            }
-            // Word contains query word
-            else if (nameWords.some(nw => nw.includes(qw))) {
-                score += 10;
-            }
+        const targetWords = normTarget.split(/\s+/);
+        
+        let wordMatchScore = 0;
+        queryWords.forEach(qWord => {
+            targetWords.forEach(tWord => {
+                if (tWord.startsWith(qWord)) wordMatchScore += 0.8;
+                else if (tWord.includes(qWord)) wordMatchScore += 0.6;
+            });
         });
-        // Levenshtein distance for short queries
-        if (normQuery.length < 6) {
-            const lev = levenshtein(normQuery, normName.slice(0, normQuery.length + 2));
-            score -= lev * 5;
-        }
-        return Math.max(0, score);
+        
+        // Levenshtein distance for typo tolerance
+        const lev = levenshtein(normQuery, normTarget);
+        const maxLen = Math.max(normQuery.length, normTarget.length);
+        const levScore = 1 - (lev / maxLen);
+        
+        // Combine scores with weights
+        return Math.max(
+            wordMatchScore / queryWords.length,
+            levScore * 0.7
+        );
     }
 
-    let suggestionsExpanded = false;
+    function levenshtein(a, b) {
+        if (a.length === 0) return b.length;
+        if (b.length === 0) return a.length;
 
-    addressSearchBox.addEventListener('input', debounce(function() {
-        const query = this.value.trim();
-        suggestionsExpanded = false; // Reset on new input
-        if (query.length < 1) {
+        const matrix = Array(b.length + 1).fill(null).map(() => 
+            Array(a.length + 1).fill(null)
+        );
+
+        for (let i = 0; i <= a.length; i++) matrix[0][i] = i;
+        for (let j = 0; j <= b.length; j++) matrix[j][0] = j;
+
+        for (let j = 1; j <= b.length; j++) {
+            for (let i = 1; i <= a.length; i++) {
+                const substitutionCost = a[i - 1] === b[j - 1] ? 0 : 1;
+                matrix[j][i] = Math.min(
+                    matrix[j][i - 1] + 1, // deletion
+                    matrix[j - 1][i] + 1, // insertion
+                    matrix[j - 1][i - 1] + substitutionCost // substitution
+                );
+            }
+        }
+
+        return matrix[b.length][a.length];
+    }
+
+    addressSearchBox.addEventListener('input', (e) => {
+        const query = e.target.value.trim();
+        lastQuery = query;
+        
+        // Clear previous timeouts
+        if (searchTimeout) clearTimeout(searchTimeout);
+        if (loadingTimeout) clearTimeout(loadingTimeout);
+        
+        // Show loading state immediately
+        searchSuggestions.innerHTML = '<div class="search-suggestions-loading"><div class="location-loading"></div>Searching...</div>';
+        searchSuggestions.style.display = 'block';
+        
+        // Reset state
+        fetchDone = false;
+        showResults = null;
+        suggestionsExpanded = false;
+        lastRankedResults = [];
+        
+        if (!query) {
             searchSuggestions.style.display = 'none';
-            searchSuggestions.innerHTML = '';
             return;
         }
 
-        // Cancel previous fetch if still pending
-        if (lastSearchController) lastSearchController.abort();
-        lastSearchController = new AbortController();
-        const signal = lastSearchController.signal;
+        // Set minimum loading time to ensure smooth UX
+        const minLoadingTime = 500;
+        loadingTimeout = setTimeout(() => {
+            if (fetchDone && typeof showResults === 'function') {
+                showResults();
+            }
+        }, minLoadingTime);
 
-        // Show loading spinner
-        searchSuggestions.innerHTML = '<div class="search-suggestions-loading"><div class="location-loading"></div>Searching...</div>';
-        searchSuggestions.style.display = 'block';
+        // Debounce the actual search
+        searchTimeout = setTimeout(() => {
+            if (lastSearchController) {
+                lastSearchController.abort();
+            }
+            
+            lastSearchController = new AbortController();
+            const signal = lastSearchController.signal;
 
-        fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&addressdetails=1&limit=20`, { signal })
-            .then(res => res.json())
-            .then(results => {
-                searchSuggestions.innerHTML = '';
-                if (results.length === 0) {
-                    searchSuggestions.innerHTML = '<div class="search-suggestions-loading">No results found</div>';
-                    searchSuggestions.style.display = 'block';
-                    return;
-                }
-                const normQuery = normalizeString(query);
-                // Enhanced fuzzy rank and filter: always include substring matches
-                const ranked = results.map(place => {
-                    const normName = normalizeString(place.display_name);
-                    const score = fuzzyScore(query, place.display_name);
-                    const isSubstring = normName.includes(normQuery);
-                    return { place, score, isSubstring };
-                })
-                // Always include substring matches, even if score is 0
-                .filter(r => r.score > 0 || r.isSubstring)
-                .sort((a, b) => b.score - a.score);
+            fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&addressdetails=1&limit=20`, { signal })
+                .then(res => res.json())
+                .then(results => {
+                    fetchDone = true;
+                    lastRankedResults = results.map(place => {
+                        const score = fuzzyScore(query, place.display_name);
+                        return { place, score };
+                    })
+                    .filter(r => r.score > 0.3)
+                    .sort((a, b) => b.score - a.score);
 
-                // Only show 'Show more results' if there are more than 3 matches
-                const displayCount = suggestionsExpanded ? 6 : 3;
-                const topResults = ranked.slice(0, displayCount);
+                    showResults = () => {
+                        searchSuggestions.innerHTML = '';
+                        
+                        if (!lastRankedResults.length) {
+                            searchSuggestions.innerHTML = '<div class="search-suggestions-loading">No results found</div>';
+                            searchSuggestions.style.display = 'block';
+                            return;
+                        }
 
-                topResults.forEach(({ place }) => {
-                    const div = document.createElement('div');
-                    div.className = 'suggestion';
-                    // Highlight matching parts
-                    const displayName = place.display_name;
-                    const regex = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-                    div.innerHTML = displayName.replace(regex, match => `<b>${match}</b>`);
-                    div.onclick = () => {
-                        addressSearchBox.value = place.display_name;
-                        searchSuggestions.style.display = 'none';
-                        suggestionsExpanded = false;
-                        if (mapInitialized) {
-                            map.setView([Number(place.lat), Number(place.lon)], map.getZoom());
-                            marker.setLatLng([Number(place.lat), Number(place.lon)]);
-                            lastKnownLocation = { lat: Number(place.lat), lng: Number(place.lon) };
-                            reverseGeocode(Number(place.lat), Number(place.lon));
-                        } else {
-                            showMapWithCoords(Number(place.lat), Number(place.lon));
+                        const displayCount = suggestionsExpanded ? 6 : 3;
+                        const topResults = lastRankedResults.slice(0, displayCount);
+
+                        // Group results by relevance
+                        const exactMatches = topResults.filter(r => r.score > 0.9);
+                        const partialMatches = topResults.filter(r => r.score > 0.6 && r.score <= 0.9);
+                        const fuzzyMatches = topResults.filter(r => r.score <= 0.6);
+
+                        // Render results by group
+                        if (exactMatches.length > 0) {
+                            renderResultGroup(exactMatches, 'Exact Matches', lastQuery, 'exact');
+                        }
+                        if (partialMatches.length > 0) {
+                            renderResultGroup(partialMatches, 'Partial Matches', lastQuery, 'partial');
+                        }
+                        if (fuzzyMatches.length > 0) {
+                            renderResultGroup(fuzzyMatches, 'Similar Matches', lastQuery, 'fuzzy');
+                        }
+
+                        // Show more/less button if needed
+                        if (lastRankedResults.length > 3 && !suggestionsExpanded) {
+                            const showMoreDiv = document.createElement('div');
+                            showMoreDiv.className = 'suggestion show-more';
+                            showMoreDiv.innerHTML = `
+                                <span>Show ${Math.min(lastRankedResults.length - 3, 3)} more results</span>
+                                <i class="fas fa-chevron-down"></i>
+                            `;
+                            showMoreDiv.onclick = () => {
+                                suggestionsExpanded = true;
+                                showResults();
+                            };
+                            searchSuggestions.appendChild(showMoreDiv);
+                        } else if (suggestionsExpanded && lastRankedResults.length > 3) {
+                            const showLessDiv = document.createElement('div');
+                            showLessDiv.className = 'suggestion show-more';
+                            showLessDiv.innerHTML = `
+                                <span>Show less</span>
+                                <i class="fas fa-chevron-up"></i>
+                            `;
+                            showLessDiv.onclick = () => {
+                                suggestionsExpanded = false;
+                                showResults();
+                            };
+                            searchSuggestions.appendChild(showLessDiv);
                         }
                     };
-                    searchSuggestions.appendChild(div);
+
+                    if (loadingTimeout) {
+                        clearTimeout(loadingTimeout);
+                        showResults();
+                    }
+                })
+                .catch(error => {
+                    if (error.name === 'AbortError') return;
+                    console.error('Search error:', error);
+                    searchSuggestions.innerHTML = '<div class="search-suggestions-loading">Error searching for locations</div>';
                 });
+        }, 300); // Debounce delay
+    });
 
-                // Show 'Show more results' or 'Show less' row only if there are more than 3 matches
-                if (ranked.length > 3 && !suggestionsExpanded) {
-                    const showMoreDiv = document.createElement('div');
-                    showMoreDiv.className = 'suggestion show-more';
-                    showMoreDiv.style.display = 'flex';
-                    showMoreDiv.style.justifyContent = 'space-between';
-                    showMoreDiv.style.alignItems = 'center';
-                    showMoreDiv.style.fontWeight = '500';
-                    showMoreDiv.style.cursor = 'pointer';
-                    showMoreDiv.innerHTML = `<span>Show more results</span><i class=\"fas fa-chevron-down\"></i>`;
-                    showMoreDiv.onclick = () => {
-                        suggestionsExpanded = true;
-                        renderSuggestions(query, ranked);
-                    };
-                    searchSuggestions.appendChild(showMoreDiv);
-                } else if (suggestionsExpanded && ranked.length > 3) {
-                    const showLessDiv = document.createElement('div');
-                    showLessDiv.className = 'suggestion show-more';
-                    showLessDiv.style.display = 'flex';
-                    showLessDiv.style.justifyContent = 'space-between';
-                    showLessDiv.style.alignItems = 'center';
-                    showLessDiv.style.fontWeight = '500';
-                    showLessDiv.style.cursor = 'pointer';
-                    showLessDiv.innerHTML = `<span>Show less</span><i class=\"fas fa-chevron-up\"></i>`;
-                    showLessDiv.onclick = () => {
-                        suggestionsExpanded = false;
-                        renderSuggestions(query, ranked);
-                    };
-                    searchSuggestions.appendChild(showLessDiv);
-                }
+    function renderResultGroup(results, groupTitle, query, groupType) {
+        const groupDiv = document.createElement('div');
+        groupDiv.className = 'suggestion-group';
+        
+        const titleDiv = document.createElement('div');
+        titleDiv.className = 'suggestion-group-title ' + (groupType ? `group-${groupType}` : '');
+        titleDiv.textContent = groupTitle;
+        groupDiv.appendChild(titleDiv);
 
-                searchSuggestions.style.display = searchSuggestions.innerHTML ? 'block' : 'none';
-            })
-            .catch((err) => {
-                // Always clear loading spinner and hide suggestions on error/abort
-                searchSuggestions.innerHTML = '';
-                searchSuggestions.style.display = 'none';
-            });
-    }, 150));
-
-    // Helper to re-render suggestions on expand/collapse
-    function renderSuggestions(query, ranked) {
-        searchSuggestions.innerHTML = '';
-        const displayCount = suggestionsExpanded ? 6 : 3;
-        const topResults = ranked.slice(0, displayCount);
-        topResults.forEach(({ place }) => {
+        results.forEach(({ place }) => {
             const div = document.createElement('div');
             div.className = 'suggestion';
-            const displayName = place.display_name;
-            const regex = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
-            div.innerHTML = displayName.replace(regex, match => `<b>${match}</b>`);
+            div.innerHTML = highlightMatch(place.display_name, query);
             div.onclick = () => {
                 addressSearchBox.value = place.display_name;
                 searchSuggestions.style.display = 'none';
@@ -728,39 +751,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     showMapWithCoords(Number(place.lat), Number(place.lon));
                 }
             };
-            searchSuggestions.appendChild(div);
+            groupDiv.appendChild(div);
         });
-        // Only show 'Show more results' if there are more than 3 matches
-        if (ranked.length > 3 && !suggestionsExpanded) {
-            const showMoreDiv = document.createElement('div');
-            showMoreDiv.className = 'suggestion show-more';
-            showMoreDiv.style.display = 'flex';
-            showMoreDiv.style.justifyContent = 'space-between';
-            showMoreDiv.style.alignItems = 'center';
-            showMoreDiv.style.fontWeight = '500';
-            showMoreDiv.style.cursor = 'pointer';
-            showMoreDiv.innerHTML = `<span>Show more results</span><i class=\"fas fa-chevron-down\"></i>`;
-            showMoreDiv.onclick = () => {
-                suggestionsExpanded = true;
-                renderSuggestions(query, ranked);
-            };
-            searchSuggestions.appendChild(showMoreDiv);
-        } else if (suggestionsExpanded && ranked.length > 3) {
-            const showLessDiv = document.createElement('div');
-            showLessDiv.className = 'suggestion show-more';
-            showLessDiv.style.display = 'flex';
-            showLessDiv.style.justifyContent = 'space-between';
-            showLessDiv.style.alignItems = 'center';
-            showLessDiv.style.fontWeight = '500';
-            showLessDiv.style.cursor = 'pointer';
-            showLessDiv.innerHTML = `<span>Show less</span><i class=\"fas fa-chevron-up\"></i>`;
-            showLessDiv.onclick = () => {
-                suggestionsExpanded = false;
-                renderSuggestions(query, ranked);
-            };
-            searchSuggestions.appendChild(showLessDiv);
-        }
-        searchSuggestions.style.display = searchSuggestions.innerHTML ? 'block' : 'none';
+
+        searchSuggestions.appendChild(groupDiv);
+    }
+
+    // Helper to highlight all query words in a string
+    function highlightMatch(text, query) {
+        if (!query) return text;
+        // Split query into words, ignore empty
+        const words = query.split(/\s+/).filter(Boolean);
+        if (!words.length) return text;
+        // Build regex to match any word, case-insensitive
+        const regex = new RegExp('(' + words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'gi');
+        return text.replace(regex, match => `<b class=\"highlighted-match\">${match}</b>`);
     }
 
     // Close suggestions when clicking outside
