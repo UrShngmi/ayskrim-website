@@ -45,3 +45,28 @@ function getFlash(string $type): array
     unset($_SESSION['flash'][$type]);
     return $messages;
 }
+
+/**
+ * Get time ago in a human readable format
+ */
+function getTimeAgo(string $datetime): string
+{
+    $timestamp = strtotime($datetime);
+    $now = time();
+    $diff = $now - $timestamp;
+    
+    if ($diff < 60) {
+        return 'Just now';
+    } elseif ($diff < 3600) {
+        $mins = round($diff / 60);
+        return $mins . ' ' . ($mins == 1 ? 'min' : 'mins') . ' ago';
+    } elseif ($diff < 86400) {
+        $hours = round($diff / 3600);
+        return $hours . ' ' . ($hours == 1 ? 'hour' : 'hours') . ' ago';
+    } elseif ($diff < 604800) {
+        $days = round($diff / 86400);
+        return $days . ' ' . ($days == 1 ? 'day' : 'days') . ' ago';
+    } else {
+        return date('M j, Y', $timestamp);
+    }
+}

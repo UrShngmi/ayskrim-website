@@ -1,3 +1,5 @@
+console.log('orders.js loaded');
+
 document.addEventListener('DOMContentLoaded', function() {
     console.log("Orders page script initialized");
     
@@ -65,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Handle grid/list view toggle in all sections
+    // View mode switching (Grid/List/Calendar)
     const viewButtons = document.querySelectorAll('.view-btn');
     viewButtons.forEach(btn => {
         btn.addEventListener('click', function() {
@@ -81,39 +83,29 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Remove active class from all view buttons in this container
                 const containerViewButtons = container.querySelectorAll('.view-btn');
-                containerViewButtons.forEach(button => button.classList.remove('active'));
+                containerViewButtons.forEach(btn => btn.classList.remove('active'));
                 
                 // Add active class to clicked button
                 this.classList.add('active');
                 
-                // Apply the view type to the cards
-                if (viewType === 'list') {
-                    cards.forEach(card => {
-                        card.classList.add('list-view');
-                        card.classList.remove('grid-view');
-                    });
-                } else if (viewType === 'grid') {
-                    cards.forEach(card => {
-                        card.classList.add('grid-view');
-                        card.classList.remove('list-view');
-                    });
-                } else if (viewType === 'calendar') {
-                    // Just show an alert for now as calendar view is not implemented
-                    alert('Calendar view functionality is a placeholder and not implemented in this version.');
+                // Handle calendar view
+                if (viewType === 'calendar') {
+                    // For now, just show an alert that calendar view is not implemented
+                    alert('Calendar view will be implemented in a future update.');
+                    return;
                 }
                 
-                // Update container layout if it's a grid container
-                const cardsContainer = container.querySelector('.past-order-cards, .booking-cards');
-                if (cardsContainer) {
-                    if (viewType === 'grid') {
-                        if (window.innerWidth >= 768) {
-                            cardsContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
-                        } else {
-                            cardsContainer.style.gridTemplateColumns = 'repeat(1, 1fr)';
-                        }
-                    } else if (viewType === 'list') {
-                        cardsContainer.style.gridTemplateColumns = '1fr';
-                    }
+                // Apply grid or list view
+                cards.forEach(card => {
+                    card.classList.remove('grid-view', 'list-view');
+                    card.classList.add(viewType + '-view');
+                });
+                
+                // Apply any container-level classes for layout
+                if (viewType === 'list') {
+                    container.querySelector('.booking-cards, .past-order-cards').classList.add('list-layout');
+                } else {
+                    container.querySelector('.booking-cards, .past-order-cards').classList.remove('list-layout');
                 }
             }
         });
@@ -149,89 +141,194 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize event listeners
     initEventListeners();
     
-    // Initialize map if it exists
-    initMap();
+    // Map view toggle functionality
+    const mapViewOptions = document.querySelectorAll('.map-view-option');
+    const orderMap = document.getElementById('orderMap');
+    const orderDetails = document.getElementById('orderDetails');
     
-    // Sort Menu Toggle for Past Orders
-    const sortOrdersButton = document.getElementById('sortOrdersButton');
-    const sortOrdersMenu = document.getElementById('sortOrdersMenu');
-    
-    if (sortOrdersButton && sortOrdersMenu) {
-        sortOrdersButton.addEventListener('click', function() {
-            sortOrdersMenu.classList.toggle('active');
-        });
-        
-        document.addEventListener('click', function(event) {
-            if (!sortOrdersButton.contains(event.target) && !sortOrdersMenu.contains(event.target)) {
-                sortOrdersMenu.classList.remove('active');
-            }
-        });
-        
-        const sortOrdersOptions = sortOrdersMenu.querySelectorAll('.sort-option');
-        sortOrdersOptions.forEach(option => {
+    if (mapViewOptions.length) {
+        mapViewOptions.forEach(option => {
             option.addEventListener('click', function() {
-                const sortValue = this.getAttribute('data-sort');
-                // Call sort function
-                sortOrders(sortValue, 'past-orders');
-                sortOrdersMenu.classList.remove('active');
+                // Remove active class from all options
+                mapViewOptions.forEach(opt => opt.classList.remove('active'));
+                // Add active class to clicked option
+                this.classList.add('active');
+                
+                // Toggle between map and order details
+                if (this.textContent.trim() === 'Live Map') {
+                    orderMap.style.display = 'block';
+                    orderDetails.style.display = 'none';
+                } else {
+                    orderMap.style.display = 'none';
+                    orderDetails.style.display = 'block';
+                }
             });
         });
     }
     
-    // Upcoming Bookings Sort Button
-    const sortUpcomingBookingsButton = document.getElementById('sortUpcomingBookingsButton');
-    const sortUpcomingBookingsMenu = document.getElementById('sortUpcomingBookingsMenu');
-    
-    if (sortUpcomingBookingsButton && sortUpcomingBookingsMenu) {
-        sortUpcomingBookingsButton.addEventListener('click', function() {
-            sortUpcomingBookingsMenu.classList.toggle('active');
-        });
-        
-        document.addEventListener('click', function(event) {
-            if (!sortUpcomingBookingsButton.contains(event.target) && !sortUpcomingBookingsMenu.contains(event.target)) {
-                sortUpcomingBookingsMenu.classList.remove('active');
+    // Details link click handler
+    const detailsLinks = document.querySelectorAll('.details-link');
+    detailsLinks.forEach(link => {
+        link.addEventListener('click', async function(e) {
+            e.preventDefault();
+            const orderId = this.getAttribute('data-order-id');
+            
+            // Switch to order details view
+            mapViewOptions.forEach(opt => opt.classList.remove('active'));
+            mapViewOptions[1].classList.add('active');
+            orderMap.style.display = 'none';
+            orderDetails.style.display = 'block';
+            
+            // Show loading state
+            orderDetails.querySelector('.order-details-content').innerHTML = `
+                <div class="order-details-loading">
+                    <div class="spinner"></div>
+                    <p>Loading order details...</p>
+                </div>
+            `;
+            
+            // Fetch and display order details
+            const orderData = await fetchOrderDetails(orderId);
+            if (orderData) {
+                displayOrderDetails(orderData);
+            } else {
+                orderDetails.querySelector('.order-details-content').innerHTML = `
+                    <div class="error-message">
+                        <p>Failed to load order details. Please try again.</p>
+                    </div>
+                `;
+            }
+            
+            // Scroll to map container
+            const mapContainer = document.querySelector('.live-tracking');
+            if (mapContainer) {
+                mapContainer.scrollIntoView({ behavior: 'smooth' });
             }
         });
-        
-        const sortUpcomingBookingsOptions = sortUpcomingBookingsMenu.querySelectorAll('.sort-option');
-        sortUpcomingBookingsOptions.forEach(option => {
-            option.addEventListener('click', function() {
-                const sortValue = this.getAttribute('data-sort');
-                // Call sort function
-                sortBookings(sortValue, 'upcoming-bookings');
-                sortUpcomingBookingsMenu.classList.remove('active');
-            });
-        });
-    }
+    });
     
-    // Past Bookings Sort Button
-    const sortPastBookingsButton = document.getElementById('sortPastBookingsButton');
-    const sortPastBookingsMenu = document.getElementById('sortPastBookingsMenu');
-    
-    if (sortPastBookingsButton && sortPastBookingsMenu) {
-        sortPastBookingsButton.addEventListener('click', function() {
-            sortPastBookingsMenu.classList.toggle('active');
-        });
-        
-        document.addEventListener('click', function(event) {
-            if (!sortPastBookingsButton.contains(event.target) && !sortPastBookingsMenu.contains(event.target)) {
-                sortPastBookingsMenu.classList.remove('active');
+    // Track button click handler
+    const trackButtons = document.querySelectorAll('.track-button');
+    trackButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const orderId = this.getAttribute('data-order-id');
+            
+            // Switch to live map view
+            mapViewOptions.forEach(opt => opt.classList.remove('active'));
+            mapViewOptions[0].classList.add('active');
+            orderMap.style.display = 'block';
+            orderDetails.style.display = 'none';
+            
+            // Scroll to map container
+            const mapContainer = document.querySelector('.live-tracking');
+            if (mapContainer) {
+                mapContainer.scrollIntoView({ behavior: 'smooth' });
             }
         });
+    });
+    
+    // Sort menu toggle functionality
+    const sortButtons = document.querySelectorAll('.sort-button');
+    const sortMenus = document.querySelectorAll('.sort-menu');
+    
+    sortButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.stopPropagation();
+            
+            // Get the corresponding menu
+            const menuId = this.id.replace('Button', 'Menu');
+            const menu = document.getElementById(menuId);
+            
+            if (menu) {
+                // Close all other menus first
+                sortMenus.forEach(m => {
+                    if (m.id !== menuId) {
+                        m.classList.remove('active');
+                    }
+                });
+                
+                // Toggle the current menu
+                menu.classList.toggle('active');
+            }
+        });
+    });
+    
+    // Close sort menus when clicking elsewhere on the page
+    document.addEventListener('click', function() {
+        sortMenus.forEach(menu => {
+            menu.classList.remove('active');
+        });
+    });
+    
+    // Prevent closing when clicking inside the menus
+    sortMenus.forEach(menu => {
+        menu.addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+    });
+    
+    // Handle sort options
+    const sortOptions = document.querySelectorAll('.sort-option');
+    sortOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            const sortType = this.getAttribute('data-sort');
+            const containerId = this.closest('.sort-menu').id.replace('Menu', '').replace('sort', '').toLowerCase();
+            sortItems(sortType, containerId);
+            
+            // Update button text to show current sort
+            const optionText = this.querySelector('span').textContent;
+            const buttonId = this.closest('.sort-menu').id.replace('Menu', 'Button');
+            const button = document.getElementById(buttonId);
+            if (button) {
+                button.innerHTML = `<i class="fas fa-sort"></i><span>${optionText}</span>`;
+            }
+            
+            // Close the menu
+            this.closest('.sort-menu').classList.remove('active');
+        });
+    });
+    
+    // Function to sort items (orders or bookings)
+    function sortItems(sortType, containerId) {
+        const containerSelector = containerId === 'orders' ? '.past-order-cards' : 
+                                 (containerId === 'upcomingbookings' ? '.upcoming-bookings .booking-cards' : 
+                                 '.past-bookings .booking-cards');
         
-        const sortPastBookingsOptions = sortPastBookingsMenu.querySelectorAll('.sort-option');
-        sortPastBookingsOptions.forEach(option => {
-            option.addEventListener('click', function() {
-                const sortValue = this.getAttribute('data-sort');
-                // Call sort function
-                sortBookings(sortValue, 'past-bookings');
-                sortPastBookingsMenu.classList.remove('active');
-            });
+        const itemSelector = containerId === 'orders' ? '.past-order-card' : '.booking-card';
+        const container = document.querySelector(containerSelector);
+        const items = container?.querySelectorAll(itemSelector);
+        
+        if (!container || !items || items.length === 0) return;
+        
+        const itemsArray = Array.from(items);
+        
+        itemsArray.sort((a, b) => {
+            if (sortType === 'date-newest') {
+                const dateA = new Date(a.querySelector('.order-date, .booking-title-overlay p').textContent);
+                const dateB = new Date(b.querySelector('.order-date, .booking-title-overlay p').textContent);
+                return dateB - dateA;
+            } else if (sortType === 'date-oldest') {
+                const dateA = new Date(a.querySelector('.order-date, .booking-title-overlay p').textContent);
+                const dateB = new Date(b.querySelector('.order-date, .booking-title-overlay p').textContent);
+                return dateA - dateB;
+            } else if (sortType === 'price-high') {
+                const priceA = parseFloat(a.querySelector('.order-price').textContent.replace('$', ''));
+                const priceB = parseFloat(b.querySelector('.order-price').textContent.replace('$', ''));
+                return priceB - priceA;
+            } else if (sortType === 'price-low') {
+                const priceA = parseFloat(a.querySelector('.order-price').textContent.replace('$', ''));
+                const priceB = parseFloat(b.querySelector('.order-price').textContent.replace('$', ''));
+                return priceA - priceB;
+            }
+            return 0;
+        });
+        
+        // Clear and append sorted items
+        container.innerHTML = '';
+        itemsArray.forEach(item => {
+            container.appendChild(item);
         });
     }
-    
-    // Initialize all view control buttons
-    initializeViewControls();
     
     // Add search functionality
     const searchBar = document.querySelector('.search-bar input');
@@ -456,33 +553,64 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Initialize all view control buttons
-    function initializeViewControls() {
-        const viewButtons = document.querySelectorAll('.view-btn');
-        viewButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                const viewContainer = this.closest('.controls-row').parentElement.parentElement;
-                const viewType = this.getAttribute('data-view');
-                
-                // Remove active class from all buttons in this container
-                const siblingButtons = this.parentElement.querySelectorAll('.view-btn');
-                siblingButtons.forEach(btn => btn.classList.remove('active'));
-                
-                // Add active class to clicked button
-                this.classList.add('active');
-                
-                // Handle view change
-                if (viewType === 'grid' || viewType === 'list') {
-                    handleViewChange(viewContainer, viewType);
-                } else if (viewType === 'calendar') {
-                    // For now, just toggle the active class as we're not implementing calendar view
-                    // This would be replaced with actual calendar implementation
-                    alert('Calendar view functionality is a placeholder and not implemented in this version.');
-                }
+        // View mode buttons
+        viewBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const mode = btn.getAttribute('data-view');
+                switchViewMode(mode);
             });
         });
-    }
+        
+        // Dropdown triggers
+        dropdownTriggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const dropdown = trigger.nextElementSibling;
+                dropdown.classList.toggle('active');
+        });
+    });
 
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', () => {
+            document.querySelectorAll('.dropdown-menu.active').forEach(menu => {
+                menu.classList.remove('active');
+            });
+        });
+        
+        // Order cards
+        orderCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const orderId = card.getAttribute('data-order-id');
+                selectOrder(orderId);
+        });
+    });
+
+        // Track order buttons
+        trackOrderBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const orderId = btn.getAttribute('data-order-id');
+                selectOrder(orderId);
+                scrollToMap();
+            });
+        });
+        
+        // Map view buttons
+        if (mapViewBtns) {
+            mapViewBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const view = btn.getAttribute('data-map-view');
+                    switchMapView(view);
+                });
+            });
+        }
+        
+        // Map fullscreen button
+        if (mapFullscreenBtn) {
+            mapFullscreenBtn.addEventListener('click', toggleMapFullscreen);
+        }
+    }
+    
     function switchMainTab(tab) {
         // Update active tab
         activeMainTab = tab;
@@ -728,364 +856,385 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function initMap() {
-        // Check if map exists in the DOM
-        const orderMap = document.getElementById('orderMap');
-        if (!orderMap) return;
-
-        // Ensure the map container has proper dimensions before initialization
-        const mapContainer = orderMap.parentElement;
-        if (mapContainer) {
-            mapContainer.style.display = 'flex';
-            mapContainer.style.flexDirection = 'column';
-            mapContainer.style.backgroundColor = 'white';
-        }
-
-        // Force proper sizing
-        orderMap.style.position = 'absolute';
-        orderMap.style.height = '100%';
-        orderMap.style.width = '100%';
-        orderMap.style.margin = '0';
-        orderMap.style.padding = '0';
-        orderMap.style.backgroundColor = 'white';
-
-        // Initialize Leaflet map with strict container check
-        const map = L.map(orderMap, {
-            zoomControl: false,
-            attributionControl: true,
-            scrollWheelZoom: true,
-            dragging: true,
-            doubleClickZoom: true,
-            boxZoom: true
-        }).setView([40.7128, -74.0060], 14);
-
-        // Add tile layer (Standard view)
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© <a href="https://leafletjs.com">Leaflet</a> | © Rey\'s Ice Cream Delivery Map | © OpenStreetMap contributors',
-            maxZoom: 19
-        }).addTo(map);
-
-        // Force multiple map redraws to ensure proper rendering
-        // First immediate invalidate
-        map.invalidateSize(true);
-        
-        // Then delayed invalidates to catch any delayed layout calculations
-        setTimeout(() => map.invalidateSize(true), 100);
-        setTimeout(() => map.invalidateSize(true), 500);
-        setTimeout(() => map.invalidateSize(true), 1000);
-
-        // Define SVG for gradient route
-        const svgGradient = `
-        <svg width="0" height="0">
-            <defs>
-                <linearGradient id="pink-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="#FF99B5" />
-                    <stop offset="100%" stop-color="#FF3B8E" />
-                </linearGradient>
-            </defs>
-        </svg>
-        `;
-        document.body.insertAdjacentHTML('beforeend', svgGradient);
-
-        // Create custom icons
-        const homeIcon = L.divIcon({
-            className: 'custom-marker home-marker',
-            html: '<div class="marker-icon"><i class="fas fa-home"></i></div>',
-            iconSize: [50, 50],
-            iconAnchor: [25, 25]
-        });
-
-        const truckIcon = L.divIcon({
-            className: 'custom-marker truck-marker',
-            html: '<div class="marker-icon"><i class="fas fa-truck"></i></div>',
-            iconSize: [50, 50],
-            iconAnchor: [25, 25]
-        });
-
-        const storeIcon = L.divIcon({
-            className: 'custom-marker store-marker',
-            html: '<div class="marker-icon"><i class="fas fa-store"></i></div>',
-            iconSize: [50, 50],
-            iconAnchor: [25, 25]
-        });
-
-        // Define points for demonstration
-        const storePoint = [40.7128, -74.0060]; // Store location
-        const customerPoint = [40.7300, -73.9850]; // Customer location
-        const truckPoint = [
-            storePoint[0] + (customerPoint[0] - storePoint[0]) * 0.6,
-            storePoint[1] + (customerPoint[1] - storePoint[1]) * 0.6
-        ];
-
-        // Add markers
-        const storeMarker = L.marker(storePoint, { icon: storeIcon }).addTo(map);
-        const customerMarker = L.marker(customerPoint, { icon: homeIcon }).addTo(map);
-        const truckMarker = L.marker(truckPoint, { icon: truckIcon }).addTo(map);
-
-        // Add polyline for route with custom styling
-        const routeCoordinates = [storePoint, truckPoint, customerPoint];
-        const route = L.polyline(routeCoordinates, {
-            color: '#FF5FA2',
-            weight: 4,
-            opacity: 0.8,
-            className: 'delivery-route',
-            smoothFactor: 1
-        }).addTo(map);
-
-        // Fit map to show all markers
-        map.fitBounds(route.getBounds(), { padding: [50, 50] });
-        
-        // Store bounds for recenter function
-        map._routeBounds = route.getBounds();
-
-        // Store map instance for later use
-        window.orderMap = map;
-
-        // Initialize custom map controls
-        initMapControls(map);
-        
-        // Handle container resize events
-        window.addEventListener('resize', function() {
-            if (map) map.invalidateSize(true);
-        });
-        
-        // Add mutation observer to detect DOM changes that might affect layout
-        const observer = new MutationObserver(() => {
-            if (map) map.invalidateSize(true);
-        });
-        
-        observer.observe(document.body, { 
-            childList: true, 
-            subtree: true, 
-            attributes: true,
-            attributeFilter: ['style', 'class']
-        });
+    // === ACTIVE ORDERS MAP INTEGRATION PATCH START ===
+    async function fetchActiveOrders() {
+        const res = await fetch('/ayskrimWebsite/api/orders/fetchActiveOrders.php');
+        const data = await res.json();
+        return data.orders || [];
+    }
+    
+    async function fetchOrderDetails(orderId) {
+        const res = await fetch(`/ayskrimWebsite/api/orders/fetchOrderDetails.php?orderId=${orderId}`);
+        const data = await res.json();
+        return data.order || null;
     }
 
-    function initMapControls(map) {
-        if (!map) return;
-        
-        // Map view options (Live Map / Order Details)
-        const mapViewOptions = document.querySelectorAll('.map-view-option');
-        mapViewOptions.forEach(option => {
-            option.addEventListener('click', () => {
-                mapViewOptions.forEach(opt => opt.classList.remove('active'));
-                option.classList.add('active');
-            });
-        });
-        
-        // Map type controls (Standard/Satellite/Traffic)
-        const mapViewButtons = document.querySelectorAll('.map-view-button');
-        mapViewButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const view = button.getAttribute('data-view');
-                updateMapTileLayer(map, view);
-                
-                mapViewButtons.forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-            });
-        });
-
-        // Zoom controls
-        const zoomInButton = document.querySelector('.zoom-in');
-        if (zoomInButton) {
-            zoomInButton.addEventListener('click', () => {
-                map.zoomIn(1);
-            });
-        }
-        
-        const zoomOutButton = document.querySelector('.zoom-out');
-        if (zoomOutButton) {
-            zoomOutButton.addEventListener('click', () => {
-                map.zoomOut(1);
-            });
-        }
-
-        // Center map button
-        const centerButton = document.querySelector('.center');
-        if (centerButton) {
-            centerButton.addEventListener('click', () => {
-                if (map._routeBounds) {
-                    map.fitBounds(map._routeBounds, { padding: [50, 50] });
-                }
-            });
-        }
-
-        // Refresh map button
-        const refreshButton = document.querySelector('.refresh');
-        if (refreshButton) {
-            refreshButton.addEventListener('click', () => {
-                map.invalidateSize();
-                
-                // Animate refresh button
-                refreshButton.classList.add('rotating');
-                setTimeout(() => {
-                    refreshButton.classList.remove('rotating');
-                }, 1000);
-            });
-        }
-
-        // Fullscreen button
-        const fullscreenButton = document.querySelector('.map-fullscreen-button');
-        if (fullscreenButton) {
-            fullscreenButton.addEventListener('click', () => {
-                toggleMapFullscreen(map);
-            });
-        }
-    }
-
-    function updateMapTileLayer(map, view) {
-        if (!map) return;
-        
-        // Remove existing tile layers
-        map.eachLayer(layer => {
-            if (layer instanceof L.TileLayer) {
-                map.removeLayer(layer);
+    async function geocodeAddress(address) {
+        if (!address) return null;
+        const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`;
+        try {
+            const res = await fetch(url);
+            const results = await res.json();
+            if (results.length > 0) {
+                return { lat: parseFloat(results[0].lat), lon: parseFloat(results[0].lon) };
             }
-        });
-        
-        // Add appropriate tile layer based on view
-        let tileLayer;
-        switch (view) {
-            case 'satellite':
-                // Use a satellite tile provider (example: ESRI)
-                tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '© Rey\'s Ice Cream Delivery Map | Imagery © Esri',
-                    maxZoom: 19
-                });
-                break;
-            case 'traffic':
-                // Use OpenStreetMap as a fallback for traffic view
-                tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '© Rey\'s Ice Cream Delivery Map | © OpenStreetMap contributors (Traffic data unavailable in demo)',
-                    maxZoom: 19
-                });
-                break;
-            default: // standard
-                tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '© Rey\'s Ice Cream Delivery Map | © OpenStreetMap contributors',
-                    maxZoom: 19
-                });
-        }
-        
-        tileLayer.addTo(map);
+        } catch (e) { console.error('Geocoding failed', e); }
+        return null;
     }
 
-    function animateRoute() {
-        // This function is kept for backward compatibility
-        // Animation is now handled by Leaflet
-    }
-
-    // Function to handle view change between grid and list
-    function handleViewChange(container, viewType) {
-        // Find cards container - could be past-order-cards or booking-cards
-        let cardsContainer;
-        if (container.querySelector('.past-order-cards')) {
-            cardsContainer = container.querySelector('.past-order-cards');
-        } else if (container.querySelector('.booking-cards')) {
-            cardsContainer = container.querySelector('.booking-cards');
-        } else {
+    async function renderActiveOrdersAndMap() {
+        console.log('renderActiveOrdersAndMap called');
+        const container = document.querySelector('.order-list');
+        const loadingDiv = container.querySelector('.active-orders-loading');
+        if (loadingDiv) loadingDiv.style.display = 'flex';
+        // Fetch and geocode
+        const orders = await fetchActiveOrders();
+        orders.sort((a, b) => a.id - b.id);
+        // Geocode all addresses in parallel
+        const geocoded = await Promise.all(orders.map(async order => {
+            const coords = await geocodeAddress(order.shipping_address);
+            return coords ? { ...order, coords } : null;
+        }));
+        const validOrders = geocoded.filter(Boolean);
+        // Remove loading spinner
+        if (loadingDiv) loadingDiv.remove();
+        // If no orders, show message
+        if (validOrders.length === 0) {
+            container.innerHTML = '<div style="text-align:center;color:#ec4899;font-weight:500;padding:2em 0;">No active orders found.</div>';
+            // Remove any existing map
+            const mapDiv = document.getElementById('orderMap');
+            if (mapDiv && mapDiv._leaflet_id) {
+                mapDiv._leaflet_id = null;
+                mapDiv.innerHTML = '';
+            }
             return;
         }
-        
-        // Find all cards
-        const cards = cardsContainer.children;
-        
-        // Remove existing view classes and add new one
-        for (let i = 0; i < cards.length; i++) {
-            cards[i].classList.remove('grid-view', 'list-view');
-            cards[i].classList.add(viewType + '-view');
+        // Initialize map only after data is ready
+        const mapDiv = document.getElementById('orderMap');
+        if (mapDiv && mapDiv._leaflet_id) {
+            mapDiv._leaflet_id = null;
+            mapDiv.innerHTML = '';
         }
-        
-        // Update grid template based on view
-        if (viewType === 'grid') {
-            if (window.innerWidth >= 768) {
-                cardsContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
-            } else {
-                cardsContainer.style.gridTemplateColumns = 'repeat(1, 1fr)';
-            }
-        } else if (viewType === 'list') {
-            cardsContainer.style.gridTemplateColumns = '1fr';
-        }
-    }
-
-    // Function to sort orders
-    function sortOrders(sortBy, containerType) {
-        let container;
-        if (containerType === 'past-orders') {
-            container = document.querySelector('.past-order-cards');
-        }
-        
-        if (!container) return;
-        
-        const cards = Array.from(container.children);
-        
-        cards.sort((a, b) => {
-            if (sortBy === 'date-newest') {
-                const dateA = new Date(a.querySelector('.order-date').textContent);
-                const dateB = new Date(b.querySelector('.order-date').textContent);
-                return dateB - dateA;
-            } else if (sortBy === 'date-oldest') {
-                const dateA = new Date(a.querySelector('.order-date').textContent);
-                const dateB = new Date(b.querySelector('.order-date').textContent);
-                return dateA - dateB;
-            } else if (sortBy === 'price-high') {
-                const priceA = parseFloat(a.querySelector('.order-price').textContent.replace('₱', '').replace(',', ''));
-                const priceB = parseFloat(b.querySelector('.order-price').textContent.replace('₱', '').replace(',', ''));
-                return priceB - priceA;
-            } else if (sortBy === 'price-low') {
-                const priceA = parseFloat(a.querySelector('.order-price').textContent.replace('₱', '').replace(',', ''));
-                const priceB = parseFloat(b.querySelector('.order-price').textContent.replace('₱', '').replace(',', ''));
-                return priceA - priceB;
-            }
-            
-            return 0;
+        const map = L.map('orderMap').setView([validOrders[0].coords.lat, validOrders[0].coords.lon], 14);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        const markers = [];
+        validOrders.forEach((order, idx) => {
+            const marker = L.marker([order.coords.lat, order.coords.lon]).addTo(map)
+                .bindPopup(`Order #${order.id}<br>${order.shipping_address}`);
+            markers.push({ orderId: order.id, marker, coords: order.coords });
         });
-        
-        // Clear container and append sorted cards
+        // Fit map to all markers
+        const group = new L.featureGroup(markers.map(m => m.marker));
+        map.fitBounds(group.getBounds(), { padding: [50, 50] });
+        // Render orders in the container
         container.innerHTML = '';
-        cards.forEach(card => container.appendChild(card));
-    }
-
-    // Function to sort bookings
-    function sortBookings(sortBy, containerType) {
-        let container;
-        if (containerType === 'upcoming-bookings') {
-            container = document.querySelector('.upcoming-bookings-container .booking-cards');
-        } else if (containerType === 'past-bookings') {
-            container = document.querySelector('.past-bookings-container .booking-cards');
-        }
-        
-        if (!container) return;
-        
-        const cards = Array.from(container.children);
-        
-        cards.sort((a, b) => {
-            if (sortBy === 'date-nearest' || sortBy === 'date-newest') {
-                const dateA = new Date(a.querySelector('.booking-title-overlay p').textContent);
-                const dateB = new Date(b.querySelector('.booking-title-overlay p').textContent);
-                return sortBy === 'date-nearest' ? dateA - dateB : dateB - dateA;
-            } else if (sortBy === 'date-furthest' || sortBy === 'date-oldest') {
-                const dateA = new Date(a.querySelector('.booking-title-overlay p').textContent);
-                const dateB = new Date(b.querySelector('.booking-title-overlay p').textContent);
-                return sortBy === 'date-furthest' ? dateB - dateA : dateA - dateB;
-            } else if (sortBy === 'price-high' || sortBy === 'price-low') {
-                // Find price element (depends on your HTML structure)
-                const priceElementA = a.querySelector('.detail-value.price');
-                const priceElementB = b.querySelector('.detail-value.price');
-                
-                if (priceElementA && priceElementB) {
-                    const priceA = parseFloat(priceElementA.textContent.replace('₱', '').replace(',', ''));
-                    const priceB = parseFloat(priceElementB.textContent.replace('₱', '').replace(',', ''));
-                    return sortBy === 'price-high' ? priceB - priceA : priceA - priceB;
+        validOrders.forEach((order, idx) => {
+            // Create a more detailed order card
+            const div = document.createElement('div');
+            div.className = 'order-item';
+            div.setAttribute('data-order-id', order.id);
+            div.tabIndex = 0;
+            
+            // Status class based on order status
+            const statusClass = order.order_status ? order.order_status.toLowerCase().replace(' ', '-') : 'processing';
+            
+            // Format the order item HTML
+            div.innerHTML = `
+                <div class="order-header">
+                    <div>
+                        <span class="order-id">ORD-${order.id}</span>
+                        <span class="order-date">${new Date(order.created_at).toLocaleDateString()}</span>
+                    </div>
+                    <span class="order-status ${statusClass}">${order.order_status || 'Processing'}</span>
+                </div>
+                <div class="order-info">
+                    <div class="order-eta">
+                        <i class="far fa-clock"></i>
+                        ${order.estimated_delivery_time ? 
+                            `ETA: ${new Date(order.estimated_delivery_time).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}` : 
+                            'ETA: Processing'}
+                    </div>
+                    <div class="order-price">
+                        ₱${parseFloat(order.total_amount).toFixed(2)}
+                    </div>
+                </div>
+                <div class="order-actions">
+                    <button class="order-action-button track-button" data-order-id="${order.id}">
+                        <i class="fas fa-truck"></i>
+                        Track Order
+                    </button>
+                    <button class="order-action-button contact-button">
+                        <i class="fas fa-phone"></i>
+                        Contact
+                    </button>
+                </div>
+                <div class="order-footer">
+                    <div class="last-updated">
+                        <i class="fas fa-sync-alt"></i>
+                        Last updated: ${getTimeAgoFromDate(new Date(order.created_at))}
+                    </div>
+                    <a href="#" class="details-link" data-order-id="${order.id}">Details</a>
+                </div>
+            `;
+            
+            // Add event listener for the entire card
+            div.addEventListener('click', () => {
+                const m = markers.find(m => m.orderId === order.id);
+                if (m) {
+                    map.setView([m.coords.lat, m.coords.lon], 16, { animate: true });
+                    m.marker.openPopup();
                 }
+                document.querySelectorAll('.order-item').forEach(el => el.classList.remove('selected'));
+                div.classList.add('selected');
+            });
+            
+            // Add event listeners for the details link and track button
+            const detailsLink = div.querySelector('.details-link');
+            const trackButton = div.querySelector('.track-button');
+            
+            detailsLink.addEventListener('click', async function(e) {
+                e.preventDefault();
+                e.stopPropagation(); // Prevent the order item click
+                const orderId = this.getAttribute('data-order-id');
+                
+                // Switch to order details view
+                const mapViewOptions = document.querySelectorAll('.map-view-option');
+                mapViewOptions.forEach(opt => opt.classList.remove('active'));
+                mapViewOptions[1].classList.add('active');
+                document.getElementById('orderMap').style.display = 'none';
+                document.getElementById('orderDetails').style.display = 'block';
+                
+                // Show loading state
+                document.getElementById('orderDetails').querySelector('.order-details-content').innerHTML = `
+                    <div class="order-details-loading">
+                        <div class="spinner"></div>
+                        <p>Loading order details...</p>
+                    </div>
+                `;
+                
+                // Fetch and display order details
+                const orderData = await fetchOrderDetails(orderId);
+                if (orderData) {
+                    displayOrderDetails(orderData);
+                } else {
+                    document.getElementById('orderDetails').querySelector('.order-details-content').innerHTML = `
+                        <div class="error-message">
+                            <p>Failed to load order details. Please try again.</p>
+                        </div>
+                    `;
+                }
+                
+                // Scroll to map container
+                const mapContainer = document.querySelector('.live-tracking');
+                if (mapContainer) {
+                    mapContainer.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+            
+            trackButton.addEventListener('click', function(e) {
+                e.stopPropagation(); // Prevent the order item click
+                
+                // Switch to live map view
+                const mapViewOptions = document.querySelectorAll('.map-view-option');
+                mapViewOptions.forEach(opt => opt.classList.remove('active'));
+                mapViewOptions[0].classList.add('active');
+                document.getElementById('orderMap').style.display = 'block';
+                document.getElementById('orderDetails').style.display = 'none';
+                
+                // Highlight this order and center the map on it
+                const m = markers.find(m => m.orderId === parseInt(this.getAttribute('data-order-id')));
+                if (m) {
+                    map.setView([m.coords.lat, m.coords.lon], 16, { animate: true });
+                    m.marker.openPopup();
+                }
+                document.querySelectorAll('.order-item').forEach(el => el.classList.remove('selected'));
+                div.classList.add('selected');
+                
+                // Scroll to map container
+                const mapContainer = document.querySelector('.live-tracking');
+                if (mapContainer) {
+                    mapContainer.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+            
+            // Optionally select the first order by default
+            if (idx === 0 && markers[0]) {
+                setTimeout(() => {
+                    map.setView([markers[0].coords.lat, markers[0].coords.lon], 16, { animate: true });
+                    markers[0].marker.openPopup();
+                    div.classList.add('selected');
+                }, 500);
             }
             
-            return 0;
+            container.appendChild(div);
         });
         
-        // Clear container and append sorted cards
-        container.innerHTML = '';
-        cards.forEach(card => container.appendChild(card));
+        // Initialize event listeners for the newly created buttons
+        initOrderItemEventListeners();
     }
+    
+    // Helper function for time ago based on a Date object
+    function getTimeAgoFromDate(date) {
+        const now = new Date();
+        const diff = now - date;
+        
+        if (diff < 60000) { // less than 1 minute
+            return 'Just now';
+        } else if (diff < 3600000) { // less than 1 hour
+            const mins = Math.floor(diff / 60000);
+            return mins + (mins === 1 ? ' min ago' : ' mins ago');
+        } else if (diff < 86400000) { // less than 1 day
+            const hours = Math.floor(diff / 3600000);
+            return hours + (hours === 1 ? ' hour ago' : ' hours ago');
+        } else if (diff < 604800000) { // less than 1 week
+            const days = Math.floor(diff / 86400000);
+            return days + (days === 1 ? ' day ago' : ' days ago');
+        }
+        
+        // Helper function for time ago based on a Date object
+        function getTimeAgoFromDate(date) {
+            const now = new Date();
+            const diff = now - date;
+            
+            if (diff < 60000) { // less than 1 minute
+                return 'Just now';
+            } else if (diff < 3600000) { // less than 1 hour
+                const mins = Math.floor(diff / 60000);
+                return mins + (mins === 1 ? ' min ago' : ' mins ago');
+            } else if (diff < 86400000) { // less than 1 day
+                const hours = Math.floor(diff / 3600000);
+                return hours + (hours === 1 ? ' hour ago' : ' hours ago');
+            } else if (diff < 604800000) { // less than 1 week
+                const days = Math.floor(diff / 86400000);
+                return days + (days === 1 ? ' day ago' : ' days ago');
+            } else {
+                return date.toLocaleDateString();
+            }
+        }
+        
+        // Initialize event listeners for order items after they're added to the DOM
+        function initOrderItemEventListeners() {
+            // This function is now redundant since we add event listeners directly when creating the items
+            // But kept for extensibility
+        }
+
+        // Function to display order details
+        async function displayOrderDetails(orderId) {
+            console.log(`Displaying details for order ${orderId}`);
+            const orderDetailsContent = document.getElementById('orderDetails');
+            orderDetailsContent.innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i></div><p class="text-center">Loading order details...</p>';
+            
+            try {
+                const response = await fetch(`/ayskrimWebsite/api/orders/getOrderDetails.php?id=${orderId}`);
+                if (!response.ok) {
+                    throw new Error('Failed to fetch order details');
+                }
+                
+                const data = await response.json();
+                const order = data.order;
+                const orderItems = data.items;
+                
+                if (!order) {
+                    orderDetailsContent.innerHTML = '<p class="text-center">Order not found</p>';
+                    return;
+                }
+                
+                console.log('Order details:', order);
+                console.log('Order items:', orderItems);
+                
+                // Format order items HTML
+                const items = orderItems.length ? orderItems.map(item => `
+                <div class="order-item">
+                    <div class="item-image">
+                        <img src="${item.image_url || '/ayskrimWebsite/assets/images/placeholder.jpg'}" alt="${item.product_name}">
+                    </div>
+                    <div class="item-info">
+                        <div class="item-name">${item.product_name}</div>
+                        <div class="item-quantity">Qty: ${item.quantity}</div>
+                        <div class="item-instructions">${item.special_instructions || 'No special instructions'}</div>
+                    </div>
+                    <div class="item-price">
+                        <div class="price-tag">₱${parseFloat(item.price).toFixed(2)}</div>
+                        <div class="subtotal">Subtotal: ₱${parseFloat(item.subtotal).toFixed(2)}</div>
+                    </div>
+                </div>
+                `).join('') : '<p class="text-center">No items found</p>';
+                
+                orderDetailsContent.innerHTML = `
+                    <div class="order-details-container">
+                        <div class="order-details-header">
+                            <h3>Order #${order.id}</h3>
+                            <div class="order-status ${order.order_status.toLowerCase()}">${order.order_status}</div>
+                        </div>
+                        
+                        <!-- Delivery Address Container - Full Width -->
+                        <div class="details-section">
+                            <h4><i class="fas fa-map-marker-alt"></i> Delivery Address</h4>
+                            <div class="summary-item">
+                                <span class="summary-value">${order.shipping_address}</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Payment and Delivery Info Sections -->
+                        <div class="order-info-sections">
+                            <!-- Payment Information -->
+                            <div class="details-section">
+                                <h4><i class="fas fa-credit-card"></i> Payment Information</h4>
+                                <div class="order-summary">
+                                    <div class="summary-item">
+                                        <span class="summary-label">Status:</span>
+                                        <span class="summary-value payment-status-${order.payment_status.toLowerCase()}">${order.payment_status}</span>
+                                    </div>
+                                    <div class="summary-item">
+                                        <span class="summary-label">Method:</span>
+                                        <span class="summary-value">Cash on Delivery</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Delivery Details -->
+                            <div class="details-section">
+                                <h4><i class="fas fa-truck"></i> Delivery Details</h4>
+                                <div class="order-summary">
+                                    <div class="summary-item">
+                                        <span class="summary-label">Type:</span>
+                                        <span class="summary-value">${order.delivery_type}</span>
+                                    </div>
+                                    <div class="summary-item">
+                                        <span class="summary-label">Tracking Code:</span>
+                                        <div class="tracking-code-container">${order.tracking_code}</div>
+                                    </div>
+                                    <div class="summary-item">
+                                        <span class="summary-label">Estimated Delivery:</span>
+                                        <span class="summary-value">${order.order_status}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Order Items Section -->
+                        <div class="details-section">
+                            <h4><i class="fas fa-ice-cream"></i> Order Items</h4>
+                            <div class="order-items">
+                                ${items}
+                            </div>
+                        </div>
+                        
+                        <!-- Order Summary Section -->
+                        <div class="order-totals">
+                            <div class="total-row">
+                                <span>Total Amount:</span>
+                                <span class="total-amount">₱${parseFloat(order.total_amount).toFixed(2)}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } catch (error) {
+                console.error('Error displaying order details:', error);
+                orderDetailsContent.innerHTML = '<p class="text-center">Failed to load order details. Please try again.</p>';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', renderActiveOrdersAndMap);
+    });
 });

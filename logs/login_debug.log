@@ -3352,3 +3352,131 @@
 2025-05-10 17:27:05 - Password verification successful for user ID: 9
 2025-05-10 17:27:05 - User logged in successfully
 2025-05-10 17:27:05 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 18:54:54 - Login attempt started. Method: GET
+2025-05-10 18:54:54 - Connected to database
+2025-05-10 18:54:54 - Password verification successful for user ID: 9
+2025-05-10 18:54:54 - User logged in successfully
+2025-05-10 18:54:54 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 19:40:42 - Login attempt started. Method: GET
+2025-05-10 19:40:42 - Connected to database
+2025-05-10 19:40:42 - Password verification successful for user ID: 9
+2025-05-10 19:40:42 - User logged in successfully
+2025-05-10 19:40:42 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 19:49:43 - Login attempt started. Method: GET
+2025-05-10 19:49:43 - Connected to database
+2025-05-10 19:49:43 - Password verification successful for user ID: 9
+2025-05-10 19:49:43 - User logged in successfully
+2025-05-10 19:49:43 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 20:23:25 - Login attempt started. Method: GET
+2025-05-10 20:23:25 - Connected to database
+2025-05-10 20:23:25 - Password verification successful for user ID: 9
+2025-05-10 20:23:25 - User logged in successfully
+2025-05-10 20:23:25 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 20:29:40 - Login attempt started. Method: GET
+2025-05-10 20:29:40 - Connected to database
+2025-05-10 20:29:40 - Password verification successful for user ID: 9
+2025-05-10 20:29:40 - User logged in successfully
+2025-05-10 20:29:40 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 21:07:08 - Login attempt started. Method: GET
+2025-05-10 21:07:08 - Connected to database
+2025-05-10 21:07:08 - Password verification successful for user ID: 9
+2025-05-10 21:07:08 - User logged in successfully
+2025-05-10 21:07:08 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 21:42:21 - Login attempt started. Method: GET
+2025-05-10 21:42:21 - Connected to database
+2025-05-10 21:42:22 - Password verification successful for user ID: 9
+2025-05-10 21:42:22 - User logged in successfully
+2025-05-10 21:42:22 - Redirecting to: /customerPage/menu/menu.php
+2025-05-10 23:07:15 - Login attempt started. Method: GET
+2025-05-10 23:07:15 - Connected to database
+2025-05-10 23:07:15 - Password verification successful for user ID: 9
+2025-05-10 23:07:15 - User logged in successfully
+2025-05-10 23:07:15 - Redirecting to: /customerPage/menu/menu.php
+2025-05-11 05:08:54 - Login attempt started. Method: GET
+2025-05-11 05:08:54 - Connected to database
+2025-05-11 05:08:54 - Password verification successful for user ID: 9
+2025-05-11 05:08:54 - User logged in successfully
+2025-05-11 05:08:54 - Redirecting to: /customerPage/menu/menu.php
+2025-05-11 06:09:40 - Login attempt started. Method: GET
+2025-05-11 06:09:40 - Connected to database
+2025-05-11 06:09:40 - Password verification successful for user ID: 9
+2025-05-11 06:09:40 - User logged in successfully
+2025-05-11 06:09:40 - Redirecting to: /customerPage/menu/menu.php
+2025-05-11 07:04:53 - Login attempt started. Method: GET
+2025-05-11 07:04:53 - Connected to database
+2025-05-11 07:04:53 - Password verification successful for user ID: 9
+2025-05-11 07:04:53 - User logged in successfully
+2025-05-11 07:04:53 - Redirecting to: /customerPage/menu/menu.php
+2025-05-11 07:34:43 - Login attempt started. Method: GET
+2025-05-11 07:34:43 - Connected to database
+2025-05-11 07:34:43 - Password verification successful for user ID: 9
+2025-05-11 07:34:43 - User logged in successfully
+2025-05-11 07:34:43 - Redirecting to: /customerPage/menu/menu.php
+2025-05-11 12:58:40 - Login attempt started. Method: GET
+2025-05-11 12:58:40 - Connected to database
+2025-05-11 12:58:40 - Invalid password for user: jj@gmail.com
+2025-05-11 12:58:48 - Login attempt started. Method: GET
+2025-05-11 12:58:48 - Connected to database
+2025-05-11 12:58:48 - Password verification successful for user ID: 9
+2025-05-11 12:58:48 - User logged in successfully
+2025-05-11 12:58:48 - Redirecting to: /customerPage/menu/menu.php
+2025-05-11 14:06:59 - Login attempt started. Method: GET
+2025-05-11 14:06:59 - Connected to database
+2025-05-11 14:06:59 - Password verification successful for user ID: 9
+2025-05-11 14:06:59 - User logged in successfully
+2025-05-11 14:06:59 - Redirecting to: /customerPage/menu/menu.php
+2025-05-11 15:26:34 - Login attempt started. Method: GET
+2025-05-11 15:26:34 - Connected to database
+2025-05-11 15:26:34 - Password verification successful for user ID: 9
+2025-05-11 15:26:34 - User logged in successfully
+2025-05-11 15:26:34 - Redirecting to: /customerPage/menu/menu.php
+2025-05-11 16:50:00 - Login attempt started. Method: GET
+2025-05-11 16:50:00 - Connected to database
+2025-05-11 16:50:00 - Password verification successful for user ID: 9
+2025-05-11 16:50:00 - User logged in successfully
+2025-05-11 16:50:00 - Redirecting to: /customerPage/menu/menu.php
+2025-05-11 18:16:58 - Login attempt started. Method: GET
+2025-05-11 18:16:58 - Connected to database
+2025-05-11 18:16:58 - Password verification successful for user ID: 9
+2025-05-11 18:16:58 - User logged in successfully
+2025-05-11 18:16:58 - Redirecting to: /customerPage/menu/menu.php
+2025-05-12 04:45:09 - Login attempt started. Method: GET
+2025-05-12 04:45:09 - Connected to database
+2025-05-12 04:45:10 - Password verification successful for user ID: 9
+2025-05-12 04:45:10 - User logged in successfully
+2025-05-12 04:45:10 - Redirecting to: /customerPage/menu/menu.php
+2025-05-12 05:46:18 - Login attempt started. Method: GET
+2025-05-12 05:46:18 - Connected to database
+2025-05-12 05:46:18 - Password verification successful for user ID: 9
+2025-05-12 05:46:18 - User logged in successfully
+2025-05-12 05:46:18 - Redirecting to: /customerPage/menu/menu.php
+2025-05-12 08:40:16 - Login attempt started. Method: GET
+2025-05-12 08:40:16 - Connected to database
+2025-05-12 08:40:16 - Password verification successful for user ID: 9
+2025-05-12 08:40:16 - User logged in successfully
+2025-05-12 08:40:16 - Redirecting to: /customerPage/menu/menu.php
+2025-05-12 09:40:42 - Login attempt started. Method: GET
+2025-05-12 09:40:42 - Connected to database
+2025-05-12 09:40:42 - Password verification successful for user ID: 9
+2025-05-12 09:40:42 - User logged in successfully
+2025-05-12 09:40:42 - Redirecting to: /customerPage/menu/menu.php
+2025-05-12 10:43:22 - Login attempt started. Method: GET
+2025-05-12 10:43:22 - Connected to database
+2025-05-12 10:43:22 - Password verification successful for user ID: 9
+2025-05-12 10:43:22 - User logged in successfully
+2025-05-12 10:43:22 - Redirecting to: /customerPage/menu/menu.php
+2025-05-12 11:44:44 - Login attempt started. Method: GET
+2025-05-12 11:44:44 - Connected to database
+2025-05-12 11:44:44 - Password verification successful for user ID: 9
+2025-05-12 11:44:44 - User logged in successfully
+2025-05-12 11:44:44 - Redirecting to: /customerPage/menu/menu.php
+2025-05-13 18:13:20 - Login attempt started. Method: GET
+2025-05-13 18:13:20 - Connected to database
+2025-05-13 18:13:20 - Password verification successful for user ID: 9
+2025-05-13 18:13:20 - User logged in successfully
+2025-05-13 18:13:20 - Redirecting to: /customerPage/menu/menu.php
+2025-05-13 19:28:38 - Login attempt started. Method: GET
+2025-05-13 19:28:38 - Connected to database
+2025-05-13 19:28:38 - Password verification successful for user ID: 9
+2025-05-13 19:28:38 - User logged in successfully
+2025-05-13 19:28:38 - Redirecting to: /customerPage/menu/menu.php

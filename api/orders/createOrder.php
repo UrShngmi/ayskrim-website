@@ -81,9 +81,17 @@ try {
     // Generate transaction ID
     $transactionId = 'TRX' . date('YmdHis') . rand(1000, 9999);
     
+    // Map payment method to readable value
+    $paymentMethod = $data['paymentMethod'];
+    if (strtolower($paymentMethod) === 'cod') {
+        $paymentMethod = 'COD';
+    } elseif (strtolower($paymentMethod) === 'gcash') {
+        $paymentMethod = 'GCash';
+    }
+
     // Prepare payment details
     $paymentDetails = json_encode([
-        'payment_method' => $data['paymentMethod'],
+        'payment_method' => $paymentMethod,
         'payment_date' => date('Y-m-d H:i:s'),
         'customer_name' => $data['fullName'],
         'customer_phone' => $data['phone']
@@ -93,7 +101,7 @@ try {
         $orderId,
         getCurrentUserId(),
         $data['totalAmount'],
-        $data['paymentMethod'],
+        $paymentMethod,
         $transactionId,
         'Pending',
         $paymentDetails
