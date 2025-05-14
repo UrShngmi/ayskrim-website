@@ -89,3 +89,17 @@ function getCurrentUserId() {
     }
     return $_SESSION['user_id'] ?? null;
 }
+
+// Check if current user is an admin
+function isAdmin(): bool {
+    $user = getCurrentUser();
+    return $user && $user['role'] === 'admin';
+}
+
+// Require user to be an admin, exit if not
+function requireAdmin(): void {
+    if (!isLoggedIn() || !isAdmin()) {
+        header('HTTP/1.1 403 Forbidden');
+        exit('Admin access required.');
+    }
+}

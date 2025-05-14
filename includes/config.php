@@ -15,6 +15,7 @@ const HOME_URL = BASE_URL . '/landingPage/home/home.php';
 const APP_NAME = 'Ayskrim E-Commerce';
 const DEFAULT_PROFILE_PIC = 'default.png';
 const SESSION_TIMEOUT = 3600; // seconds
+const ENVIRONMENT = 'development'; // Set to 'production' for live site
 
 // Security
 const PASSWORD_COST = 10; // bcrypt cost

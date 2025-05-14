@@ -1,5 +1,7 @@
 </main>
 
+<link rel="stylesheet" href="/ayskrimWebsite/shared/footer/footer.css">
+
 <footer class="footer">
     <div class="container">
         <div class="footer-grid">
@@ -37,7 +39,6 @@
     </div>
 </footer>
 
-<script src="home.js"></script>
 <?php if(isset($pageJS)): ?>
 <script src="<?php echo $pageJS; ?>"></script>
 <?php endif; ?>

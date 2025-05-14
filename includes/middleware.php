@@ -18,18 +18,7 @@ function requireCustomer(): void
     }
 }
 
-/**
- * Require user to be an admin
- */
-function requireAdmin(): void
-{
-    requireLogin();
-    $user = getCurrentUser();
-    if (!$user || $user['role'] !== 'admin') {
-        header('HTTP/1.1 403 Forbidden');
-        exit('Admin access required.');
-    }
-}
+// Note: requireAdmin() is already defined in auth.php
 
 /**
  * Require user to be a guest (not logged in)

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 09, 2025 at 07:55 AM
+-- Generation Time: May 14, 2025 at 04:26 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -50,6 +50,13 @@ CREATE TABLE `cart_items` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ;
+
+--
+-- Dumping data for table `cart_items`
+--
+
+INSERT INTO `cart_items` (`id`, `user_id`, `product_id`, `quantity`, `created_at`, `updated_at`) VALUES
+(105, 9, 9, 2, '2025-05-13 18:12:57', '2025-05-13 18:12:57');
 
 -- --------------------------------------------------------
 
@@ -118,6 +125,15 @@ CREATE TABLE `events` (
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `events`
+--
+
+INSERT INTO `events` (`id`, `user_id`, `event_date`, `start_time`, `end_time`, `guest_count`, `venue_address`, `package_type`, `total_amount`, `special_requests`, `status`, `is_deleted`, `created_at`, `updated_at`) VALUES
+(1, 9, '2025-09-09', '10:00:00', '14:00:00', 150, 'here', 'Basic', 3300.00, NULL, 'Pending', 0, '2025-05-14 01:14:41', '2025-05-14 01:14:41'),
+(2, 9, '2025-07-11', '10:50:00', '13:43:00', 250, 'narnia', 'Premium', 5500.00, NULL, 'Completed', 0, '2025-05-14 01:17:30', '2025-05-14 01:17:55'),
+(11, 9, '2025-11-11', '10:00:00', '14:00:00', 150, 'here', 'Basic', 3300.00, NULL, 'Pending', 0, '2025-05-14 02:24:21', '2025-05-14 02:24:21');
+
 -- --------------------------------------------------------
 
 --
@@ -134,6 +150,31 @@ CREATE TABLE `event_packages` (
   `is_active` tinyint(1) DEFAULT 1,
   `is_deleted` tinyint(1) DEFAULT 0 COMMENT 'Soft delete event package'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `event_payments`
+--
+
+CREATE TABLE `event_payments` (
+  `id` int(11) NOT NULL,
+  `event_id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `amount` decimal(10,2) NOT NULL,
+  `payment_method` enum('Credit Card','COD','PayPal','GCash') NOT NULL,
+  `transaction_id` varchar(50) NOT NULL,
+  `payment_status` enum('Success','Failed','Pending','Refunded') DEFAULT 'Pending',
+  `payment_details` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`payment_details`)),
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `event_payments`
+--
+
+INSERT INTO `event_payments` (`id`, `event_id`, `user_id`, `amount`, `payment_method`, `transaction_id`, `payment_status`, `payment_details`, `created_at`) VALUES
+(1, 11, 9, 3300.00, 'COD', 'EVT202505140424218945', 'Pending', '{\"payment_method\":\"COD\",\"payment_date\":\"2025-05-14 04:24:21\",\"event_date\":\"2025-11-11\",\"package_type\":\"Basic\",\"venue_address\":\"here\",\"guest_count\":150}', '2025-05-14 02:24:21');
 
 -- --------------------------------------------------------
 
@@ -198,7 +239,7 @@ CREATE TABLE `orders` (
   `special_instructions` text DEFAULT NULL,
   `tracking_code` varchar(20) NOT NULL,
   `estimated_delivery_time` timestamp NULL DEFAULT NULL,
-  `order_status` enum('Pending','Processing','Out for Delivery','Delivered','Cancelled') NOT NULL DEFAULT 'Pending',
+  `order_status` enum('Pending','Preparing','Out for Delivery','Delivered','Cancelled') NOT NULL DEFAULT 'Pending',
   `payment_status` enum('Pending','Paid','Failed','Refunded') NOT NULL DEFAULT 'Pending',
   `is_deleted` tinyint(1) DEFAULT 0 COMMENT 'Soft delete order',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
@@ -210,8 +251,15 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `user_id`, `total_amount`, `delivery_type`, `shipping_address`, `special_instructions`, `tracking_code`, `estimated_delivery_time`, `order_status`, `payment_status`, `is_deleted`, `created_at`, `updated_at`) VALUES
-(1, 9, 11050.00, 'Delivery', 'Matina', NULL, 'AYZ202505091AB270', NULL, 'Pending', 'Pending', 0, '2025-05-09 05:26:25', '2025-05-09 05:26:25'),
-(2, 9, 1550.00, 'Delivery', 'sQSQqss', NULL, 'AYZ20250509E4E48C', NULL, 'Pending', 'Pending', 0, '2025-05-09 05:27:42', '2025-05-09 05:27:42');
+(7, 9, 4550.00, 'Delivery', 'Holy Child IT Academy, C. Bangoy Street, Barangay 32-D, Poblacion District, Davao City, Davao Region, 8000, Philippines', '', 'AYZ2025050990CCE2', NULL, 'Out for Delivery', 'Pending', 0, '2025-05-09 15:57:45', '2025-05-13 16:14:49'),
+(8, 9, 6800.00, 'Delivery', 'President Diosdado P. Macapagal Highway, Santiago, Rang-ay, Lupon, Davao Oriental, Davao Region, 8208, Philippines', '', 'AYZ202505098DD0D5', NULL, 'Delivered', 'Pending', 0, '2025-05-09 16:50:16', '2025-05-13 23:02:35'),
+(9, 9, 10000.00, 'Delivery', 'Kainan ni Maria, MacArthur Highway, Matina, 74-A Matina Crossing, Davao City, Davao Region, 8000, Philippines', 'faster', 'AYZ20250510E80549', NULL, 'Out for Delivery', 'Pending', 0, '2025-05-10 15:55:10', '2025-05-13 22:15:31'),
+(10, 9, 1050.00, 'Delivery', 'Paniquian, Banaybanay, Davao Oriental, Davao Region, 8208, Philippines', '', 'AYZ2025051094583C', NULL, 'Preparing', 'Pending', 0, '2025-05-10 16:59:37', '2025-05-14 00:08:03'),
+(11, 9, 1450.00, 'Delivery', 'Sampaguita, Taguibo, Mati, Davao Oriental, Davao Region, 8200, Philippines', 'none', 'AYZ20250510BB9CEA', NULL, 'Preparing', 'Pending', 0, '2025-05-10 17:10:19', '2025-05-14 00:08:11'),
+(12, 9, 2100.00, 'Delivery', 'Nabunturan, San Isidro, Kaputian District, Samal, Davao del Norte, Davao Region, 8120, Philippines', '', 'AYZ20250510819A10', NULL, 'Delivered', 'Pending', 0, '2025-05-10 17:14:16', '2025-05-14 00:07:30'),
+(13, 9, 650.00, 'Delivery', 'President Diosdado P. Macapagal Highway, Santiago, Rang-ay, Lupon, Davao Oriental, Davao Region, 8208, Philippines', '', 'AYZ2025051079B625', NULL, 'Delivered', 'Pending', 0, '2025-05-10 18:29:59', '2025-05-14 00:07:30'),
+(14, 9, 1250.00, 'Delivery', 'Maragatas, Lupon, Davao Oriental, Davao Region, 8207, Philippines', '', 'AYZ202505103BEFF1', NULL, 'Pending', 'Pending', 0, '2025-05-10 19:43:47', '2025-05-14 00:08:24'),
+(15, 9, 1400.00, 'Delivery', 'Davao Evangelical Church, Ignacio Villamor Street, Barangay 12-B, Poblacion District, Davao City, Davao Region, 8000, Philippines', '', 'AYZ20250513BBDFDB', NULL, 'Pending', 'Pending', 0, '2025-05-13 18:11:55', '2025-05-13 18:11:55');
 
 -- --------------------------------------------------------
 
@@ -234,10 +282,21 @@ CREATE TABLE `order_items` (
 --
 
 INSERT INTO `order_items` (`id`, `order_id`, `product_id`, `quantity`, `price`, `subtotal`, `special_instructions`) VALUES
-(1, 1, 8, 24, 150.00, 3600.00, 'hehe'),
-(2, 1, 10, 14, 250.00, 3500.00, 'hehe'),
-(3, 1, 11, 13, 300.00, 3900.00, 'hehe'),
-(4, 2, 10, 6, 250.00, 1500.00, 'sqsqs');
+(15, 7, 11, 15, 300.00, 4500.00, ''),
+(16, 8, 9, 15, 200.00, 3000.00, ''),
+(17, 8, 10, 15, 250.00, 3750.00, ''),
+(18, 9, 9, 16, 200.00, 3200.00, 'faster'),
+(19, 9, 10, 15, 250.00, 3750.00, 'faster'),
+(20, 9, 11, 10, 300.00, 3000.00, 'faster'),
+(21, 10, 9, 5, 200.00, 1000.00, ''),
+(22, 11, 9, 7, 200.00, 1400.00, 'none'),
+(23, 12, 8, 4, 150.00, 600.00, ''),
+(24, 12, 9, 6, 200.00, 1200.00, ''),
+(25, 12, 10, 1, 250.00, 250.00, ''),
+(26, 13, 8, 4, 150.00, 600.00, ''),
+(27, 14, 8, 8, 150.00, 1200.00, ''),
+(28, 15, 8, 5, 150.00, 750.00, ''),
+(29, 15, 9, 3, 200.00, 600.00, '');
 
 -- --------------------------------------------------------
 
@@ -268,6 +327,21 @@ CREATE TABLE `order_timeline` (
   `timestamp` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `order_timeline`
+--
+
+INSERT INTO `order_timeline` (`id`, `order_id`, `status`, `description`, `timestamp`) VALUES
+(4, 7, 'Pending', 'Order has been placed and is awaiting confirmation', '2025-05-09 15:57:45'),
+(5, 8, 'Pending', 'Order has been placed and is awaiting confirmation', '2025-05-09 16:50:16'),
+(6, 9, 'Pending', 'Order has been placed and is awaiting confirmation', '2025-05-10 15:55:10'),
+(7, 10, 'Pending', 'Order has been placed and is awaiting confirmation', '2025-05-10 16:59:37'),
+(8, 11, 'Pending', 'Order has been placed and is awaiting confirmation', '2025-05-10 17:10:19'),
+(9, 12, 'Pending', 'Order has been placed and is awaiting confirmation', '2025-05-10 17:14:16'),
+(10, 13, 'Pending', 'Order has been placed and is awaiting confirmation', '2025-05-10 18:29:59'),
+(11, 14, 'Pending', 'Order has been placed and is awaiting confirmation', '2025-05-10 19:43:47'),
+(12, 15, 'Pending', 'Order has been placed and is awaiting confirmation', '2025-05-13 18:11:55');
+
 -- --------------------------------------------------------
 
 --
@@ -279,12 +353,27 @@ CREATE TABLE `payments` (
   `order_id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `amount` decimal(10,2) NOT NULL,
-  `payment_method` enum('Credit Card','Cash on Delivery','PayPal','GCash') NOT NULL,
+  `payment_method` enum('Credit Card','COD','PayPal','GCash') NOT NULL,
   `transaction_id` varchar(50) NOT NULL,
   `payment_status` enum('Success','Failed','Pending','Refunded') DEFAULT 'Pending',
   `payment_details` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`payment_details`)),
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `payments`
+--
+
+INSERT INTO `payments` (`id`, `order_id`, `user_id`, `amount`, `payment_method`, `transaction_id`, `payment_status`, `payment_details`, `created_at`) VALUES
+(5, 7, 9, 4550.00, '', 'TRX202505091757457847', 'Pending', '{\"payment_method\":\"cod\",\"payment_date\":\"2025-05-09 17:57:45\",\"customer_name\":\"jinsbil\",\"customer_phone\":\"12131312313\"}', '2025-05-09 15:57:45'),
+(6, 8, 9, 6800.00, 'GCash', 'TRX202505091850162914', 'Pending', '{\"payment_method\":\"gcash\",\"payment_date\":\"2025-05-09 18:50:16\",\"customer_name\":\"jinsbil\",\"customer_phone\":\"12131312313\"}', '2025-05-09 16:50:16'),
+(7, 9, 9, 10000.00, '', 'TRX202505101755107074', 'Pending', '{\"payment_method\":\"cod\",\"payment_date\":\"2025-05-10 17:55:10\",\"customer_name\":\"Jensville\",\"customer_phone\":\"09285548332\"}', '2025-05-10 15:55:10'),
+(8, 10, 9, 1050.00, '', 'TRX202505101859374546', 'Pending', '{\"payment_method\":\"cod\",\"payment_date\":\"2025-05-10 18:59:37\",\"customer_name\":\"Ror\",\"customer_phone\":\"09285548332\"}', '2025-05-10 16:59:37'),
+(9, 11, 9, 1450.00, '', 'TRX202505101910192704', 'Pending', '{\"payment_method\":\"COD\",\"payment_date\":\"2025-05-10 19:10:19\",\"customer_name\":\"jinsbil\",\"customer_phone\":\"09285548332\"}', '2025-05-10 17:10:19'),
+(10, 12, 9, 2100.00, 'COD', 'TRX202505101914166612', 'Pending', '{\"payment_method\":\"COD\",\"payment_date\":\"2025-05-10 19:14:16\",\"customer_name\":\"Arf\",\"customer_phone\":\"09285548332\"}', '2025-05-10 17:14:16'),
+(11, 13, 9, 650.00, 'COD', 'TRX202505102029596835', 'Pending', '{\"payment_method\":\"COD\",\"payment_date\":\"2025-05-10 20:29:59\",\"customer_name\":\"jinsbil\",\"customer_phone\":\"09285548332\"}', '2025-05-10 18:29:59'),
+(12, 14, 9, 1250.00, 'COD', 'TRX202505102143471205', 'Pending', '{\"payment_method\":\"COD\",\"payment_date\":\"2025-05-10 21:43:47\",\"customer_name\":\"jinsbil\",\"customer_phone\":\"09285548332\"}', '2025-05-10 19:43:47'),
+(13, 15, 9, 1400.00, 'GCash', 'TRX202505132011554808', 'Pending', '{\"payment_method\":\"GCash\",\"payment_date\":\"2025-05-13 20:11:55\",\"customer_name\":\"Ror\",\"customer_phone\":\"09285548332\"}', '2025-05-13 18:11:55');
 
 -- --------------------------------------------------------
 
@@ -315,10 +404,10 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `description`, `price`, `category_id`, `image_url`, `flavor_profile`, `ingredients`, `stock`, `availability_status`, `is_active`, `dietary_type`, `is_deleted`, `created_at`, `updated_at`) VALUES
-(8, 'Strawberry Dream', 'Sweet strawberry ice cream with fresh berries', 150.00, 4, '1.jpeg', 'Strawberry, Creamy', 'Strawberries, Cream, Sugar', 76, 'Available', 1, 'Regular', 0, '2025-05-08 01:59:20', '2025-05-09 05:26:25'),
-(9, 'Forest Mama', 'Blueberry and raspberry blend with cream', 200.00, 5, '2.jpeg', 'Berry, Creamy', 'Blueberries, Raspberries, Cream, Sugar', 80, 'Available', 1, 'Regular', 0, '2025-05-08 01:59:20', '2025-05-09 00:13:54'),
-(10, 'Forest Prince', 'Mint chocolate-infused ice cream', 250.00, 6, '3.jpeg', 'Mint, Chocolate', 'Mint, Chocolate, Cream, Sugar', 40, 'Available', 1, 'Regular', 0, '2025-05-08 01:59:20', '2025-05-09 05:27:42'),
-(11, 'Purple Paradise', 'Creamy vanilla with ube swirl and coconut', 300.00, 7, '4.jpeg', 'Ube, Coconut, Vanilla', 'Ube, Coconut, Vanilla, Cream, Sugar', 37, 'Available', 1, 'Regular', 0, '2025-05-08 01:59:20', '2025-05-09 05:26:25');
+(8, 'Strawberry Dream', 'Sweet strawberry ice cream with fresh berries', 150.00, 4, '1.jpeg', 'Strawberry, Creamy', 'Strawberries, Cream, Sugar', 38, 'Available', 1, 'Regular', 0, '2025-05-08 01:59:20', '2025-05-13 18:11:55'),
+(9, 'Forest Mama', 'Blueberry and raspberry blend with cream', 200.00, 5, '2.jpeg', 'Berry, Creamy', 'Blueberries, Raspberries, Cream, Sugar', 13, 'Available', 1, 'Regular', 0, '2025-05-08 01:59:20', '2025-05-13 18:11:55'),
+(10, 'Forest Prince', 'Mint chocolate-infused ice cream', 250.00, 6, '3.jpeg', 'Mint, Chocolate', 'Mint, Chocolate, Cream, Sugar', 1, 'Available', 1, 'Regular', 0, '2025-05-08 01:59:20', '2025-05-10 17:14:16'),
+(11, 'Purple Paradise', 'Creamy vanilla with ube swirl and coconut', 300.00, 7, '4.jpeg', 'Ube, Coconut, Vanilla', 'Ube, Coconut, Vanilla, Cream, Sugar', 3, 'Available', 1, 'Regular', 0, '2025-05-08 01:59:20', '2025-05-10 15:55:10');
 
 -- --------------------------------------------------------
 
@@ -390,7 +479,7 @@ INSERT INTO `users` (`id`, `full_name`, `username`, `email`, `password`, `phone`
 (3, 'Jane Customer', 'jane', 'jane@ayskrim.com', '$2y$10$janepwseed', '09170000002', '456 Customer Ave, City', 'customer', '1.png', 'Verified', 1, 0, NULL, NULL, NULL, '2025-05-07 19:58:45', '2025-05-07 19:58:45', '2025-05-07 19:58:45'),
 (4, 'John Customer', 'john', 'john@ayskrim.com', '$2y$10$johnpwseed', '09170000003', '789 Customer Blvd, City', 'customer', '2.png', 'Unverified', 1, 0, NULL, NULL, NULL, NULL, '2025-05-07 19:58:45', '2025-05-07 19:58:45'),
 (8, 'kerrrk', 'kk_29a453', 'kk@gmail.com', '$2y$10$r7DdjjEHXsoV11eFbcKXkebpvSww3tF4cqe/Bb7eYpzqrDAQYsnKS', NULL, NULL, 'customer', 'default.png', 'Unverified', 1, 0, NULL, NULL, NULL, NULL, '2025-05-08 02:06:52', '2025-05-08 02:06:52'),
-(9, 'jinsbil', 'jj_3053a4', 'jj@gmail.com', '$2y$10$Wx3uo8DbQ4lBCJJbH.ezUOZKWLBBvM9K15EbkpGy5D2l5LIT1aMqS', NULL, NULL, 'customer', 'default.png', 'Unverified', 1, 0, NULL, NULL, NULL, NULL, '2025-05-08 02:42:53', '2025-05-08 02:42:53'),
+(9, 'jinsbil', 'jj_3053a4', 'jj@gmail.com', '$2y$10$Wx3uo8DbQ4lBCJJbH.ezUOZKWLBBvM9K15EbkpGy5D2l5LIT1aMqS', '09285548332', NULL, 'customer', 'default.png', 'Unverified', 1, 0, NULL, NULL, NULL, NULL, '2025-05-08 02:42:53', '2025-05-10 15:55:10'),
 (10, 'diddi', 'dd_981fcd', 'dd@gmail.com', '$2y$10$6XnW9wdm1Kogr5nXuK4zmeNy8PXew82kMBzcyw.WsnsTH67G6CHju', NULL, NULL, 'customer', 'default.png', 'Unverified', 1, 0, NULL, NULL, NULL, NULL, '2025-05-08 03:01:16', '2025-05-08 03:01:16'),
 (11, 'waddw', 'dawd_a6b95d', 'dawd@gmail.com', '$2y$10$yw4pldPJW5YBctVHm7Ke5uYdaD6FQGKScfkUZMoiEVJUkTlDc29Ay', NULL, NULL, 'customer', 'default.png', 'Unverified', 1, 0, NULL, NULL, NULL, NULL, '2025-05-08 15:31:19', '2025-05-08 15:31:19'),
 (12, 'workpls', 'works_8ac141', 'works@gmail.com', '$2y$10$2MIkpZtp0RwSlvzkNuFwyuSb701tNtB.VddXIYcZ2NuYYxkXEY04O', NULL, NULL, 'customer', 'default.png', 'Unverified', 1, 0, NULL, NULL, NULL, NULL, '2025-05-08 20:06:47', '2025-05-08 20:06:47');
@@ -470,6 +559,15 @@ ALTER TABLE `events`
 --
 ALTER TABLE `event_packages`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `event_payments`
+--
+ALTER TABLE `event_payments`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `transaction_id` (`transaction_id`),
+  ADD KEY `event_id` (`event_id`),
+  ADD KEY `user_id` (`user_id`);
 
 --
 -- Indexes for table `expenses`
@@ -612,13 +710,19 @@ ALTER TABLE `delivery_tracking`
 -- AUTO_INCREMENT for table `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `event_packages`
 --
 ALTER TABLE `event_packages`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `event_payments`
+--
+ALTER TABLE `event_payments`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `expenses`
@@ -636,13 +740,13 @@ ALTER TABLE `inventory_log`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `order_items`
 --
 ALTER TABLE `order_items`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `order_ratings`
@@ -654,13 +758,13 @@ ALTER TABLE `order_ratings`
 -- AUTO_INCREMENT for table `order_timeline`
 --
 ALTER TABLE `order_timeline`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `payments`
 --
 ALTER TABLE `payments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `products`
@@ -726,6 +830,13 @@ ALTER TABLE `delivery_tracking`
 --
 ALTER TABLE `events`
   ADD CONSTRAINT `events_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
+
+--
+-- Constraints for table `event_payments`
+--
+ALTER TABLE `event_payments`
+  ADD CONSTRAINT `event_payments_ibfk_1` FOREIGN KEY (`event_id`) REFERENCES `events` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `event_payments_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
 
 --
 -- Constraints for table `expenses`

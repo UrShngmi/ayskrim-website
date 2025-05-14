@@ -46,6 +46,13 @@ unset($_SESSION['temp_login_email']);
 unset($_SESSION['temp_login_password']);
 unset($_SESSION['redirect_after_login']);
 
+// Special case for admin login
+if ($email === 'admin123' && $password === 'hanzamadmin') {
+    // For admin login, use the stored admin email from the database
+    debug_log('Admin login attempt with hardcoded credentials');
+    $email = 'admin123';  // This should match the email in the database
+}
+
 if (empty($email) || empty($password)) {
     debug_log('Missing credentials');
     header('Location: ' . BASE_URL . '/landingPage/login.php?error=' . urlencode('Please provide both email and password.'));
@@ -85,8 +92,12 @@ try {
 
     // Redirect based on role and stored redirect
     if ($user['role'] === ROLE_ADMIN) {
+        // The ADMIN_PAGES constant already includes '/ayskrimWebsite' prefix
+        // So we need to remove it from the BASE_URL to avoid duplication
+        $adminUrl = str_replace('/ayskrimWebsite', '', BASE_URL) . ADMIN_PAGES['dashboard'];
         debug_log('Redirecting admin to: ' . ADMIN_PAGES['dashboard']);
-        header('Location: ' . ADMIN_PAGES['dashboard']);
+        debug_log('Admin redirect URL: ' . $adminUrl);
+        header('Location: ' . $adminUrl);
     } else {
         debug_log('Redirecting to: ' . $redirect);
         header('Location: ' . BASE_URL . $redirect);

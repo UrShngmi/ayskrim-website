@@ -30,6 +30,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
             $password = $_POST['password'] ?? '';
 
+            // Special case for admin login - allow "admin123" without @ symbol
+            if ($email === 'admin123' && $password === 'hanzamadmin') {
+                // Hardcoded admin credentials - set proper email format for the API
+                $_SESSION['temp_login_email'] = 'admin123';
+                $_SESSION['temp_login_password'] = 'hanzamadmin';
+
+                // Redirect to login API
+                header('Location: ' . BASE_URL . '/api/auth/loginApi.php');
+                exit;
+            }
+
             if (empty($email)) {
                 $signin_error = 'Please enter your email address.';
             } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -40,8 +51,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Store credentials in session for API processing
                 $_SESSION['temp_login_email'] = $email;
                 $_SESSION['temp_login_password'] = $password;
-                $_SESSION['redirect_after_login'] = $redirect === 'cart' ? '/customerPage/checkout/checkout.php' : '/customerPage/menu/menu.php';
-                
+
+                // Only set redirect for customer pages, admin redirection is handled in loginApi.php
+                if ($redirect === 'cart') {
+                    $_SESSION['redirect_after_login'] = '/customerPage/checkout/checkout.php';
+                } else {
+                    $_SESSION['redirect_after_login'] = '/customerPage/menu/menu.php';
+                }
+
                 // Redirect to login API
                 header('Location: ' . BASE_URL . '/api/auth/loginApi.php');
                 exit;
@@ -69,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['temp_register_email'] = $email;
                 $_SESSION['temp_register_password'] = $password;
                 $_SESSION['redirect_after_login'] = $redirect === 'cart' ? '/customerPage/checkout/checkout.php' : '/customerPage/menu/menu.php';
-                
+
                 // Redirect to register API
                 header('Location: ' . BASE_URL . '/api/auth/registerApi.php');
                 exit;
@@ -161,7 +178,7 @@ if (!isset($_SESSION[CSRF_TOKEN_KEY])) {
             -webkit-backdrop-filter: blur(20px);
             border: 1px solid var(--glass-border);
             border-radius: 24px;
-            box-shadow: 
+            box-shadow:
                 0 5px 15px var(--glass-shadow),
                 0 15px 35px var(--card-shadow),
                 inset 0 1px 1px rgba(255, 255, 255, 0.5);
@@ -687,6 +704,12 @@ if (!isset($_SESSION[CSRF_TOKEN_KEY])) {
                     const email = document.getElementById('signin-email').value.trim();
                     const password = document.getElementById('signin-password').value;
                     let isValid = true;
+
+                    // Special case for admin login - allow "admin123" without @ symbol
+                    if (email === 'admin123' && password === 'hanzamadmin') {
+                        // Admin credentials are valid, allow form submission
+                        return true;
+                    }
 
                     if (!email) {
                         isValid = false;
