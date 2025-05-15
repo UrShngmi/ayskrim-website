@@ -23602,3 +23602,359 @@ Array
 
 )
 
+UserID: 9
+Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [tracking_code] => AYZ2025050990CCE2
+            [shipping_address] => Holy Child IT Academy, C. Bangoy Street, Barangay 32-D, Poblacion District, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-09 23:57:45
+            [total_amount] => 4550.00
+            [order_status] => Out for Delivery
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 9
+            [tracking_code] => AYZ20250510E80549
+            [shipping_address] => Kainan ni Maria, MacArthur Highway, Matina, 74-A Matina Crossing, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-10 23:55:10
+            [total_amount] => 10000.00
+            [order_status] => Out for Delivery
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 10
+            [tracking_code] => AYZ2025051094583C
+            [shipping_address] => Paniquian, Banaybanay, Davao Oriental, Davao Region, 8208, Philippines
+            [created_at] => 2025-05-11 00:59:37
+            [total_amount] => 1050.00
+            [order_status] => Preparing
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [3] => Array
+        (
+            [id] => 11
+            [tracking_code] => AYZ20250510BB9CEA
+            [shipping_address] => Sampaguita, Taguibo, Mati, Davao Oriental, Davao Region, 8200, Philippines
+            [created_at] => 2025-05-11 01:10:19
+            [total_amount] => 1450.00
+            [order_status] => Preparing
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [4] => Array
+        (
+            [id] => 14
+            [tracking_code] => AYZ202505103BEFF1
+            [shipping_address] => Maragatas, Lupon, Davao Oriental, Davao Region, 8207, Philippines
+            [created_at] => 2025-05-11 03:43:47
+            [total_amount] => 1250.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [5] => Array
+        (
+            [id] => 15
+            [tracking_code] => AYZ20250513BBDFDB
+            [shipping_address] => Davao Evangelical Church, Ignacio Villamor Street, Barangay 12-B, Poblacion District, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-14 02:11:55
+            [total_amount] => 1400.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [6] => Array
+        (
+            [id] => 17
+            [tracking_code] => AYZ20250514C78E94
+            [shipping_address] => New Matina, Ma-a, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-14 19:18:36
+            [total_amount] => 3020.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+)
+
+UserID: 9
+Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [tracking_code] => AYZ2025050990CCE2
+            [shipping_address] => Holy Child IT Academy, C. Bangoy Street, Barangay 32-D, Poblacion District, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-09 23:57:45
+            [total_amount] => 4550.00
+            [order_status] => Out for Delivery
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 9
+            [tracking_code] => AYZ20250510E80549
+            [shipping_address] => Kainan ni Maria, MacArthur Highway, Matina, 74-A Matina Crossing, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-10 23:55:10
+            [total_amount] => 10000.00
+            [order_status] => Out for Delivery
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 10
+            [tracking_code] => AYZ2025051094583C
+            [shipping_address] => Paniquian, Banaybanay, Davao Oriental, Davao Region, 8208, Philippines
+            [created_at] => 2025-05-11 00:59:37
+            [total_amount] => 1050.00
+            [order_status] => Preparing
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [3] => Array
+        (
+            [id] => 11
+            [tracking_code] => AYZ20250510BB9CEA
+            [shipping_address] => Sampaguita, Taguibo, Mati, Davao Oriental, Davao Region, 8200, Philippines
+            [created_at] => 2025-05-11 01:10:19
+            [total_amount] => 1450.00
+            [order_status] => Preparing
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [4] => Array
+        (
+            [id] => 14
+            [tracking_code] => AYZ202505103BEFF1
+            [shipping_address] => Maragatas, Lupon, Davao Oriental, Davao Region, 8207, Philippines
+            [created_at] => 2025-05-11 03:43:47
+            [total_amount] => 1250.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [5] => Array
+        (
+            [id] => 15
+            [tracking_code] => AYZ20250513BBDFDB
+            [shipping_address] => Davao Evangelical Church, Ignacio Villamor Street, Barangay 12-B, Poblacion District, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-14 02:11:55
+            [total_amount] => 1400.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [6] => Array
+        (
+            [id] => 17
+            [tracking_code] => AYZ20250514C78E94
+            [shipping_address] => New Matina, Ma-a, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-14 19:18:36
+            [total_amount] => 3020.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+)
+
+UserID: 9
+Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [tracking_code] => AYZ2025050990CCE2
+            [shipping_address] => Holy Child IT Academy, C. Bangoy Street, Barangay 32-D, Poblacion District, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-09 23:57:45
+            [total_amount] => 4550.00
+            [order_status] => Out for Delivery
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 9
+            [tracking_code] => AYZ20250510E80549
+            [shipping_address] => Kainan ni Maria, MacArthur Highway, Matina, 74-A Matina Crossing, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-10 23:55:10
+            [total_amount] => 10000.00
+            [order_status] => Out for Delivery
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 10
+            [tracking_code] => AYZ2025051094583C
+            [shipping_address] => Paniquian, Banaybanay, Davao Oriental, Davao Region, 8208, Philippines
+            [created_at] => 2025-05-11 00:59:37
+            [total_amount] => 1050.00
+            [order_status] => Preparing
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [3] => Array
+        (
+            [id] => 11
+            [tracking_code] => AYZ20250510BB9CEA
+            [shipping_address] => Sampaguita, Taguibo, Mati, Davao Oriental, Davao Region, 8200, Philippines
+            [created_at] => 2025-05-11 01:10:19
+            [total_amount] => 1450.00
+            [order_status] => Preparing
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [4] => Array
+        (
+            [id] => 14
+            [tracking_code] => AYZ202505103BEFF1
+            [shipping_address] => Maragatas, Lupon, Davao Oriental, Davao Region, 8207, Philippines
+            [created_at] => 2025-05-11 03:43:47
+            [total_amount] => 1250.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [5] => Array
+        (
+            [id] => 15
+            [tracking_code] => AYZ20250513BBDFDB
+            [shipping_address] => Davao Evangelical Church, Ignacio Villamor Street, Barangay 12-B, Poblacion District, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-14 02:11:55
+            [total_amount] => 1400.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [6] => Array
+        (
+            [id] => 17
+            [tracking_code] => AYZ20250514C78E94
+            [shipping_address] => New Matina, Ma-a, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-14 19:18:36
+            [total_amount] => 3020.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+)
+
+UserID: 9
+Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [tracking_code] => AYZ2025050990CCE2
+            [shipping_address] => Holy Child IT Academy, C. Bangoy Street, Barangay 32-D, Poblacion District, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-09 23:57:45
+            [total_amount] => 4550.00
+            [order_status] => Out for Delivery
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [1] => Array
+        (
+            [id] => 9
+            [tracking_code] => AYZ20250510E80549
+            [shipping_address] => Kainan ni Maria, MacArthur Highway, Matina, 74-A Matina Crossing, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-10 23:55:10
+            [total_amount] => 10000.00
+            [order_status] => Out for Delivery
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [2] => Array
+        (
+            [id] => 10
+            [tracking_code] => AYZ2025051094583C
+            [shipping_address] => Paniquian, Banaybanay, Davao Oriental, Davao Region, 8208, Philippines
+            [created_at] => 2025-05-11 00:59:37
+            [total_amount] => 1050.00
+            [order_status] => Preparing
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [3] => Array
+        (
+            [id] => 11
+            [tracking_code] => AYZ20250510BB9CEA
+            [shipping_address] => Sampaguita, Taguibo, Mati, Davao Oriental, Davao Region, 8200, Philippines
+            [created_at] => 2025-05-11 01:10:19
+            [total_amount] => 1450.00
+            [order_status] => Preparing
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [4] => Array
+        (
+            [id] => 14
+            [tracking_code] => AYZ202505103BEFF1
+            [shipping_address] => Maragatas, Lupon, Davao Oriental, Davao Region, 8207, Philippines
+            [created_at] => 2025-05-11 03:43:47
+            [total_amount] => 1250.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [5] => Array
+        (
+            [id] => 15
+            [tracking_code] => AYZ20250513BBDFDB
+            [shipping_address] => Davao Evangelical Church, Ignacio Villamor Street, Barangay 12-B, Poblacion District, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-14 02:11:55
+            [total_amount] => 1400.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+    [6] => Array
+        (
+            [id] => 17
+            [tracking_code] => AYZ20250514C78E94
+            [shipping_address] => New Matina, Ma-a, Davao City, Davao Region, 8000, Philippines
+            [created_at] => 2025-05-14 19:18:36
+            [total_amount] => 3020.00
+            [order_status] => Pending
+            [payment_status] => Pending
+            [estimated_delivery_time] => 
+        )
+
+)
+

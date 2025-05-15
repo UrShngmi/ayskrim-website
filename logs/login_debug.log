@@ -3610,3 +3610,19 @@
 2025-05-14 12:52:15 - Password verification successful for user ID: 9
 2025-05-14 12:52:15 - User logged in successfully
 2025-05-14 12:52:15 - Redirecting to: /customerPage/menu/menu.php
+2025-05-14 13:15:28 - Login attempt started. Method: GET
+2025-05-14 13:15:28 - Connected to database
+2025-05-14 13:15:28 - Password verification successful for user ID: 9
+2025-05-14 13:15:28 - User logged in successfully
+2025-05-14 13:15:28 - Redirecting to: /customerPage/menu/menu.php
+2025-05-14 13:17:10 - Login attempt started. Method: GET
+2025-05-14 13:17:10 - Connected to database
+2025-05-14 13:17:10 - Password verification successful for user ID: 9
+2025-05-14 13:17:10 - User logged in successfully
+2025-05-14 13:17:10 - Redirecting to: /customerPage/menu/menu.php
+2025-05-14 13:23:46 - Login attempt started. Method: GET
+2025-05-14 13:23:46 - Connected to database
+2025-05-14 13:23:46 - Password verification successful for user ID: 15
+2025-05-14 13:23:46 - User logged in successfully
+2025-05-14 13:23:46 - Redirecting admin to: /ayskrimWebsite/adminPage/dashboard/dashboard.php
+2025-05-14 13:23:46 - Admin redirect URL: http://localhost/ayskrimWebsite/adminPage/dashboard/dashboard.php
