@@ -3626,3 +3626,29 @@
 2025-05-14 13:23:46 - User logged in successfully
 2025-05-14 13:23:46 - Redirecting admin to: /ayskrimWebsite/adminPage/dashboard/dashboard.php
 2025-05-14 13:23:46 - Admin redirect URL: http://localhost/ayskrimWebsite/adminPage/dashboard/dashboard.php
+2025-05-15 19:42:25 - Login attempt started. Method: GET
+2025-05-15 19:42:25 - Connected to database
+2025-05-15 19:42:25 - Password verification successful for user ID: 2
+2025-05-15 19:42:25 - User logged in successfully
+2025-05-15 19:42:25 - Redirecting admin to: /ayskrimWebsite/adminPage/dashboard/dashboard.php
+2025-05-15 19:42:25 - Admin redirect URL: http://localhost/ayskrimWebsite/adminPage/dashboard/dashboard.php
+2025-05-15 20:03:45 - Login attempt started. Method: GET
+2025-05-15 20:03:45 - Connected to database
+2025-05-15 20:03:46 - Invalid password for user: admin@ayskrim.com
+2025-05-15 20:04:01 - Login attempt started. Method: GET
+2025-05-15 20:04:01 - Connected to database
+2025-05-15 20:04:02 - Password verification successful for user ID: 2
+2025-05-15 20:04:02 - User logged in successfully
+2025-05-15 20:04:02 - Redirecting admin to: /ayskrimWebsite/adminPage/dashboard/dashboard.php
+2025-05-15 20:04:02 - Admin redirect URL: http://localhost/ayskrimWebsite/adminPage/dashboard/dashboard.php
+2025-05-15 21:20:35 - Login attempt started. Method: GET
+2025-05-15 21:20:35 - Connected to database
+2025-05-15 21:20:35 - Password verification successful for user ID: 2
+2025-05-15 21:20:35 - User logged in successfully
+2025-05-15 21:20:35 - Redirecting admin to: /ayskrimWebsite/adminPage/dashboard/dashboard.php
+2025-05-15 21:20:35 - Admin redirect URL: http://localhost/ayskrimWebsite/adminPage/dashboard/dashboard.php
+2025-05-15 21:20:48 - Login attempt started. Method: GET
+2025-05-15 21:20:48 - Connected to database
+2025-05-15 21:20:48 - Password verification successful for user ID: 9
+2025-05-15 21:20:48 - User logged in successfully
+2025-05-15 21:20:48 - Redirecting to: /customerPage/menu/menu.php

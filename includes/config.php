@@ -18,5 +18,7 @@ const SESSION_TIMEOUT = 3600; // seconds
 const ENVIRONMENT = 'development'; // Set to 'production' for live site
 
 // Security
-const PASSWORD_COST = 10; // bcrypt cost
+const PASSWORD_COST = 12; // Higher cost for production
 const CSRF_TOKEN_KEY = 'ayskrim_csrf_token';
+
+

@@ -46,11 +46,11 @@ unset($_SESSION['temp_login_email']);
 unset($_SESSION['temp_login_password']);
 unset($_SESSION['redirect_after_login']);
 
-// Special case for admin login
-if ($email === 'admin123' && $password === 'hanzamadmin') {
-    // For admin login, use the stored admin email from the database
-    debug_log('Admin login attempt with hardcoded credentials');
-    $email = 'admin123';  // This should match the email in the database
+// Special case for admin login - for backward compatibility
+if ($email === 'admin123') {
+    // For admin login, use the standard admin email
+    debug_log('Admin login attempt with admin123 username');
+    $email = 'admin@ayskrim.com';  // Use the standard admin email
 }
 
 if (empty($email) || empty($password)) {
